@@ -1,0 +1,176 @@
+/*PLUGIN - pagination - based on bootstrap and protostar override*/
+@font-face
+{
+	font-family: pagination;
+	src: url('/templates/www/fonts/pagination/IcoMoon.eot');
+	src: url('/templates/www/fonts/pagination/IcoMoon.eot?#iefix') format('embedded-opentype'), url('/templates/www/fonts/pagination/IcoMoon.svg#IcoMoon') format('svg'), url('/templates/www/fonts/pagination/IcoMoon.woff') format('woff'), url('/templates/www/fonts/pagination/IcoMoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+[data-icon]:before
+{
+	font-family: pagination;
+	content: attr(data-icon);
+	speak: none;
+}
+.pagination [class^="icon-"], .pagination [class*=" icon-"]
+{
+	vertical-align: bottom;
+	display: inline-block;
+	/*[disabled]width:1em;*/
+	/*[disabled]height:1em;*/
+	/*[disabled]=margin-right:0.3em;*/
+	line-height: 0.9em;
+}
+.pagination [class^="icon-"]:before, .pagination [class*=" icon-"]:before
+{
+	font-family: pagination;
+	font-style: normal;
+	speak: none;
+	font-size: 1.4em;
+}
+.icon-first:before
+{
+	content: "\7d";
+}
+.icon-last:before
+{
+	content: "\e000";
+}
+.icon-next:before
+{
+	content: "\7b";
+}
+.icon-previous:before
+{
+	content: "\7c";
+}
+.pagination
+{
+	padding-top: 1em;
+}
+.pagination .pages
+{
+	overflow: hidden;
+}
+.pagination .counter
+{
+	padding: 0px 0px 0.5em;
+	margin: 0px;
+}
+.pagination UL
+{
+	display: inline-block;
+	=display: inline;
+	=zoom: 1;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*[disabled]-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.05);*/
+	/*[disabled]-moz-box-shadow:0 1px 2px rgba(0,0,0,0.05);*/
+	/*[disabled]box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);*/
+	padding: 0 0px 0px;
+	margin: 0px;
+}
+.pagination LI
+{
+	display: inline-block;
+	display: inline\0/;
+}
+.pagination A, .pagination SPAN
+{
+	float: left;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-left-width: 0;
+	/*[disabled]font-size:0.9em;*/
+}
+.pagination A:hover, .pagination .active A, .pagination .active SPAN
+{
+	background-color: #F5F5F5;
+}
+.pagination .active A, .pagination .active SPAN
+{
+	color: #999;
+	cursor: default;
+}
+.pagination .disabled SPAN, .pagination .disabled A, .pagination .disabled A:hover
+{
+	color: #999;
+	background-color: transparent;
+	cursor: default;
+}
+.pagination LI:first-child A, .pagination LI:first-child SPAN
+{
+	border-left-width: 1px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.pagination LI:last-child A, .pagination LI:last-child SPAN
+{
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+.pagination-centered
+{
+	text-align: center;
+}
+.pagination-right
+{
+	text-align: right;
+}
+/*PLUGIN - article paging*/
+.pager
+{
+	margin: 18px 0;
+	list-style: none;
+	text-align: center;
+	=zoom: 1;
+}
+.pager:before, .pager:after
+{
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.pager:after
+{
+	clear: both;
+}
+.pager LI
+{
+	display: inline;
+}
+.pager A
+{
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.pager A:hover
+{
+	text-decoration: none;
+	background-color: #F5F5F5;
+}
+.pager .next A
+{
+	float: right;
+}
+.pager .previous A
+{
+	float: left;
+}
+.pager .disabled A, .pager .disabled A:hover
+{
+	color: #999;
+	background-color: #FFF;
+	cursor: default;
+}

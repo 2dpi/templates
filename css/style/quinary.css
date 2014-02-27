@@ -1,0 +1,15 @@
+/*QUINARY - VALUES*/
+.quinary {
+	color: #C00;
+}
+.quinary .swatch {
+	background-color: #C00;
+}
+.quinary.fill {
+	background-color: #F2DEDE;
+}
+.quinary.outline,
+.quinary.outline_round,
+.quinary.outline_rounder {
+	border: 1px solid #EED3D7;
+}

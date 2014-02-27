@@ -1,0 +1,68 @@
+/*[fmt]10A0-11AA-1*/
+/*PLUGIN - Joomla! system tooltips*/
+.tool-tip {
+float: left; 
+background: #FFC; 
+border: 1px solid #D4D5AA; 
+padding: 5px; 
+max-width: 200px; 
+color: #323232; 
+}
+.tool-title {
+padding: 0; 
+margin: 0; 
+font-size: 100%; 
+font-weight: bold; 
+margin-top: -15px; 
+padding-top: 15px; 
+padding-bottom: 5px; 
+background: url(../../system/images/selector-arrow.png) no-repeat; 
+}
+.tool-text {
+font-size: 100%; 
+margin: 0; 
+}
+.tip-wrap {
+z-index: 10000; 
+}
+.tip-wrap .tip {
+float: left; 
+background: #FFC; 
+border: 1px solid #D4D5AA; 
+padding: 5px; 
+max-width: 200px; 
+}
+.tip-title {
+padding: 0; 
+margin: 0; 
+font-size: 100%; 
+font-weight: bold; 
+margin-top: -15px; 
+padding-top: 15px; 
+padding-bottom: 5px; 
+background: url(../images/selector-arrow.png) no-repeat; 
+}
+.tip-text {
+font-size: 100%; 
+margin: 0; 
+}
+/*PLUGIN - system message*/
+#system-message-container {
+position: relative; 
+margin: 0 auto; 
+width: 100%; 
+max-width: 960px; 
+text-align: left; 
+}
+#system-message {
+}
+#system-message H4 {
+}
+#system-message .close {
+}
+#system-message .alert {
+}
+#system-message .alert DIV {
+}
+#system-message .alert-notice {
+}

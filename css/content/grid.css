@@ -1,0 +1,185 @@
+/*GRID - fractions*/
+[class*="wide_"]
+{
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	float: left;
+}
+.wide_10
+{
+	width: 10%;
+}
+.wide_20
+{
+	width: 20%;
+}
+.wide_25
+{
+	width: 25%;
+}
+.wide_30
+{
+	width: 30%;
+}
+.wide_33
+{
+	width: 33.3333%;
+}
+.wide_40
+{
+	width: 40%;
+}
+.wide_50, .wide_half
+{
+	width: 50%;
+}
+.wide_60
+{
+	width: 60%;
+}
+.wide_66
+{
+	width: 66.666666%;
+}
+.wide_70
+{
+	width: 70%;
+}
+.wide_75
+{
+	width: 75%;
+}
+.wide_80
+{
+	width: 80%;
+}
+.wide_100, .wide_full
+{
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	width: 100% !important;
+}
+/*GRID - columns*/
+[class*="columns_"]
+{
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	overflow: hidden;
+}
+[class*="columns_"] > .column
+{
+	position: relative;
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	float: left;
+}
+[class*="columns_"].flush > .column:nth-child(1n)
+{
+	margin: 0px;
+}
+/*GRID - 2 columns*/
+.columns_2.flush > .column:nth-child(1n)
+{
+	width: 50% !important;
+}
+.columns_2 > .column
+{
+	width: 48% !important;
+}
+.columns_2 > .column:nth-child(1)
+{
+	margin-right: 2%;
+}
+.columns_2 > .column:nth-child(2)
+{
+	margin-left: 2%;
+}
+/*GRID - 3 columns*/
+.columns_3.flush > .column:nth-child(1n)
+{
+	width: 33%;
+}
+.columns_3 > .column
+{
+	width: 32%;
+}
+.columns_3 > .column:nth-child(1)
+{
+	margin-right: 1.33333333333333%;
+}
+.columns_3 > .column:nth-child(2)
+{
+	margin: 0 0.666666666666667%;
+}
+.columns_3 > .column:nth-child(3)
+{
+	margin-left: 1.33333333333333%;
+}
+/*GRID - 4 columns*/
+.columns_4.flush > .column:nth-child(1n)
+{
+	width: 25%;
+}
+.columns_4 > .column
+{
+	width: 22%;
+}
+.columns_4 > .column:nth-child(1)
+{
+	margin-right: 4%;
+}
+.columns_4 > .column:nth-child(2)
+{
+	margin-right: 4%;
+}
+.columns_4 > .column:nth-child(3)
+{
+	margin-right: 4%;
+}
+.columns_4 > .column:nth-child(4)
+{
+}
+/*GRID - 5 columns*/
+.columns_5.flush > .column:nth-child(1n)
+{
+	width: 20%;
+}
+.columns_5 > .column
+{
+	width: 18%;
+}
+.columns_5 > .column:nth-child(1)
+{
+	margin-right: 2.5%;
+}
+.columns_5 > .column:nth-child(2)
+{
+	margin-right: 2.5%;
+}
+.columns_5 > .column:nth-child(3)
+{
+	margin-right: 2.5%;
+}
+.columns_5 > .column:nth-child(4)
+{
+	margin-right: 2.5%;
+}
+.columns_5 > .column:nth-child(5)
+{
+}

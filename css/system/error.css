@@ -1,0 +1,170 @@
+/*[fmt]10A0-11AA-1*/
+BODY {
+color: #2B2B2B; 
+font-family: "Droid Sans", sans-serif; 
+text-align: center; 
+line-height: 1.5; 
+font-size: 75%; 
+}
+#container_body {
+display: inline-block; 
+margin: 0 auto; 
+padding: 0; 
+position: relative; 
+text-align: center; 
+width: 960px; 
+}
+.container_content {
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px; 
+border-radius: 10px; 
+behavior: url(/templates/www/js/ie_specific/PIE.htc); 
+position: relative; 
+z-index: 1; 
+display: inline-block; 
+background-color: #F1F1F1; 
+width: 100%; 
+text-align: left; 
+margin: 2em 0px 0px; 
+}
+.container_article {
+display: block; 
+float: left; 
+width: 50%; 
+}
+ARTICLE {
+display: block; 
+margin: 0.416666666666667em 0px 1.66666666666667em 0; 
+padding: 20px 30px 10px; 
+}
+ASIDE.container_aside {
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+float: right; 
+padding: 2em; 
+width: 50%; 
+}
+UL.menu {
+margin: 0px; 
+padding: 0px; 
+}
+UL.menu LI {
+list-style-type: none; 
+}
+UL.menu A, UL.menu A:visited {
+background-image: url(/templates/www/images/icons/arrow_right_16.png); 
+background-position: 0 2px; 
+background-repeat: no-repeat; 
+color: #6D6E71; 
+display: block; 
+font-weight: bold; 
+margin: 0; 
+padding: 0 0 5px 20px; 
+text-decoration: none; 
+}
+UL.menu A:hover {
+color: #000000; 
+}
+.logo A IMG {
+border: 0; 
+}
+FOOTER {
+display: inline-block; 
+padding-top: 1em; 
+width: 100%; 
+}
+/*TYPOGRAPHY - headings*/
+H1, H2, H3, H4, H5, H6 {
+color: #264F68; 
+font-family: inherit; 
+font-weight: bold; 
+margin: 0px; 
+padding: 0px; 
+text-rendering: optimizeLegibility; 
+}
+H1 SMALL, H2 SMALL, H3 SMALL, H4 SMALL, H5 SMALL, H6 SMALL {
+font-weight: normal; 
+color: #999999; 
+}
+H1 {/*body font 12px @ 183.3% = 20px*/
+
+font-size: 220%; 
+font-weight: bold; 
+padding: 0 0 5px; 
+margin: 0px 0px 15px; 
+/*[disabled]border-bottom:10px solid #EDEDED;*/ 
+/*[disabled]text-transform:uppercase;*/ 
+line-height: 1; 
+text-align: center; 
+}
+H1 SMALL {/*H1 22px @ 50% = 11px*/
+
+font-size: 50%; 
+line-height: 1em; 
+}
+H2 {/*body font 12px @ 150% = 18px*/
+
+font-size: 150%; 
+text-align: center; 
+}
+H2 SMALL {
+}
+H3 {/*body font 12px @ 116.7%% = 14px*/
+
+color: #00678A; 
+font-size: 116.7%; 
+font-weight: normal; 
+line-height: 1.5em; 
+margin: 0px 0px 0.5em; 
+text-transform: uppercase; 
+text-align: center; 
+}
+H3 SMALL {/*H1 16px @ 68.8% = 11px*/
+
+font-size: 69.8%; 
+line-height: 1em; 
+}
+H4 {/*body font 12px @ 133.3% = 16px*/
+
+font-size: 133.3%; 
+line-height: 1.25; 
+}
+H4 SMALL {
+}
+H5 {/*body font 12px @ 116.7% = 14px*/
+
+font-size: 116.7%; 
+font-weight: bold; 
+}
+H5 SMALL {
+}
+H6 {/*body font 12px @ 100% = 12px*/
+
+font-size: 100%; 
+font-weight: bold; 
+}
+H6 SMALL {
+}
+H1 IMG, H2 IMG, H3 IMG, H4 IMG, H5 IMG, H6 IMG {
+margin: 0; 
+}
+/*COPYRIGHT*/
+.copy {
+font-size: 91.7%; 
+float: right; 
+}
+/*LINKS - managed by*/
+.managed A {
+color: #6D6E71; 
+}
+.managed {
+float: left; 
+font-size: 91.7%; 
+}
+.managed A:hover {
+text-decoration: none; 
+}
+.more.terra A.active {
+color: #6D6E71; 
+}

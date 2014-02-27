@@ -1,0 +1,46 @@
+/*[fmt]10A0-11AA-1*/
+/*CONTENT*/
+.container_content {
+display: inline-block; 
+margin: 20px 0px; 
+}
+.container_article {
+display: block; 
+background-color: transparent; 
+}
+ARTICLE {
+display: block; 
+margin: 0px; 
+padding: 20px 0; 
+}
+.article_above {
+}
+.article_below {
+}
+.container_article_text {
+float: left; 
+width: 54.1666666666667%; 
+padding-left: 19.0833333333333px; 
+}
+.container_article_aside {
+}
+.container_content_aside {
+float: left; 
+width: 43.75%; 
+}
+.article_aside {
+}
+ASIDE {
+display: block; 
+float: left; 
+margin: 0px; 
+padding: 20px 0px; 
+width: 300px; 
+background-color: #FFFFFF; 
+}
+ASIDE .module {
+margin: 0 0 20px; 
+padding: 0px 10px; 
+}
+SECTION {
+}

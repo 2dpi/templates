@@ -1,0 +1,15 @@
+/*QUATERNARY - VALUES*/
+.quaternary {
+	color: #F80;
+}
+.quaternary .swatch {
+	background-color: #F80;
+}
+.quaternary.fill {
+	background-color: #FCF8E3;
+}
+.quaternary.outline,
+.quaternary.outline_round,
+.quaternary.outline_rounder {
+	border: 1px solid #FBEED5;
+}

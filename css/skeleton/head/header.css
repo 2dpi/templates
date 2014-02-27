@@ -1,0 +1,110 @@
+/*[fmt]1A90-1A0A-6*/
+/*HEADER*/
+.container_header {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	z-index: 2;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	max-width: 1024px;
+	display: inline-block;
+	padding: 0px 1em;
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+header {
+	position: relative;
+	width: 100%;
+	border-bottom: 2px solid #770423;
+	height: 185px;
+	background-color: #FFFFFF;
+}
+.contact {
+}
+.container_nav {
+}
+nav.nav_main {
+	margin: 0 auto 0.5em;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	max-width: 1024px;
+	display: inline-block;
+	padding: 0;
+	/*correction for IE6 fix on body tag*/
+	width: 100%;
+	z-index: 99;
+	background-color: #FFFFFF;
+}
+nav.nav_main_split {
+	display: inline-block;
+	height: 2.5em;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	z-index: 99;
+}
+nav.nav_top {
+	position: absolute;
+	top: 2.75em;
+	right: 0;
+	z-index: 99;
+	text-align: right;
+}
+.logo {
+	display: inline-block;
+	=display: inline;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 2em;
+	width: 34.9%;
+	padding: 0;
+}
+.logo a {
+	display: block;
+}
+.logo .logo_image {
+	display: block;
+}
+.logo img {
+	width: 100%;
+}
+.logo_slogan {
+	right: 2em;
+	position: absolute;
+	bottom: 14%;
+	font-size: 1.3em;
+	color: #000000;
+	font-weight: bold;
+}
+.logo_slogan:after {
+	display: inline-block;
+	content: ' ';
+	background-image: url(/templates/www/images/style/dots.png);
+	width: 40px;
+	height: 1em;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	padding-left: 1em;
+}
+.strapline {
+	bottom: 10px;
+	font-size: 2em;
+	position: absolute;
+	left: 15px;
+	font-family: anton;
+}
+.strapline p {
+	margin: 0px;
+	padding: 0px;
+}

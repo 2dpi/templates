@@ -1,0 +1,28 @@
+/*[fmt]10A0-11AA-1*/
+.h006 {
+list-style: none; 
+margin: 0; 
+padding: 0; 
+}
+.h006 LI {
+float: right; 
+}
+.h006 LI A {
+color: #FFFFFF; 
+padding: 0; 
+position: relative; 
+display: inline-block; 
+width: 100%; 
+}
+.h006 LI.active A {
+background: #F05A28; 
+}
+.h006 LI.active A:after {
+border-left-color: #F05A28; 
+}
+.h006 LI A:hover {
+background: #F05A28; 
+}
+.h006 LI A:hover:after {
+border-left-color: #F05A28; 
+}

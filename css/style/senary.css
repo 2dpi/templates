@@ -1,0 +1,34 @@
+/*SENARY - LINKS*/
+a.senary:link,
+a.senary:visited {
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	color: #0095CD !important;
+	font-size: 0.8em;
+}
+a.senary:active {
+	outline: 0;
+}
+a.senary:focus {
+	outline: thin dotted #000000;
+}
+a.senary:hover {
+	color: #0095CD;
+	outline: 0;
+}
+/*SENARY - VALUES*/
+.senary {
+	color: #690;
+}
+.senary .swatch {
+	background-color: #690;
+}
+.senary.fill {
+	background-color: #DFF0D8;
+}
+.senary.outline,
+.senary.outline_roun,
+.senary.outline_rounder {
+	border: 1px solid #D6E9C6;
+}

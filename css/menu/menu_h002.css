@@ -1,0 +1,45 @@
+/*[fmt]1A90-1A0A-6*/
+/*MENU - menu top (note - add ID h002 to menu)*/
+ul.h002.menu {
+	display: inline-block;
+	margin: 0;
+	padding: 0px;
+	width: auto;
+}
+ul.h002.menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.h002.menu li a {
+	background-image: none;
+	background-position: 0px 50%;
+	background-repeat: no-repeat;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #64253A;
+	text-transform: uppercase;
+	font-size: 0.714em;
+}
+ul.h002.menu li:first-child a:before {
+	display: none;
+}
+ul.h002 li a:before {
+	content: '|';
+	font-weight: normal;
+	padding: 0 0.5em;
+}
+ul.h002.menu li a:visited {
+}
+ul.h002.menu li.active a {
+	text-decoration: none;
+	color: #333333;
+}
+ul.h002.menu li a:hover {
+	color: #333333;
+}
+ul.h002.menu li a:hover:before {
+}

@@ -1,0 +1,123 @@
+/*HEADER*/
+.container_header
+{
+	background-color: transparent;
+	border-bottom: 1px dashed #C7C7CF;
+	position: relative;
+	z-index: 2;
+}
+HEADER
+{
+	background-color: transparent;
+	display: inline-block;
+	margin: 0 auto;
+	min-height: 178px;
+	padding: 0;
+	position: relative;
+	text-align: left;
+/*correction for IE6 fix on body tag*/
+	width: 80em;
+	max-width: 80em;
+}
+#contact
+{
+	position: absolute;
+	top: 30px;
+	right: 220px;
+}
+#search
+{
+	top: 30px;
+	display: block;
+	right: 0;
+	position: absolute;
+	width: auto;
+	z-index: 99;
+}
+.container_nav
+{
+}
+NAV#nav_main
+{
+	background: transparent;
+	bottom: 1.5em;
+	display: block;
+	height: inherit;
+	left: 25.5208333333333%;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	text-align: left;
+	width: 74.4791666666667%;
+	z-index: 99;
+}
+NAV#nav_top
+{
+	right: 0;
+	position: absolute;
+	top: 65px;
+	z-index: 99;
+}
+#logo
+{
+	top: 3em;
+	display: block;
+	height: auto;
+	left: 0;
+	position: absolute;
+	width: 21.3541666666667%;
+}
+#logo .logo_image
+{
+	display: block;
+}
+#logo IMG
+{
+	width: 100%;
+}
+.logo_slogan
+{
+	right: 50px;
+	position: absolute;
+	top: 110px;
+	font-family: "Wire One";
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #00AEEF;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#social
+{
+	bottom: 20px;
+	font-size: 100%;
+	position: absolute;
+	left: 230px;
+}
+#strapline
+{
+	bottom: 10px;
+	font-size: 2em;
+	position: absolute;
+	left: 15px;
+	font-family: "Wire One";
+	font-weight: bold;
+}
+#strapline P
+{
+	margin: 0px;
+	padding: 0px;
+}
+#strapline .cyan
+{
+	color: #00AEEF;
+}
+#strapline .magenta
+{
+	color: #EC008C;
+}
+#strapline .black
+{
+	color: #231D1C;
+}

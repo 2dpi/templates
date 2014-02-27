@@ -1,0 +1,53 @@
+/*[fmt]10A0-11AA-1*/
+/*MENU - menu footer*/
+UL.v002.menu {
+display: inline-block; 
+margin: 5px 0 10px; 
+padding: 0px; 
+text-align: left; 
+width: 100%; 
+}
+UL.v002.menu LI {
+display: block; 
+list-style-type: none; 
+margin: 0px; 
+padding: 0px 0px 0px 20px; 
+}
+UL.v002.menu LI A {
+background-image: url(/templates/www/images/icons/arrow_right_16.png); 
+background-position: 0 2px; 
+background-repeat: no-repeat; 
+color: #6D6E71; 
+display: block; 
+font-weight: bold; 
+margin: 0; 
+padding: 0 0 5px 20px; 
+text-decoration: none; 
+}
+UL.v002.menu LI A:visited {
+color: #6D6E71; 
+}
+UL.v002.menu LI A:hover {
+color: #000000; 
+}
+UL.v002.menu LI.active A {
+text-decoration: none; 
+color: #000000; 
+}
+/*** when displayed in main content area*/
+#form-com_login UL.v002.menu {
+display: block; 
+margin: 0px; 
+padding: 0px; 
+}
+#form-com_login UL.v002.menu LI A {
+display: inline-block; 
+font-weight: bold; 
+margin: 0; 
+padding: 0; 
+text-decoration: none; 
+}
+#form-com_login UL.v002.menu LI A:visited {
+}
+#form-com_login UL.v002.menu LI A:hover {
+}

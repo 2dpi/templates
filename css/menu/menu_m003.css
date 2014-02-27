@@ -1,0 +1,159 @@
+/*MENU - menu main*/
+#nav_main
+{
+	background: transparent;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	z-index: 99;
+}
+#nav_main UL.menu
+{
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#nav_main UL.menu LI
+{
+	display: inline-block;
+	=display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+#nav_main UL.menu LI A, #nav_main UL.menu LI .separator
+{
+	background-color: transparent;
+	background-image: none;
+	background-position: center right;
+	background-repeat: no-repeat;
+	color: #313131;
+	display: inline-block;
+/*body font 12px @ 116.7% = 14px*/
+	font-size: 116.7%;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 20px;
+	behavior: url(/templates/www/js/PIE.htc);
+}
+#nav_main UL.menu LI A:visited
+{
+}
+#nav_main UL.menu LI:hover A, #nav_main UL.menu LI:hover .separator
+{
+	background-color: #B7B7B7;
+	background-image: none;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	text-decoration: none;
+	behavior: url(/templates/www/js/PIE.htc);
+}
+#nav_main UL.menu LI A:hover, #nav_main UL.menu LI .separator:hover
+{
+	background-color: #B7B7B7;
+	background-image: none;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFF;
+	text-decoration: none;
+	behavior: url(/templates/www/js/PIE.htc);
+}
+#nav_main UL.menu LI.current.active A:hover, #nav_main UL.menu LI.active A:hover
+{
+	background-color: #B7B7B7;
+	background-image: none;
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	color: #FFF;
+	text-decoration: none;
+}
+#nav_main UL.menu LI.active A, #nav_main UL.menu LI.current.active A, #nav_main UL.menu LI.active .separator
+{
+	background-color: #F2F2F2;
+	background-image: url(/templates/www/images/nav/manu_hover_bg.gif);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	color: #3E3E3E;
+	border-right: 1px solid #CECDCD;
+}
+/*MENU - main menu 2nd level*/
+#nav_main UL.menu UL
+{
+	display: none;
+}
+#nav_main UL.menu LI:hover UL
+{
+	border-color: #FFFFFF;
+	background-color: #B5B6B8;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	display: inline-block;
+	left: 0px;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	top: 35px;
+	width: 200px;
+}
+#nav_main UL.menu LI:hover LI
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+#nav_main UL.menu LI:hover LI A
+{
+	background-color: transparent;
+	background-image: none;
+	border-bottom: 1px solid #CACACA;
+	border-left: 0px solid #FFFFFF;
+	border-right: 0px solid #FFFFFF;
+	border-top: 0px solid #FFFFFF;
+	color: #514040;
+	display: block;
+	font-size: 100%;
+	line-height: 2.7em;
+	margin: 0px;
+	padding: 0px 15px;
+}
+#nav_main UL.menu LI.parent:hover LI A
+{
+	background-color: transparent;
+	background-image: none;
+	color: #514040;
+	display: block;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px 15px;
+}
+#nav_main UL.menu LI:hover LI A:hover, #nav_main UL.menu LI:hover LI.current.active A:hover
+{
+	background-color: #A4A4A4;
+	background-image: none;
+	color: #FFF;
+	text-decoration: none;
+}
+#nav_main UL.menu LI:hover LI.current.active A
+{
+	background-color: #A4A4A4;
+	background-image: none;
+	border-right: 0px solid #FFFFFF;
+	border-left: 0px solid #FFFFFF;
+	color: #FFF;
+	text-decoration: none;
+}

@@ -1,0 +1,232 @@
+/*TYPOGRAPHY - microformats
+http://microformats.org/wiki/existing-classes*/
+.affiliation {
+}
+.author {
+}
+.bday {
+}
+.category {
+}
+.class {
+}
+.contact {
+}
+.description {
+}
+.dtend {
+}
+.dtreviewed {
+}
+.dtstart {
+}
+.education {
+}
+.entry-content {
+}
+.entry-summary {
+}
+.entry-title {
+}
+.experience {
+}
+.extended-address {
+}
+.geo {
+}
+.hentry {
+}
+.hfeed {
+}
+.hresume {
+}
+.hreview {
+}
+.item {
+}
+.key {
+}
+.label {
+}
+.latitude {
+}
+.location {
+}
+.logo {
+}
+.longitude {
+}
+.mailer {
+}
+.n {
+}
+.note {
+}
+.organization-name {
+}
+.organization-unit {
+}
+.permalink {
+}
+.photo {
+}
+.post-office-box {
+}
+.profile {
+}
+.publications {
+}
+.published {
+}
+.rating {
+}
+.rev {
+}
+.reviewer {
+}
+.role {
+}
+.skill {
+}
+.sort-string {
+}
+.sound {
+}
+.summary {
+}
+.title {
+}
+.type {
+}
+.tz {
+}
+.uid {
+}
+.updated {
+}
+.value {
+}
+.vcalendar {
+}
+.vevent {
+}
+.version {
+}
+.xoxo {
+}
+/*MICROFORMATS - CONTACTS*/
+section.contacts {
+	z-index: 999999;
+}
+section.contacts h3 {
+}
+section.contacts h3 span {
+}
+section.contact_info {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	border: 1px dotted #CCCCCC;
+	/*[disabled]clear:both;*/
+}
+.list section.contact_info {
+	width: 32.6576576576577%;
+	float: left;
+	display: block;
+	margin-bottom: 0.5em !important;
+}
+.list section.contact_info:nth-child(4n-1) {
+	margin: 0px 0px 0px 0.675675675675676%;
+}
+.list section.contact_info:nth-child(4n-2) {
+	margin: 0 0.337837837837838%;
+}
+.list section.contact_info:nth-child(4n-3) {
+	margin: 0px 0.675675675675676% 0px 0px;
+}
+section.contact_info a,
+section.contact_info a:visited {
+	color: #4F2B85;
+	display: block;
+	text-decoration: none;
+}
+section.contact_info a:hover {
+	text-decoration: underline;
+}
+section.contact_info {
+	display: inline-block;
+	width: 100%;
+	min-height: 88px;
+}
+aside section.contact_info {
+	margin-bottom: 0.5em;
+}
+section.contact_info .n {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+section.contact_info .columns_2 .column:nth-child(2) {
+	padding-left: 0.5em;
+	width: 71.0144927536232%;
+}
+section.contact_info .secondary_image {
+	width: 28.9855072463768%;
+	margin-bottom: 0px;
+}
+.list section.contact_info .secondary_image {
+	width: 27.7%;
+}
+section.contact_info .secondary_image .img {
+	display: block;
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+}
+section.contact_info .secondary_image img {
+	max-height: 120px;
+	border-radius: 0;
+	width: 100%;
+}
+/*MICROFORMATS - vcard*/
+.vcard {
+	float: left;
+}
+.vcard a {
+	display: none;
+}
+.fn {
+	display: none;
+	visibility: hidden;
+}
+.org {
+	display: none;
+	visibility: hidden;
+}
+.email {
+}
+.url {
+	display: none;
+}
+/*MICROFORMATS - address*/
+.adr {
+	display: none;
+	visibility: hidden;
+}
+.street-address {
+}
+.locality {
+}
+.region {
+}
+.postal-code {
+}
+.country-name {
+}
+.tel {
+}

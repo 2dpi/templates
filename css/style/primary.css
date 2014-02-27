@@ -1,0 +1,224 @@
+/*PRIMARY - DEFAULTS*/
+.primary, BODY
+{
+	color: #333333;
+}
+.primary .swatch
+{
+	background-color: #333333;
+}
+.fill, .primary.fill, .primary .fill
+{
+	overflow: hidden;
+	background-color: #F6F6F6;
+}
+.no_fill, .primary.no_fill, .primary .no_fill
+{
+	background-color: #FFFFFF;
+}
+.outline, .primary.outline, .primary .outline, .outline_round, .primary.outline_round, .primary .outline_round, .primary.outline_rounder, .outline_rounder, .primary .outline_rounder
+{
+	border: 1px solid #EEEEEE !important;
+}
+/*PRIMARY - LINKS*/
+A:link, A.primary, A:visited, A.primary:visited
+{
+	color: #000000;
+	text-decoration: none;
+}
+A:active, A:active.primary
+{
+	outline: 0;
+}
+A:focus, A.primary:focus
+{
+	outline: thin dotted #000000;
+}
+A:hover, A.primary:hover
+{
+	color: #514040;
+	outline: 0;
+}
+/*PRIMARY - HEADINGS H1*/
+H1.title
+{
+	border-bottom: 1px solid #64253A;
+	position: relative;
+	color: #64253A;
+	padding-bottom: 0.25em;
+	font-size: 1.714em;
+}
+H1.title:after
+{
+	border-bottom: 3px solid #64253A;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	content: ' ';
+	width: 6em;
+}
+H1, H1.primary
+{
+	color: #000000;
+	font-size: 2.083em;
+	line-height: 1em;
+	margin: 0 0 1em;
+	padding: 0.2em 0em 0em;
+	font-weight: normal;
+}
+H1 A, H1.primary A, H1 A:visited, H1.primary A:visited
+{
+	color: #005777;
+}
+H1 A:hover, H1.primary A:hover
+{
+}
+H1 SMALL, H1.primary SMALL
+{
+}
+H1 IMG, H1.primary IMG
+{
+	margin: 0px;
+}
+/*PRIMARY - HEADINGS H2*/
+H2.title
+{
+	border-bottom: 1px solid #64253A;
+	position: relative;
+	color: #64253A;
+	padding-bottom: 0.25em;
+	font-size: 1.714em;
+}
+H2.title:after
+{
+	border-bottom: 3px solid #64253A;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	content: ' ';
+	width: 6em;
+}
+H2, H2.primary
+{
+	color: #64253A;
+	font-size: 1.8em;
+	line-height: 1em;
+	margin: 0 0 0.5em;
+	padding-bottom: 0.25em;
+	font-weight: normal;
+}
+H2 A, H2.primary A, H2 A:visited, H2.primary A:visited
+{
+	color: #005777;
+}
+H2 A:hover, H2.primary A:hover
+{
+}
+H2 SMALL, H2.primary SMALL
+{
+}
+H2 IMG, H2.primary IMG
+{
+	margin: 0px;
+}
+/*PRIMARY - HEADINGS H3*/
+H3, H3.primary
+{
+	color: #722540;
+	/*body font 12px @ 1.429em = 20px*/
+	font-size: 1.429em;
+	font-weight: normal;
+	margin: 0 0 0.5em;
+	padding: 0;
+	line-height: 1.1;
+}
+H3.title
+{
+	border-bottom: 1px solid #000000;
+	position: relative;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+H3.title:after
+{
+	border-bottom: 3px solid #000000;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	content: ' ';
+	width: 6em;
+}
+H3 A, H3.primary A, H3 A:visited, H3.primary A:visited
+{
+	color: #000000;
+}
+H3 A:hover, H3.primary A:hover
+{
+	color: #720B27;
+}
+H3 SMALL
+{
+	color: #CB2C30;
+}
+/*PRIMARY - HEADINGS H4*/
+H4, H4.primary
+{
+	color: #0F0F0F;
+	/*body font 12px @ 1.333em = 16px*/
+	font-size: 1.143em;
+	font-weight: normal;
+	margin: 0 0 0.5em;
+	padding: 0.2em 0em 0em;
+}
+H4 A, H4.primary A, H4 A:visited, H4.primary A:visited
+{
+	color: #505050;
+}
+H4 A:hover, H4.primary A:hover
+{
+}
+H4 SMALL
+{
+}
+/*PRIMARY - HEADINGS H5*/
+H5, H5.primary
+{
+	color: #005777;
+	/*body font 12px @ 1em = 12px*/
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0 0 0.5em;
+	padding: 0.2em 0em 0em;
+	text-transform: uppercase;
+}
+H5 A, H5.primary A, H5 A:visited, H5.primary A:visited
+{
+	color: #005777;
+}
+H5 A:hover, H5.primary A:hover
+{
+}
+H5 SMALL
+{
+}
+/*PRIMARY - HEADINGS H6*/
+H6, H6.primary
+{
+	color: #005777;
+	/*body font 12px @ 1em = 12px*/
+	font-size: 1em;
+	font-weight: bold;
+	margin: 1em 0;
+	padding: 0.2em 0em 0em;
+}
+H6 A, H6.primary A, H6 A:visited, H6.primary A:visited
+{
+	color: #005777;
+}
+H6 A:hover, H6.primary A:hover
+{
+}
+H6 SMALL
+{
+}

@@ -1,0 +1,43 @@
+/*CONTENT*/
+.container_content
+{
+	display: inline-block;
+	margin: 20px 0px;
+}
+.container_article
+{
+	display: block;
+	float: right;
+	width: 640px;
+	background-color: #FFFFFF;
+}
+ARTICLE
+{
+	display: block;
+	margin: 20px 0px 20px 0;
+	padding: 10px;
+	background-color: #F9F9F9;
+}
+.container_aside
+{
+}
+.container_article_aside
+{
+}
+SECTION
+{
+}
+ASIDE
+{
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 20px 0px;
+	width: 300px;
+	background-color: #FFFFFF;
+}
+ASIDE .module
+{
+	margin: 0 0 20px;
+	padding: 0px 10px;
+}

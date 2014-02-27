@@ -1,0 +1,54 @@
+/*[fmt]10A0-11AA-1*/
+/*MODULE - login*/
+.userdata {
+}
+.userdata .control-group {
+margin-bottom: 0.5em; 
+}
+.userdata LABEL {
+width: 21.3em; 
+}
+.userdata INPUT[type=text], .userdata INPUT[type=password] {
+width: 250px; 
+padding: 1em; 
+}
+.userdata {
+}
+.userdata .add-on {
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+-ms-border-radius: 4px; 
+-o-border-radius: 4px; 
+border-radius: 4px; 
+display: inline-block; 
+width: 120px; 
+min-width: 1.5em; 
+font-weight: normal; 
+text-align: left; 
+text-shadow: 0 1px 0 #FFFFFF; 
+background-color: #EEEEEE; 
+border: 1px solid #CCC; 
+padding: 0.25em; 
+}
+.userdata .icon-user, .userdata .icon-lock, .icon-arrow-right {
+display: inline-block; 
+width: 14px; 
+height: 14px; 
+line-height: 14px; 
+vertical-align: text-top; 
+background-image: url("/media/jui/img/glyphicons-halflings.png"); 
+background-repeat: no-repeat; 
+margin-top: 1px; 
+}
+.userdata .icon-user {
+background-position: -168px 0; 
+}
+.userdata .icon-lock {
+background-position: -287px -24px; 
+}
+.icon-arrow-right {
+background-position: -264px -96px; 
+}
+.remind, .reset {
+padding-bottom: 2em; 
+}

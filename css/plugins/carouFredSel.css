@@ -1,0 +1,97 @@
+/*[fmt]10A0-11AA-1*/
+/*CAROUSEL - caroufredsel*/
+.carousel {
+border-top: 1px solid #D7D7D7; 
+display: inline-block; 
+width: 100%; 
+margin-top: 1px; 
+}
+.carousel H3 {
+padding-top: 1em; 
+}
+#carousel {
+}
+.caroufredsel_wrapper {
+margin: 0px; 
+padding: 0px; 
+}
+.caroufredsel_wrapper A {
+display: block; 
+float: left; 
+margin: 0 0.5em; 
+}
+#image_carousel {
+-webkit-box-sizing: border-box; /*Safari/Chrome, other WebKit*/
+
+-moz-box-sizing: border-box; /*Firefox, other Gecko*/
+
+box-sizing: border-box; /*Opera/IE 8+*/
+
+width: 88%; /*510 / 640*/
+
+border: 0; 
+margin: 2em 6%; 
+padding: 0; 
+height: 90px; 
+position: relative; 
+background-color: transparent; 
+}
+#image_carousel SPAN.img {
+}
+#image_carousel IMG {
+-webkit-box-sizing: border-box; /*Safari/Chrome, other WebKit*/
+
+-moz-box-sizing: border-box; /*Firefox, other Gecko*/
+
+box-sizing: border-box; /*Opera/IE 8+*/
+
+border: 1px solid #C3C3C3; 
+}
+A.prev, A.next {
+background: no-repeat left top; 
+cursor: pointer; 
+height: 3em; 
+display: block; 
+margin-top: 2em; 
+position: absolute; 
+text-indent: -9999px; 
+top: 0; 
+width: 3em; 
+z-index: 99; 
+}
+A.next {
+right: -40px; 
+}
+A.prev {
+left: -40px; 
+}
+A.next:after, A.prev:after {
+color: #005491; 
+content: '>'; 
+display: block; 
+font-size: 4em; 
+font-weight: bold; 
+height: auto; 
+line-height: 1; 
+position: absolute; 
+right: 0; 
+text-align: right; 
+top: 0; 
+width: auto; 
+z-index: 999; 
+}
+A.prev:after {
+right: 0; 
+content: '<'; 
+}
+A.prev:hover {
+}
+A.prev.disabled {
+}
+A.next:hover {
+}
+A.next.disabled {
+}
+A.prev SPAN, A.next SPAN {
+display: none; 
+}

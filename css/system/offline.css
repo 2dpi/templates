@@ -1,0 +1,66 @@
+/*[fmt]10A0-11AA-1*/
+@import url(/templates/www/css/content/alpha.css);
+@import url(/templates/www/css/skeleton/trunk/layout_cck.css);
+/*OFFLINE - add code*/
+.container_content {
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px; 
+border-radius: 10px; 
+behavior: url(/templates/www/js/ie_specific/PIE.htc); 
+position: relative; 
+z-index: 1; 
+display: inline-block; 
+background-color: #F1F1F1; 
+width: 100%; 
+text-align: left; 
+margin: 2em 0px 0px; 
+}
+.container_article {
+display: block; 
+width: 100%; 
+}
+.container_article H1 {
+text-align: center; 
+}
+.container_article .module {
+margin: 0 auto; 
+width: 240px; 
+}
+.container_article .module FORM {
+margin: 0px; 
+}
+.container_article .module .control-group {
+padding-bottom: 1em; 
+}
+.container_article .module #form-login-submit.control-group {
+padding: 0px; 
+}
+ARTICLE {
+display: block; 
+margin: 0.416666666666667em 0px 1.66666666666667em 0; 
+padding: 20px 30px 10px; 
+}
+FOOTER {
+display: inline-block; 
+padding-top: 1em; 
+width: 100%; 
+}
+/*COPYRIGHT*/
+.copy {
+font-size: 91.7%; 
+float: right; 
+}
+/*LINKS - managed by*/
+.managed A {
+color: #6D6E71; 
+}
+.managed {
+float: left; 
+font-size: 91.7%; 
+}
+.managed A:hover {
+text-decoration: none; 
+}
+.more.terra A.active {
+color: #6D6E71; 
+}

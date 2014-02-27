@@ -1,0 +1,18 @@
+/*SECONDARY - VALUES*/
+.secondary > H3.title
+{
+	border-bottom: 1px solid #A70C19;
+	position: relative;
+	color: #A70C19;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+.secondary > H3.title:after
+{
+	border-bottom: 3px solid #A70C19;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	content: ' ';
+	width: 6em;
+}
