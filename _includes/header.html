@@ -2,24 +2,23 @@
     <header>
         <!-- MAIN NAV -->
         <nav class="nav_top">
-            [TOP NAV]
+            {% include nav_top.html %}
         </nav>
-
-       	<!-- LOGO - IMAGE -->
+        <!-- LOGO - IMAGE -->
         <div class="logo">
             <span class="logo_image"><a href="/" title="w3 Template Framework"><img src="/images/style/logo.png" alt="logo"/></a></span>
+       	    <!-- LOGO - SLOGAN -->
+            <span class="logo_slogan">slogan</span>
         </div>
-        <!-- MAIN NAV -->
+        <!-- STRAPLINE -->
         <nav class="strapline">
             [STRAPLINE]
         </nav>
-        <span class="logo_slogan">slogan</span>
     </header>
-        <!-- MAIN NAV -->
-        <div class="container_nav">
-            <nav class="nav_main">
-                {% include nav_main.html %}
-            </nav>
-        </div>
-    <?php endif; ?>
+    <!-- MAIN NAV -->
+    <div class="container_nav">
+        <nav class="nav_main">
+            {% include nav_main.html %}
+        </nav>
+    </div>
 </div>
