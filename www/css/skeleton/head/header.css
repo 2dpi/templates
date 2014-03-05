@@ -55,7 +55,7 @@ nav.nav_main_split {
 }
 nav.nav_top {
 	position: absolute;
-	top: 2.75em;
+	top: 0;
 	right: 0;
 	z-index: 99;
 	text-align: right;
@@ -65,9 +65,9 @@ nav.nav_top {
 	=display: inline;
 	height: auto;
 	position: absolute;
-	bottom: 0;
+	top: 1em;
 	left: 2em;
-	width: 34.9%;
+	width: 10.0401606425703%;
 	padding: 0;
 }
 .logo a {
@@ -80,12 +80,8 @@ nav.nav_top {
 	width: 100%;
 }
 .logo_slogan {
-	right: 2em;
-	position: absolute;
-	bottom: 14%;
+	position: relative;
 	font-size: 1.3em;
-	color: #000000;
-	font-weight: bold;
 }
 .logo_slogan:after {
 	display: inline-block;

@@ -154,3 +154,26 @@ ul li:hover li.current.active a:hover {
 	color: #DCDAC3;
 	text-decoration: none;
 }
+/*MENU - top menu*/
+.nav_top ul {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.nav_top ul li {
+	display: inline-block;
+	=display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+.nav_top ul li a {
+	padding-left: 0.5em;
+}
