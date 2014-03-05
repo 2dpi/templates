@@ -113,7 +113,7 @@
 /*GRID - 3 columns*/
 .columns_3.flush > .column:nth-child(1n)
 {
-	width: 33%;
+	width: 33.33333%;
 }
 .columns_3 > .column
 {
