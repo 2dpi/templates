@@ -1,0 +1,42 @@
+---
+layout: default
+title: w3 framework - layout
+overview: true
+keywords: css3 grid
+---
+<div class="container_body_wrapper">
+  <div class="container_content article">
+    <div class="container_article">
+      <article>
+        <h1 class="title">CSS Grid - Flush Fitting</h1>
+        <p>Override columns widths based on viewport size using media queries to achive required results.</p>
+        <p>Popular devices to target are iPhone, iPad, Samsung Galaxy Sx etc refer to http://viewportsizes.com for reference</p>
+        {% highlight css %}
+          @media screen and (max-width: 320px) {
+            body {
+              color: #C00;
+            }
+          }
+          @media screen and (max-width: 568px) {
+            body {
+              color: #C00;
+            }
+          }
+          @media screen and (max-width: 640px) {
+            body {
+              color: #C00;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            body {
+              color: #C00;
+            }
+          }
+        {% endhighlight %}
+      </article>
+    </div>
+    <aside class="container_aside">
+      {% include nav_sidebar_layout.html %}
+    </aside>
+  </div>
+</div>
