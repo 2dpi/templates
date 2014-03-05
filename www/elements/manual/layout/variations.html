@@ -1,0 +1,30 @@
+---
+layout: default
+title: w3 framework - layout
+overview: true
+keywords: css3 grid
+---
+<div class="container_body_wrapper">
+  <div class="container_content article">
+    <div class="container_article">
+      <article>
+        <h1 class="title">CSS Grid - Variations</h1>
+        <p>Add pre-defined classes to manipulate the grid</p>
+        <p>Commom combinations are:</p>
+        <div class="columns_3 flush out_tight out_only_bottom">
+          <div class="column in_loose outline"><span class="primary">col 1</span></div>
+          <div class="column in_loose outline fill"><span class="primary">col 2</span></div>
+          <div class="column in_loose outline"><span class="primary">col 3</span></div>
+        </div>
+        <div class="columns_3 out_tight out_only_bottom">
+          <div class="column in_loose outline_round"><span class="primary">col 1</span></div>
+          <div class="column in_loose outline_rounder"><span class="primary">col 2</span></div>
+          <div class="column in_loose outline_round fill"><span class="primary">col 3</span></div>
+        </div>
+      </article>
+    </div>
+    <aside class="container_aside">
+      {% include nav_sidebar_layout.html %}
+    </aside>
+  </div>
+</div>
