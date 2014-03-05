@@ -8,33 +8,33 @@ keywords: css3 grid
   <div class="container_content article">
     <div class="container_article">
       <article>
-        <h1 class="title">CSS Grid - Flush Fitting</h1>
+        <h1 class="title">CSS Grid - Responsive</h1>
         <p>Override columns widths based on viewport size using media queries to achive required results.</p>
         <p>Popular devices to target are iPhone, iPad, Samsung Galaxy Sx etc refer to http://viewportsizes.com for reference</p>
         {% highlight css linenos %}
           {% raw %}
             @media screen and (max-width: 320px) {
               /* smart phone portrait */
-              body {
-                color: #C00;
+              .container_article {
+                width: 100%;
               }
             }
             @media screen and (max-width: 568px) {
               /* smart phone landscape (iPhone)*/
-              body {
-                color: #C00;
+              .container_article {
+                width: 100%;
               }
             }
             @media screen and (max-width: 640px) {
               /* smart phone landscape (samsung S*)*/
-              body {
-                color: #C00;
+              .container_article {
+                width: 100%;
               }
             }
             @media screen and (max-width: 767px) {
               /* small tablet portrait */
-              body {
-                color: #C00;
+              .container_article {
+                width: 100%;
               }
             }
           {% endraw %}
