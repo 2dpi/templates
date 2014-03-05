@@ -94,11 +94,10 @@ nav.nav_top {
 	padding-left: 1em;
 }
 .strapline {
-	bottom: 10px;
+	top: 3em;
 	font-size: 2em;
 	position: absolute;
-	left: 15px;
-	font-family: anton;
+	left: 15%;
 }
 .strapline p {
 	margin: 0px;
