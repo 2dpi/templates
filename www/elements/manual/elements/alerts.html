@@ -2,16 +2,54 @@
 layout: default
 title: w3 framework - elements
 overview: true
-keywords: css3 grid
+keywords: alerts, panels
 description: w3 framework - elements
 ---
 <div class="container_body_wrapper">
   <div class="container_content article">
     <div class="container_article">
       <article>
-        <h1 class="title">Elements</h1>
+        <h1 class="title">Panels / Alerts</h1>
         <p>Add content here.</p>
-
+        <div class="container_panel out_tight_bot">
+          <div class="in_tight panel_message outline_rounder">
+            <a class="close" data-dismiss="alert">×</a>
+            <h4 class="panel-heading">Message</h4>
+            <div>You have a message that requires attention.</div>
+          </div>
+        </div>
+        <div class="columns_2 flush out_tight_bot">
+          <div class="container_panel in_tightest_right column">
+            <div class="in_tight panel_success">
+              <a class="close" data-dismiss="alert">×</a>
+              <h4 class="panel-heading">Success</h4>
+              <div>You have a message that requires attention.</div>
+            </div>
+          </div>
+          <div class="container_panel in_tightest_left column">
+            <div class="in_tight panel_info">
+              <a class="close" data-dismiss="alert">×</a>
+              <h4 class="panel-heading">Info</h4>
+              <div>You have a message that requires attention.</div>
+            </div>
+          </div>
+        </div>
+        <div class="columns_2 flush out_tight_bot">
+          <div class="container_panel in_tightest_right column">
+            <div class="in_tight panel_error">
+              <a class="close" data-dismiss="alert">×</a>
+              <h4 class="panel-heading">Error</h4>
+              <div>You have a message that requires attention.</div>
+            </div>
+          </div>
+          <div class="container_panel in_tightest_left column">
+            <div class="in_tight panel_add">
+              <a class="close" data-dismiss="alert">×</a>
+              <h4 class="panel-heading">Add</h4>
+              <div>You have a message that requires attention.</div>
+            </div>
+          </div>
+        </div>
       </article>
     </div>
     <aside class="container_aside">
