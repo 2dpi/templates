@@ -86,7 +86,7 @@ nav.nav_top {
 .logo_slogan:after {
 	display: inline-block;
 	content: ' ';
-	background-image: url(/templates/www/images/style/dots.png);
+	background-image: none;
 	width: 40px;
 	height: 1em;
 	background-repeat: no-repeat;
