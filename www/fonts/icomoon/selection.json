@@ -21,8 +21,8 @@
 				"name": "linkedin",
 				"ligatures": ""
 			},
-			"setIdx": 8,
-			"iconIdx": 199
+			"setIdx": 0,
+			"iconIdx": 0
 		},
 		{
 			"icon": {
@@ -45,8 +45,8 @@
 				"name": "rss",
 				"ligatures": ""
 			},
-			"setIdx": 8,
-			"iconIdx": 149
+			"setIdx": 0,
+			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -70,8 +70,8 @@
 				"name": "envelope",
 				"ligatures": ""
 			},
-			"setIdx": 8,
-			"iconIdx": 198
+			"setIdx": 0,
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -92,8 +92,8 @@
 				"name": "google-plus",
 				"ligatures": ""
 			},
-			"setIdx": 10,
-			"iconIdx": 356
+			"setIdx": 0,
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -114,8 +114,8 @@
 				"name": "circle",
 				"ligatures": ""
 			},
-			"setIdx": 8,
-			"iconIdx": 244
+			"setIdx": 0,
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -137,8 +137,8 @@
 				"name": "facebook",
 				"ligatures": ""
 			},
-			"setIdx": 8,
-			"iconIdx": 145
+			"setIdx": 0,
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -160,7 +160,7 @@
 				"ligatures": ""
 			},
 			"setIdx": 0,
-			"iconIdx": 14
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -182,8 +182,84 @@
 				"name": "download",
 				"ligatures": ""
 			},
-			"setIdx": 3,
-			"iconIdx": 233
+			"setIdx": 0,
+			"iconIdx": 7
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512.002 512l255.998 256v-512zM256 256h-128v512h128v-256l256 256v-512l-256 256z"
+				],
+				"defaultCode": 125,
+				"grid": 0
+			},
+			"properties": {
+				"id": 92,
+				"order": 9,
+				"prevSize": 32,
+				"code": 125,
+				"name": "uni7D",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 92
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 512l-256-256v512zM768 768h128v-512h-128v256l-255.998-256v512l255.998-256z"
+				],
+				"defaultCode": 57344,
+				"grid": 0
+			},
+			"properties": {
+				"id": 93,
+				"order": 10,
+				"prevSize": 32,
+				"code": 57344,
+				"name": "uniE000",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 93
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512.002 512l255.998 256v-512zM512 768v-512l-256 256z"
+				],
+				"defaultCode": 124,
+				"grid": 0
+			},
+			"properties": {
+				"id": 91,
+				"order": 11,
+				"prevSize": 32,
+				"code": 124,
+				"name": "uni7C",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 91
+		},
+		{
+			"icon": {
+				"paths": [
+					"M511.998 512l-255.998-256v512zM512 256v512l256-256z"
+				],
+				"defaultCode": 123,
+				"grid": 0
+			},
+			"properties": {
+				"id": 90,
+				"order": 12,
+				"prevSize": 32,
+				"code": 123,
+				"name": "uni7B",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 90
 		}
 	],
 	"height": 1024,
@@ -202,8 +278,7 @@
 				"emSize": 512,
 				"baseline": 6.25,
 				"whitespace": 50
-			},
-			"resetPoint": 58880
+			}
 		},
 		"imagePref": {},
 		"historySize": 100,

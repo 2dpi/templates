@@ -1,22 +1,4 @@
 /*PLUGIN - pagination - based on bootstrap and protostar override*/
-@font-face
-{
-	font-family: pagination;
-	src: url('/templates/www/fonts/pagination/IcoMoon.eot');
-	src: url('/templates/www/fonts/pagination/IcoMoon.eot?#iefix') format('embedded-opentype'), 
- 	 	 url('/templates/www/fonts/pagination/IcoMoon.ttf') format('truetype'),
-	 	 url('/templates/www/fonts/pagination/IcoMoon.woff') format('woff'),
-		 url('/templates/www/fonts/pagination/IcoMoon.svg#IcoMoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-/* CALL IN SVG FOR BETTER CHROME RENDERING */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-	@font-face {
-		font-family: pagination;
-		src: url('/templates/www/fonts/pagination/IcoMoon.svg#IcoMoon') format('svg');
-	}
-}
 /*
 [data-icon]:before
 {
@@ -35,7 +17,7 @@
 }
 .pagination [class^="icon-"]:before, .pagination [class*=" icon-"]:before
 {
-	font-family: pagination;
+	font-family: icomoon;
 	font-style: normal;
 	speak: none;
 	font-size: 1.4em;
