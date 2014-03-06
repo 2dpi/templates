@@ -1,26 +1,21 @@
 /*PLUGIN - pagination - based on bootstrap and protostar override*/
-/*
 [data-icon]:before
 {
-	font-family: pagination;
+	font-family: icomoon;
 	content: attr(data-icon);
 	speak: none;
 }
 .pagination [class^="icon-"], .pagination [class*=" icon-"]
 {
-	vertical-align: bottom;
-	display: inline-block;
-	/*[disabled]width:1em;*/
-	/*[disabled]height:1em;*/
-	/*[disabled]=margin-right:0.3em;*/
-	line-height: 0.9em;
+	vertical-align: text-bottom;
+	width: 1em;
+	height: 1em;
 }
 .pagination [class^="icon-"]:before, .pagination [class*=" icon-"]:before
 {
 	font-family: icomoon;
 	font-style: normal;
 	speak: none;
-	font-size: 1.4em;
 }
 .icon-first:before
 {
@@ -67,8 +62,9 @@
 }
 .pagination LI
 {
-	display: inline-block;
-	display: inline\0/;
+	display: block;
+	float: left;
+	list-style-type: none;
 }
 .pagination A, .pagination SPAN
 {
