@@ -5,12 +5,20 @@ overview: true
 keywords: alerts, panels
 description: w3 framework - elements
 ---
+<script>
+jQuery(document).ready(function($){
+  $('.toggle').on('click', function() {
+     $('[class="' + $(this).data('target') + '"]').toggle();
+  });
+});
+</script>
 <div class="container_body_wrapper">
   <div class="container_content article">
     <div class="container_article">
       <article>
         <h1 class="title">Panels / Alerts</h1>
-        <p>Add content here.</p>
+        <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
+        <p class="toggle_message">Add content here.</p>
         <div class="container_panel out_tight_bot">
           <div class="in_tight panel_message outline_rounder">
             <a class="close" data-dismiss="alert">×</a>
