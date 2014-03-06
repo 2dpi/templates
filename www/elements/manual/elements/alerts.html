@@ -8,7 +8,8 @@ description: w3 framework - elements
 <script>
 jQuery(document).ready(function($){
   $('.toggle').on('click', function() {
-     $('[class="' + $(this).data('target') + '"]').toggle();
+    if ($(this).hasClass($(this).data('target'))).toggle();
+     //$('[class="' + $(this).data('target') + '"]').toggle();
   });
   // alt toggle function
   // $(".container_toggle").hide();
