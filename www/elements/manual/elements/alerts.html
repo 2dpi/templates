@@ -10,7 +10,18 @@ jQuery(document).ready(function($){
   $('.toggle').on('click', function() {
      $('[class="' + $(this).data('target') + '"]').toggle();
   });
+  // alt toggle function
+  // $(".container_toggle").hide();
+  // $(".toggle").click(function(){
+  //   if($("#"+$(this).data("target")).is(":hidden")){
+  //     $("#"+$(this).data("target")).show().siblings(".container_toggle").hide()
+  //   }else{
+  //     $("#"+$(this).data("target")).hide()
+  //   }
+  // });
 });
+
+
 </script>
 <div class="container_body_wrapper">
   <div class="container_content article">
