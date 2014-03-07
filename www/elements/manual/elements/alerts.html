@@ -9,7 +9,9 @@ description: w3 framework - elements
 jQuery(document).ready(function($){
   $('.toggle').on('click', function() {
     //if ($('.container_toggle').hasClass('toggle_message').toggle();
-     $('[class="' + $(this).data('target') + '"]').toggle();
+     //$('[class="' + $(this).data('target') + '"]').toggle();
+     $('.container_toggle').not($(this).data('target')).hide();
+     $('container_toggle' + $(this).data('target')).toggle();
   });
   // alt toggle function
   // $(".container_toggle").hide();
@@ -20,6 +22,15 @@ jQuery(document).ready(function($){
   //     $("#"+$(this).data("target")).hide()
   //   }
   // });
+  // 
+    //   var id = $(this).attr('id').substr(6);
+    // $('.content').not('#page'+id).hide();
+    // $('#page'+id).toggle();
+
+    //   var id = $(this).attr('id').substr(6);
+    // $('.container_toggle').not($(this).data('target')).hide();
+    // $('container_toggle' + $(this).data('target')).toggle();
+
 });
 
 
@@ -30,7 +41,7 @@ jQuery(document).ready(function($){
       <article>
         <h1 class="title">Panels / Alerts</h1>
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
-        <p class="toggle_message">Add content here.</p>
+        <p class="container_toggle toggle_message">Add content here.</p>
         <div class="toggle_message container_panel out_tight_bot">
           <div class="in_tight panel_message outline_rounder">
             <a class="close" data-dismiss="alert">×</a>
