@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
     //if ($('.container_toggle').hasClass('toggle_message').toggle();
      //$('[class="' + $(this).data('target') + '"]').toggle();
      $('.container_toggle').not($(this).data('target')).hide();
-     $('container_toggle' + $(this).data('target')).show();
+     $('.container_toggle' + '.' + $(this).data('target')).show();
   });
   // alt toggle function
   // $(".container_toggle").hide();
