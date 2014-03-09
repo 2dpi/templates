@@ -11,7 +11,19 @@ description: w3 framework - elements
       <article>
         <h1 class="title">Panels / Alerts</h1>
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
-        <p class="toggle_show">Add content here.</p>
+        <div class="toggle_show container_panel out_tight_bot">
+          {% highlight css linenos %}
+            {% raw %}
+              <div class="container_panel out_tight_bot">
+                <div class="in_tight panel_message outline_rounder">
+                  <a class="close" data-dismiss="alert">×</a>
+                  <h4 class="panel-heading">Message</h4>
+                  <div>You have a message that requires attention.</div>
+                </div>
+              </div>
+            {% endraw %}
+          {% endhighlight %}
+        </div>
         <div class="toggle_hide container_panel out_tight_bot">
           <div class="in_tight panel_message outline_rounder">
             <a class="close" data-dismiss="alert">×</a>
