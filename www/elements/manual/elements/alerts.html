@@ -60,37 +60,16 @@ description: w3 framework - elements
 </div>
 <script>
 
-jQuery(document).ready(function($){
-  $('.toggle').on('click', function() {
-    //$("#events-example").trigger("open")
-    $('.container_toggle' + '.' + $(this).data('target')).trigger("toggle")
-  })
-  // $('.toggle').on('click', function() {
-  //   //if ($('.container_toggle').hasClass('toggle_message').toggle();
-  //    //$('[class="' + $(this).data('target') + '"]').toggle();
-  //    $('.container_toggle').not($(this).data('target')).hide();
-  //    $('.container_toggle' + '.' + $(this).data('target')).show();
-  // });
-  // alt toggle function
-  // $(".container_toggle").hide();
-  // $(".toggle").click(function(){
-  //   if($("#"+$(this).data("target")).is(":hidden")){
-  //     $("#"+$(this).data("target")).show().siblings(".container_toggle").hide()
-  //   }else{
-  //     $("#"+$(this).data("target")).hide()
-  //   }
-  // });
-  // 
-    //   var id = $(this).attr('id').substr(6);
-    // $('.content').not('#page'+id).hide();
-    // $('#page'+id).toggle();
+$(document).ready(function(){
 
-    //   var id = $(this).attr('id').substr(6);
-    // $('.container_toggle').not($(this).data('target')).hide();
-    // $('container_toggle' + $(this).data('target')).toggle();
+  $(".container_toggle").hide();
+
+  $(".toggle").click(function () {
+
+    $(this).next(".container_toggle").slideToggle(800);
+  });
 
 });
-
 
 
 /*
