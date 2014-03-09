@@ -13,15 +13,13 @@ description: w3 framework - elements
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
         <div class="toggle_show container_panel out_tight_bot">
           {% highlight html linenos %}
-            {% raw %}
-              <div class="container_panel out_tight_bot">
+            {% raw %}<div class="container_panel out_tight_bot">
                 <div class="in_tight panel_message outline_rounder">
                   <a class="close" data-dismiss="alert">×</a>
                   <h4 class="panel-heading">Message</h4>
                   <div>You have a message that requires attention.</div>
                 </div>
-              </div>
-            {% endraw %}
+              </div>{% endraw %}
           {% endhighlight %}
         </div>
         <div class="toggle_hide container_panel out_tight_bot">
