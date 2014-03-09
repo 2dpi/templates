@@ -11,8 +11,8 @@ description: w3 framework - elements
       <article>
         <h1 class="title">Panels / Alerts</h1>
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
-        <p class="container_toggle toggle_message">Add content here.</p>
-        <div class="toggle_message container_panel out_tight_bot">
+        <p class="toggle_show">Add content here.</p>
+        <div class="toggle_hide container_panel out_tight_bot">
           <div class="in_tight panel_message outline_rounder">
             <a class="close" data-dismiss="alert">×</a>
             <h4 class="panel-heading">Message</h4>
@@ -20,16 +20,16 @@ description: w3 framework - elements
           </div>
         </div>
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
-        <p class="container_toggle toggle_message">Add content here.</p>
+        <p class="toggle_show">Add content here.</p>
         <div class="columns_2 flush out_tight_bot">
-          <div class="container_panel in_tightest_right column">
+          <div class="toggle_hide container_panel in_tightest_right column">
             <div class="in_tight panel_success">
               <a class="close" data-dismiss="alert">×</a>
               <h4 class="panel-heading">Success</h4>
               <div>You have a message that requires attention.</div>
             </div>
           </div>
-          <div class="container_panel in_tightest_left column">
+          <div class="toggle_hide container_panel in_tightest_left column">
             <div class="in_tight panel_info">
               <a class="close" data-dismiss="alert">×</a>
               <h4 class="panel-heading">Info</h4>
@@ -38,16 +38,16 @@ description: w3 framework - elements
           </div>
         </div>
         <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
-        <p class="container_toggle toggle_message">Add content here.</p>
+        <p class="toggle_show">Add content here.</p>
         <div class="columns_2 flush out_tight_bot">
-          <div class="container_panel in_tightest_right column">
+          <div class="toggle_hide container_panel in_tightest_right column">
             <div class="in_tight panel_error">
               <a class="close" data-dismiss="alert">×</a>
               <h4 class="panel-heading">Error</h4>
               <div>You have a message that requires attention.</div>
             </div>
           </div>
-          <div class="container_panel in_tightest_left column">
+          <div class="toggle_hide container_panel in_tightest_left column">
             <div class="in_tight panel_add">
               <a class="close" data-dismiss="alert">×</a>
               <h4 class="panel-heading">Add</h4>
@@ -65,11 +65,12 @@ description: w3 framework - elements
 <script>
   $(document).ready(function(){
 
-    $(".container_toggle").hide();
+    $(".toggle_hide").hide();
 
     $(".toggle").click(function () {
 
-      $(this).next(".container_toggle").slideToggle(400);
+      $(this).next(".toggle_show").slideToggle(300);
+      $(this).next(".toggle_hide").slideToggle(300);
     });
 
     // $(".container_toggle").hide();
