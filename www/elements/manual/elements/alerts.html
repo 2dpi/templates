@@ -69,7 +69,7 @@ description: w3 framework - elements
 
     $(".toggle").click(function () {
 
-      $(".toggle_hide").hide();
+      $(this).next(".toggle_hide").hide();
       $(this).next(".toggle_show").slideToggle(300);
     });
 
