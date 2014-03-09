@@ -65,21 +65,21 @@ description: w3 framework - elements
 <script>
   $(document).ready(function(){
 
-    // $(".container_toggle").hide();
-
-    // $(".toggle").click(function () {
-
-    //   $(this).next(".container_toggle").slideToggle(400);
-    // });
-
     $(".container_toggle").hide();
-    $(".toggle").click(function(){
-      if($("."+$(this).data("target")).is(":hidden")){
-        $("."+$(this).data("target")).show().siblings(".container_toggle").hide()
-      }else{
-        $("."+$(this).data("target")).hide()
-      }
-    })
+
+    $(".toggle").click(function () {
+
+      $(this).next(".container_toggle").slideToggle(400);
+    });
+
+    // $(".container_toggle").hide();
+    // $(".toggle").click(function(){
+    //   if($("."+$(this).data("target")).is(":hidden")){
+    //     $("."+$(this).data("target")).show().siblings(".container_toggle").hide()
+    //   }else{
+    //     $("."+$(this).data("target")).hide()
+    //   }
+    // })
 
   });
 
