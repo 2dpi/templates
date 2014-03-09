@@ -60,6 +60,8 @@ description: w3 framework - elements
           <h3>test</h3>
           <div>content here</div>
         </div>
+
+
       </article>
     </div>
     <aside class="container_aside">
@@ -68,14 +70,20 @@ description: w3 framework - elements
   </div>
 </div>
 <script>
+
+
   $(document).ready(function(){
+    // $('.orange').hide();
+    // $('.gray, .orange').on('click',function() {
+    //  });
 
     $(".toggle_show").hide();
 
     $(".toggle").click(function () {
 
-      $(this).next(".toggle_hide").hide();
-      $(this).next(".toggle_show").slideToggle(300);
+      //$(this).next(".toggle_hide").hide();
+      //$(this).next(".toggle_show").slideToggle(300);
+      $('.toggle_hide, .toggle_show').toggle()
     });
 
     // $(".container_toggle").hide();
