@@ -83,7 +83,7 @@ description: w3 framework - elements
 
     $(".toggle").click(function () {
 
-      $(".toggle_show").next(".toggle_hide").toggle();
+      $(this).next(".toggle_show").next(".toggle_hide").toggle();
       $(this).next(".toggle_show").toggle();
       //$(this).next('.toggle_hide', (".toggle_show").next(".toggle_hide")).toggle()
     });
