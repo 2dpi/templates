@@ -33,15 +33,13 @@ description: w3 framework - elements
           <div class="container_panel in_tightest_right column">
             <button type="button" class="btn add toggle" name="showExtras" data-target="toggle_message">Code</button>
             <div class="toggle_show container_panel out_tight_bot">
-              {% highlight html linenos %}
-                {% raw %}
-                  <div class="in_tight panel_success">
-                    <a class="close" data-dismiss="alert">×</a>
-                    <h4 class="panel-heading">Success</h4>
-                    <div>You have a message that requires attention.</div>
-                  </div>
-                {% endraw %}
-              {% endhighlight %}
+              {% highlight html linenos %}{% raw %}
+              <div class="in_tight panel_success">
+                <a class="close" data-dismiss="alert">×</a>
+                <h4 class="panel-heading">Success</h4>
+                <div>You have a message that requires attention.</div>
+              </div>
+              {% endraw %}{% endhighlight %}
             </div>
             <div class="toggle_hide in_tight panel_success">
               <a class="close" data-dismiss="alert">×</a>
