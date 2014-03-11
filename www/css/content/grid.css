@@ -96,11 +96,11 @@
 /*GRID - 2 columns*/
 .columns_2.flush > .column:nth-child(1n)
 {
-	width: 50% !important;
+	width: 50%;
 }
 .columns_2 > .column
 {
-	width: 48% !important;
+	width: 48%;
 }
 .columns_2 > .column:nth-child(1)
 {
