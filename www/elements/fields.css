@@ -1,0 +1,13 @@
+.line_separator.hasText{color:#999;cursor:pointer;font-size:10px;line-height:1px;padding-left:100px}
+.line_separator{background:#E5E5E5;clear:both;display:block;height:5px;margin:5px 0}
+.line_separator.hasText span{background:#FFF;padding:4px}
+.text-limit{text-align:right}
+#element-box fieldset.panelform label, #element-box fieldset.panelform div.paramrow label, #element-box fieldset.panelform span.faux-label {
+min-width: 250px;
+max-width: 250px;
+}
+#element-box fieldset.panelform fieldset.radio label, #element-box fieldset.panelform fieldset.radio div.paramrow label, #element-box fieldset.panelform fieldset.radio span.faux-label {
+min-width: 60px;
+max-width: 100px;
+}
+
