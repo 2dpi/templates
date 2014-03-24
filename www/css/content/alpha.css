@@ -518,9 +518,18 @@ PANEL - alert*/
 	margin: 0px 17px 0px 16px;
 	padding: 10px;
 }
+/*GROUPING*/
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
 .group {
-	display: block;
-	overflow: hidden;
+	zoom: 1;
+	/*For IE 6/7*/
 }
 .block {
 	-webkit-box-sizing: border-box;
