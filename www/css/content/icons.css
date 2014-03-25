@@ -11,7 +11,9 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	padding-right: .5em;
+}
 .icon-linkedin:before {
 	content: "\6c";
 }
