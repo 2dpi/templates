@@ -33,6 +33,39 @@
 .icon-twitter:before {
 	content: "\74";
 }
+.icon-menu:before {
+	content: "\6d";
+}
+.icon-link:before {
+	content: "\e601";
+}
+.icon-close:before {
+	content: "\78";
+}
+.icon-checkmark:before {
+	content: "\e603";
+}
+.icon-minus:before {
+	content: "\2d";
+}
+.icon-plus:before {
+	content: "\2b";
+}
+.icon-radio-checked:before {
+	content: "\2e";
+}
+.icon-embed:before {
+	content: "\3e";
+}
+.icon-code:before {
+	content: "\3c";
+}
+.icon-html5:before {
+	content: "\68";
+}
+.icon-css3:before {
+	content: "\63";
+}
 .icon-download:before {
 	content: "\64";
 }
