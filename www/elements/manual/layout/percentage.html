@@ -49,18 +49,16 @@ keywords: css3 grid
 <!-- add .flush to zero margins -->
 <div class="group flush">
   <div class="wide_10"></div>
+  <!-- repeat as required -->
 </div>
 {% endraw %}{% endhighlight %}
-{% highlight html linenos %}{% raw %}<div class="group flush"><div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div>
-<div class="wide_10 in_tight outline">w10</div></div>{% endraw %}{% endhighlight %}
+{% highlight html linenos %}{% raw %}
+<div class="group">
+  <!-- add .flush to zero margins NOTE variation - not on parent! -->
+  <div class="wide_10 flush"></div>
+  <!-- repeat as required -->
+</div>
+{% endraw %}{% endhighlight %}
           </div>
 
 
