@@ -753,7 +753,8 @@ code {
 }
 pre code {
 	background-color: transparent;
-	white-space: normal;
+	white-space: inherit;
+	color: inherit;
 }
 /*EMBED VIDEO*/
 .video_container {
