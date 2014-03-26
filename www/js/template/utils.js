@@ -1,6 +1,6 @@
+$(document).ready(function(){
 var toggleHide = $( ".toggle_hide" );
 var toggleShow = $( ".toggle_show" );
-$(document).ready(function(){
 	$(".toggle_show").hide();
 	$(".toggle").click(function (event) {
 		$( event.target ).closest( toggleHide ).toggle();
