@@ -748,7 +748,7 @@ code {
 	font-size: 0.9em;
 	color: #C7254E;
 	background-color: #F9F2F4;
-	white-space: nowrap;
+	/*[disabled]white-space:nowrap;*/
 	border-radius: 4px;
 }
 /*EMBED VIDEO*/
