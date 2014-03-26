@@ -20,6 +20,10 @@
 {
 	border: 1px solid #EEEEEE !important;
 }
+.callout, .primary.callout, .primary .callout
+{
+	border-left: #009F89;
+}
 /*PRIMARY - LINKS*/
 A:link, A.primary, A:visited, A.primary:visited
 {
