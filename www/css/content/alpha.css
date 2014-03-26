@@ -743,12 +743,6 @@ hr {
 	margin: 1.5em 0;
 	width: 100%;
 }
-.callout {
-	border-left: 3px solid transparent;
-	border-right: 0 solid transparent;
-	border-top: 0 solid transparent;
-	border-bottom: 0 solid transparent;
-}
 code {
 	padding: 2px 4px;
 	font-size: 0.9em;

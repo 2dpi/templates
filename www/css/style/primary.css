@@ -22,7 +22,11 @@
 }
 .callout, .primary.callout, .primary .callout
 {
-	border-left: #009F89;
+	border-right: 0 solid transparent;
+	border-top: 0 solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 3px solid #357EBD;
+	padding-left: 0.5em;
 }
 /*PRIMARY - LINKS*/
 A:link, A.primary, A:visited, A.primary:visited
