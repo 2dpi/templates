@@ -48,12 +48,16 @@ keywords: css3 grid
 {% highlight html linenos %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
 <!-- add .flush to zero margins -->
 <div class="group flush">
+  <!-- add .wide_10 to set column width -->
   <div class="wide_10"></div>
   <!-- repeat as required -->
 </div>
 {% endraw %}{% endhighlight %}
+<p>OR</p>
 {% highlight html linenos %}{% raw %}
+<!-- add .flush to zero margins -->
 <div class="group">
+  <!-- add .wide_10 to set column width -->
   <!-- add .flush to zero margins NOTE variation - not on parent! -->
   <div class="wide_10 flush"></div>
   <!-- repeat as required -->
