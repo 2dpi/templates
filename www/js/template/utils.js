@@ -6,8 +6,8 @@ $(document).ready(function(){
 	// });
 
 
-	$(document).bind("click", function (".toggle") {
-	  $(".toggle".target).closest(".toggle_hide").toggle();
-	  $(".toggle".target).closest(".toggle_show").toggle();
+	$(document).bind("click", function (e) {
+	  $(e.target).closest(".toggle_hide").toggle();
+	  $(e.target).closest(".toggle_show").toggle();
 	});
 });
