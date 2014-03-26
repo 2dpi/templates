@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".toggle_show").hide();
 	$(".toggle").click(function () {
-		$.nextUntil(".toggle_hide").first().toggle();
-		$.nextUntil(".toggle_show").first().toggle();
+		$('.toggle').closest(".toggle_hide").toggle();
+		$('.toggle').closest(".toggle_show").toggle();
 	});
 });
