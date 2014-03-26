@@ -752,6 +752,7 @@ code {
 	border-radius: 4px;
 }
 pre code {
+	display: block;
 	background-color: transparent;
 	white-space: inherit;
 	color: inherit;
