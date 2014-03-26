@@ -745,7 +745,7 @@ hr {
 }
 code {
 	padding: 2px 4px;
-	font-size: 90%;
+	font-size: 0.9em;
 	color: #C7254E;
 	background-color: #F9F2F4;
 	white-space: nowrap;
