@@ -751,6 +751,9 @@ code {
 	/*[disabled]white-space:nowrap;*/
 	border-radius: 4px;
 }
+pre code {
+	background-color: transparent;
+}
 /*EMBED VIDEO*/
 .video_container {
 	display: block;
