@@ -7,5 +7,4 @@ $(document).ready(function(){
 			$(this).siblings.next(".toggle_show").toggle();
 		});
 	});
-	mySwop();
 });
