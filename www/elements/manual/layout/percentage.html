@@ -464,13 +464,41 @@ keywords: css3 grid
 {% endraw %}{% endhighlight %}
           </div>
           <hr>
+          <div class="callout">
+            <h4>80/20 Combo Flush<i class="icon-embed float_right toggle"></i></h4>
+            <p>CSS classes used <code>.group</code> <code>.flush</code> <code>.wide_80</code> <code>.wide_20</code></p>
+          </div>
+          <div class="toggle_hide container_panel out_tight out_only_bottom group flush">
+            <div class="wide_80 in_tight outline">wide_80</div>
+            <div class="wide_20 in_tight outline">wide_20</div>
+          </div>
+          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .flush to zero margins -->
+<div class="group flush">
+  <!-- add .wide_80 to set column width -->
+  <div class="wide_80"></div>
+  <!-- add .wide_20 to set column width -->
+  <div class="wide_20"></div>
+  <!-- repeat as required -->
+</div>
+<p>OR</p>
+<!-- add .group (clearfix) to solve floating problems -->
+<div class="group">
+  <!-- add .wide_80 to set column width -->
+  <!-- add .flush to zero margins -->
+  <div class="wide_80 flush"></div>
+  <!-- add .wide_20 to set column width -->
+  <!-- add .flush to zero margins -->
+  <div class="wide_20 flush"></div>
+  <!-- repeat as required -->
+</div>
+{% endraw %}{% endhighlight %}
+          </div>
+          <hr>
 
           <hr>
           <div class="flush">
-            <div class="out_tight_bot group">
-              <div class="wide_80 in_tight outline">wide_80</div>
-              <div class="wide_20 in_tight outline">wide_20</div>
-            </div>
             <div class="out_tight_bot group">
               <div class="wide_75 in_tight outline">wide_75</div>
               <div class="wide_25 in_tight outline">wide_25</div>
