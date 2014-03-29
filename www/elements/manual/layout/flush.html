@@ -10,27 +10,49 @@ keywords: css3 grid
       <article>
         <h1 class="title">CSS Grid - Flush Fitting</h1>
         <p>Columns butt up against each other, usefull for layouts with background colours.</p>
+
+        <div class="callout">
+          <h4>20/80 Combo Flush<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.flush</code> <code>.wide_20</code> <code>.wide_80</code></p>
+        </div>
         <div class="columns_2 flush out_tight out_only_bottom">
-          <div class="column in_loose outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline"><span class="primary">col 2</span></div>
+          <div class="column in_loose outline">col 1</div>
+          <div class="column in_loose outline">col 2</div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_2 to indicate number of columns -->
+<div class="columns_2">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+</div>
+{% endraw %}{% endhighlight %}
+
+        </div>
+        <hr>
+        <div class="columns_2 flush out_tight out_only_bottom">
+          <div class="column in_loose outline">col 1</div>
+          <div class="column in_loose outline">col 2</div>
         </div>
         <div class="columns_3 flush out_tight out_only_bottom">
-          <div class="column in_loose outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
+          <div class="column in_loose outline">col 1</div>
+          <div class="column in_loose outline">col 2</div>
+          <div class="column in_loose outline">col 3</div>
         </div>
         <div class="columns_4 flush out_tight out_only_bottom">
-          <div class="column in_loose outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
-          <div class="column in_loose outline"><span class="primary">col 4</span></div>
+          <div class="column in_loose outline">col 1</div>
+          <div class="column in_loose outline">col 2</div>
+          <div class="column in_loose outline">col 3</div>
+          <div class="column in_loose outline">col 4</div>
         </div>
         <div class="columns_5 flush out_tight out_only_bottom">
-          <div class="column in_loose outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
-          <div class="column in_loose outline"><span class="primary">col 4</span></div>
-          <div class="column in_loose outline"><span class="primary">col 5</span></div>
+          <div class="column in_loose outline">col 1</div>
+          <div class="column in_loose outline">col 2</div>
+          <div class="column in_loose outline">col 3</div>
+          <div class="column in_loose outline">col 4</div>
+          <div class="column in_loose outline">col 5</div>
         </div>
       </article>
     </div>
