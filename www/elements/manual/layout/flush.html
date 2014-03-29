@@ -22,7 +22,8 @@ keywords: css3 grid
         <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
 <!-- add .columns_2 to indicate number of columns -->
-<div class="group columns_2">
+<!-- add .flush to zero margins -->
+<div class="group columns_2 flush">
   <!-- add .column to identify column -->
   <div class="column">col 1</div>
   <!-- add .column to identify column -->
@@ -43,8 +44,9 @@ keywords: css3 grid
         </div>
         <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<!-- add .columns_2 to indicate number of columns -->
-<div class="group columns_3">
+<!-- add .columns_3 to indicate number of columns -->
+<!-- add .flush to zero margins -->
+<div class="group columns_3 flush">
   <!-- add .column to identify column -->
   <div class="column">col 1</div>
   <!-- add .column to identify column -->
@@ -53,23 +55,82 @@ keywords: css3 grid
   <div class="column">col 3</div>
 </div>
 {% endraw %}{% endhighlight %}
-
+<p>OR</p>
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_3 to indicate number of columns -->
+<div class="group columns_3">
+  <!-- add .flush to zero margins -->
+  <!-- add .column to identify column -->
+  <div class="column flush">col 1</div>
+  <!-- add .flush to zero margins -->
+  <!-- add .column to identify column -->
+  <div class="column flush">col 2</div>
+  <!-- add .flush to zero margins -->
+  <!-- add .column to identify column -->
+  <div class="column flush">col 3</div>
+</div>
+{% endraw %}{% endhighlight %}
         </div>
         <hr>
-
-        <div class="columns_4 flush out_tight out_only_bottom">
+        <div class="callout">
+          <h4>4 Column Flush<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_4</code>  <code>.column</code> <code>.flush</code></p>
+        </div>
+        <div class="toggle_hide group columns_4 flush out_tight out_only_bottom">
           <div class="column in_loose outline">col 1</div>
           <div class="column in_loose outline">col 2</div>
           <div class="column in_loose outline">col 3</div>
           <div class="column in_loose outline">col 4</div>
         </div>
-        <div class="columns_5 flush out_tight out_only_bottom">
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_4 to indicate number of columns -->
+<!-- add .flush to zero margins -->
+<div class="group columns_4 flush">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 3</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 4</div>
+</div>
+{% endraw %}{% endhighlight %}
+
+        </div>
+        <hr>
+        <div class="callout">
+          <h4>5 Column Flush<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_4</code>  <code>.column</code> <code>.flush</code></p>
+        </div>
+        <div class="toggle_hide group columns_5 flush out_tight out_only_bottom">
           <div class="column in_loose outline">col 1</div>
           <div class="column in_loose outline">col 2</div>
           <div class="column in_loose outline">col 3</div>
           <div class="column in_loose outline">col 4</div>
           <div class="column in_loose outline">col 5</div>
         </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_5 to indicate number of columns -->
+<!-- add .flush to zero margins -->
+<div class="group columns_5 flush">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 3</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 4</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 5</div>
+</div>
+{% endraw %}{% endhighlight %}
+
+        </div>
+        <hr>
       </article>
     </div>
     <aside class="container_aside">
