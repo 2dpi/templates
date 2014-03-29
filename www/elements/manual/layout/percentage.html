@@ -747,10 +747,22 @@ keywords: css3 grid
           <h3 class="title">Russian Doll</h3>
           <div class="callout">
             <h4>Nested Layout<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.flush</code> <code>.wide_20</code> <code>.wide_80</code></p>
+            <p>CSS classes used <code>.group</code> <code>.flush</code> <code>.wide_50</code> <code>.wide_50</code></p>
           </div>
           <div class="toggle_hide container_panel out_tight out_only_bottom group">
-            <div class="wide_50 in_tight outline fill">wide_50</div>
+            <div class="wide_50 in_tight outline fill">
+              <p>wide_50</p>
+              <div class="group">
+                <div class="wide_40 in_tight outline no_fill">wide_40</div>
+                <div class="wide_60 in_tight outline no_fill">
+                  <p>wide_60</p>
+                  <div class="group">
+                    <div class="wide_50 in_tight outline fill">50</div>
+                    <div class="wide_50 in_tight outline fill">50</div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="wide_50 in_tight outline fill">
               <p>wide_50</p>
                 <div class="group">
