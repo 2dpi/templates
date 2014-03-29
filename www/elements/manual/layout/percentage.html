@@ -8,7 +8,7 @@ keywords: css3 grid
   <div class="container_content article">
     <div class="container_article">
       <article>
-        <h1 class="title">Percentage Based </h1>
+        <h1 class="title">Percentage Based Grid</h1>
         <p>Columns widths are based on percentage, handy when widths are not uniform/consistent. Any combination works provided width never exceeds 100% (i.e. 60/40, 70/30, 80/20 etc..)</p>
           <p>Online tools used: <a href="http://www.responsivegridsystem.com/calculator/" target="_blank">http://www.responsivegridsystem.com/calculator/</a></p>
           <p>All percentage based columns have spacing by default (1.6%)</p>
@@ -776,6 +776,48 @@ keywords: css3 grid
                   </div>
                 </div>
             </div>
+          </div>
+          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<div class="group">
+  <!-- add .wide_50 to set column width -->
+  <div class="wide_50">
+    <!-- add .group (clearfix) to solve floating problems -->
+    <div class="group">
+      <!-- add .wide_30 to set column width -->
+      <div class="wide_30"></div>
+      <!-- add .wide_70 to set column width -->
+      <div class="wide_70">
+        <!-- add .group (clearfix) to solve floating problems -->
+        <div class="group">
+          <!-- add .wide_50 to set column width -->
+          <div class="wide_50"></div>
+          <!-- add .wide_50 to set column width -->
+          <div class="wide_50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- add .wide_50 to set column width -->
+  <div class="wide_50">
+    <!-- add .group (clearfix) to solve floating problems -->
+    <div class="group">
+      <!-- add .wide_50 to set column width -->
+      <div class="wide_50"></div>
+      <!-- add .wide_50 to set column width -->
+      <div class="wide_50">
+        <!-- add .group (clearfix) to solve floating problems -->
+        <div class="group">
+          <!-- add .wide_50 to set column width -->
+          <div class="wide_50"></div>
+          <!-- add .wide_50 to set column width -->
+          <div class="wide_50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endraw %}{% endhighlight %}
           </div>
       </article>
     </div>
