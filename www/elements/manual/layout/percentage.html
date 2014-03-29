@@ -742,17 +742,17 @@ keywords: css3 grid
             <p>CSS classes used <code>.group</code> <code>.flush</code> <code>.wide_20</code> <code>.wide_80</code></p>
           </div>
           <div class="toggle_hide container_panel out_tight out_only_bottom group flush">
-            <div class="wide_20 in_tight outline">wide_20</div>
-            <div class="wide_80 in_tight outline">wide_80</div>
+            <div class="wide_20 in_tight outline fill">wide_20</div>
+            <div class="wide_80 in_tight outline fill">wide_80</div>
           </div>
           <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
 <!-- add .flush to zero margins -->
 <div class="group flush">
   <!-- add .wide_20 to set column width -->
-  <div class="wide_20 fill"></div>
+  <div class="wide_20"></div>
   <!-- add .wide_80 to set column width -->
-  <div class="wide_80 fill"></div>
+  <div class="wide_80"></div>
   <!-- repeat as required -->
 </div>
 {% endraw %}{% endhighlight %}
