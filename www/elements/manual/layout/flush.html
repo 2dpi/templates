@@ -13,16 +13,16 @@ keywords: css3 grid
 
         <div class="callout">
           <h4>2 Column Flush<i class="icon-embed float_right toggle"></i></h4>
-          <p>CSS classes used <code>.columns_2</code> <code>.column</code> <code>.flush</code></p>
+          <p>CSS classes used <code>.group</code> <code>.columns_2</code>  <code>.column</code> <code>.flush</code></p>
         </div>
-        <div class="toggle_hide columns_2 flush out_tight out_only_bottom">
+        <div class="toggle_hide group columns_2 flush out_tight out_only_bottom">
           <div class="column in_loose outline">col 1</div>
           <div class="column in_loose outline">col 2</div>
         </div>
         <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
 <!-- add .columns_2 to indicate number of columns -->
-<div class="columns_2">
+<div class="group columns_2">
   <!-- add .column to identify column -->
   <div class="column">col 1</div>
   <!-- add .column to identify column -->
