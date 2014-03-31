@@ -8,29 +8,104 @@ keywords: css3 grid
   <div class="container_content article">
     <div class="container_article">
       <article>
-        <h1 class="title">CSS Grid - Flush Fitting</h1>
+        <h1 class="title">CSS Grid</h1>
         <p>Columns are spaced, usefull for layouts that require distinctive blocks.</p>
-        <div class="columns_2 out_tight out_only_bottom">
-          <div class="column in_loose outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline"><span class="primary">col 2</span></div>
+        <div class="callout">
+          <h4>2 Column<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_2</code>  <code>.column</code></p>
         </div>
-        <div class="columns_3 out_tight out_only_bottom">
-          <div class="column in_loose outline fill"><span class="primary">col 1</span></div>
-          <div class="column in_loose outline fill"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
+        <div class="toggle_hide group columns_2 out_tight out_only_bottom">
+          <div class="column in_loose outline fill">col 1</div>
+          <div class="column in_loose outline fill">col 2</div>
         </div>
-        <div class="columns_4 out_tight out_only_bottom">
-          <div class="column in_loose fill outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose fill outline"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
-          <div class="column in_loose outline"><span class="primary">col 4</span></div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_2 to indicate number of columns -->
+<div class="group columns_2">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+</div>
+{% endraw %}{% endhighlight %}
         </div>
-        <div class="columns_5 out_tight out_only_bottom">
-          <div class="column in_loose fill outline"><span class="primary">col 1</span></div>
-          <div class="column in_loose fill outline"><span class="primary">col 2</span></div>
-          <div class="column in_loose outline"><span class="primary">col 3</span></div>
-          <div class="column in_loose outline"><span class="primary">col 4</span></div>
-          <div class="column in_loose outline"><span class="primary">col 5</span></div>
+        <hr>
+        <div class="callout">
+          <h4>3 Column<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_3</code>  <code>.column</code></p>
+        </div>
+        <div class="toggle_hide group columns_3 out_tight out_only_bottom">
+          <div class="column in_loose outline fill">col 1</div>
+          <div class="column in_loose outline fill">col 2</div>
+          <div class="column in_loose outline fill">col 3</div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_3 to indicate number of columns -->
+<div class="group columns_3">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 3</div>
+</div>
+{% endraw %}{% endhighlight %}
+        </div>
+        <hr>
+        <div class="callout">
+          <h4>4 Column<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_4</code>  <code>.column</code></p>
+        </div>
+        <div class="toggle_hide group columns_4 out_tight out_only_bottom">
+          <div class="column in_loose outline fill">col 1</div>
+          <div class="column in_loose outline fill">col 2</div>
+          <div class="column in_loose outline fill">col 3</div>
+          <div class="column in_loose outline fill">col 4</div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_4 to indicate number of columns -->
+<div class="group columns_4">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 3</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 4</div>
+</div>
+{% endraw %}{% endhighlight %}
+        </div>
+        <hr>
+        <div class="callout">
+          <h4>5 Column<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.group</code> <code>.columns_4</code>  <code>.column</code></p>
+        </div>
+        <div class="toggle_hide group columns_5 out_tight out_only_bottom">
+          <div class="column in_loose outline fill">col 1</div>
+          <div class="column in_loose outline fill">col 2</div>
+          <div class="column in_loose outline fill">col 3</div>
+          <div class="column in_loose outline fill">col 4</div>
+          <div class="column in_loose outline fill">col 5</div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<!-- add .columns_5 to indicate number of columns -->
+<div class="group columns_5">
+  <!-- add .column to identify column -->
+  <div class="column">col 1</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 2</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 3</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 4</div>
+  <!-- add .column to identify column -->
+  <div class="column">col 5</div>
+</div>
+{% endraw %}{% endhighlight %}
         </div>
       </article>
     </div>
