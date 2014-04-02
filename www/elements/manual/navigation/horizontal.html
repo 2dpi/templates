@@ -11,7 +11,31 @@ description: w3 framework - media
       <article>
         <h1 class="title">Navigation</h1>
         <p>Add content here.</p>
-
+          <div class="callout">
+            <h4>Horizontal Fluid Menu <i class="icon-embed float_right toggle"></i></h4>
+            <p>CSS classes used <code>.group</code> <code>.wide_80</code> <code>.wide_20</code></p>
+          </div>
+          <div class="toggle_hide out_tight out_only_bottom group">
+            <ul class="menu fluid">
+              <li><a href="#">link link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link link link</a></li>
+              <li><a href="#">link link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+          <div class="toggle_show out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}
+<ul class="menu table">
+  <li><a href="#">link link</a></li>
+  <li><a href="#">link</a></li>
+  <li><a href="#">link link link</a></li>
+  <li><a href="#">link link</a></li>
+  <li><a href="#">link</a></li>
+</ul>
+{% endraw %}{% endhighlight %}
+          </div>
+          <hr>
       </article>
     </div>
     <aside class="container_aside">
