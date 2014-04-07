@@ -1,5 +1,8 @@
 /*[fmt]1A90-1A0A-6*/
 /*MENU - menu main*/
+.fluid {
+	display: table;
+}
 .nav_main ul {
 	-webkit-box-sizing: border-box;
 	/*Safari/Chrome, other WebKit*/
