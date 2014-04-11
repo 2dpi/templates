@@ -9,131 +9,19 @@ keywords: css3 grid
     <div class="container_article">
       <article>
         <h1 class="title">CSS Table</h1>
-        <p>Columns widths are based on percentage, handy when widths are not uniform/consistent. Any combination works provided width never exceeds 100% (i.e. 60/40, 70/30, 80/20 etc..)</p>
-          <p>Online tools used: <a href="http://www.responsivegridsystem.com/calculator/" target="_blank">http://www.responsivegridsystem.com/calculator/</a></p>
-          <p>All percentage based columns have spacing by default (1.6%)</p>
+        <p>Cell widths are based on percentage, handy when widths are not uniform/consistent. Any combination works provided width never exceeds 100% (i.e. 60/40, 70/30, 80/20 etc..)</p>
+        <p>Mimicking HTML Table behaviour forces equal heights on targeted elements and solves a common styling issue.</p>
+        <p>"Cells" will also have equal width unless otherwise specified.</p>
           <p><em><b>NOTE!</b> additional calasses used for spacing, border and background colour.</em> <code>.in_tight</code> <code>.out_tight</code> <code>.out_only_bottom</code> <code>.outline</code> <code>.fill</code></p>
           <div class="callout">
-            <h4>10% Column width<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.wide_10</code></p>
+            <h4>4 Cells<i class="icon-embed float_right toggle"></i></h4>
+            <p>CSS classes used <code>.table</code> <code>.cell</code></p>
           </div>
-          <div class="toggle_hide container_panel out_tight out_only_bottom group">
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-          </div>
-          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<div class="group">
-  <!-- add .wide_10 to set column width -->
-  <div class="wide_10"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-          </div>
-          <div class="callout">
-            <h4>10% Column width - flush fitting<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.wide_10</code> <code>.flush</code></p>
-          </div>
-          <div class="toggle_hide container_panel out_tight out_only_bottom group flush">
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-            <div class="wide_10 in_tight outline fill">w10</div>
-          </div>
-          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill flush">
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<!-- add .flush to zero margins -->
-<div class="group flush">
-  <!-- add .wide_10 to set column width -->
-  <div class="wide_10"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-<p>OR</p>
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<div class="group">
-  <!-- add .wide_10 to set column width -->
-  <!-- add .flush to zero margins NOTE variation - not on parent! -->
-  <div class="wide_10 flush"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-          </div>
-          <hr>
-          <div class="callout">
-            <h4>20% Column width<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.wide_20</code></p>
-          </div>
-          <div class="toggle_hide container_panel out_tight out_only_bottom group">
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-          </div>
-          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<div class="group">
-  <!-- add .wide_20 to set column width -->
-  <div class="wide_20"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-          </div>
-          <div class="callout">
-            <h4>20% Column width - flush fitting<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.wide_20</code> <code>.flush</code></p>
-          </div>
-          <div class="toggle_hide container_panel out_tight out_only_bottom group flush">
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-            <div class="wide_20 in_tight outline fill">wide_20</div>
-          </div>
-          <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<!-- add .flush to zero margins -->
-<div class="group flush">
-  <!-- add .wide_20 to set column width -->
-  <div class="wide_20"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-<p>OR</p>
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
-<div class="group">
-  <!-- add .wide_20 to set column width -->
-  <!-- add .flush to zero margins NOTE variation - not on parent! -->
-  <div class="wide_20 flush"></div>
-  <!-- repeat as required -->
-</div>
-{% endraw %}{% endhighlight %}
-          </div>
-          <hr>
-          <div class="callout">
-            <h4>25% Column width<i class="icon-embed float_right toggle"></i></h4>
-            <p>CSS classes used <code>.group</code> <code>.wide_25</code></p>
-          </div>
-          <div class="toggle_hide container_panel out_tight out_only_bottom group">
-            <div class="wide_25 in_tight outline fill">wide_25</div>
-            <div class="wide_25 in_tight outline fill">wide_25</div>
-            <div class="wide_25 in_tight outline fill">wide_25</div>
-            <div class="wide_25 in_tight outline fill">wide_25</div>
+          <div class="toggle_hide container_panel out_tight out_only_bottom table">
+            <div class="cell in_tight outline fill">cell 1</div>
+            <div class="cell in_tight outline fill">cell 2</div>
+            <div class="cell in_tight outline fill">cell 3</div>
+            <div class="cell in_tight outline fill">cell 4</div>
           </div>
           <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
