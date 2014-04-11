@@ -388,3 +388,61 @@
 		width: 100%;
 	}
 }
+/*TABLE */
+.table
+{
+	display: table;
+}
+[class*="cell_"], .cell
+{
+	display: table-cell;
+	float: none;
+}
+.cell_10
+{
+	width: 10%;
+}
+.cell_20
+{
+	width: 20%;
+}
+.cell_25
+{
+	width: 25%;
+}
+.cell_30
+{
+	width: 30%;
+}
+.cell_33
+{
+	width: 33.33%;
+}
+.cell_40
+{
+	width: 40%;
+}
+.cell_50
+{
+	width: 50%;
+}
+.cell_60
+{
+	width: 60%;
+}
+.cell_66
+{
+	width: 66%;
+}
+.cell_70
+{
+	width: 70%;
+}
+.cell_80
+{
+	width: 80%;
+}
+.cell_90
+{
+	width: 90%;
+}
