@@ -393,10 +393,15 @@
 {
 	display: table;
 }
+.table_column
+{
+	height: 98%;
+}
 [class*="cell_"], .cell
 {
 	display: table-cell;
 	float: none;
+	height: 1px;
 }
 .cell_10
 {
