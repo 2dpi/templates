@@ -395,7 +395,7 @@
 }
 .cell_spacer
 {
-	height: 100%;
+	height: 100% !important;
 }
 [class*="cell_"], .cell
 {
