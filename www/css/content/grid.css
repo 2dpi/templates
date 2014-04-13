@@ -402,6 +402,7 @@
 .cellspacer
 {
 	height: 100% !important;
+	height: 1px;
 }
 .cell_10
 {
