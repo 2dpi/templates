@@ -393,15 +393,15 @@
 {
 	display: table;
 }
-.cell_spacer
-{
-	height: 100% !important;
-}
 [class*="cell_"], .cell
 {
 	display: table-cell;
 	float: none;
 	height: 1px;
+}
+.cell_spacer
+{
+	height: 100% !important;
 }
 .cell_10
 {
