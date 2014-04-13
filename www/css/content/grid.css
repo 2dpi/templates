@@ -398,8 +398,8 @@
 {
 	display: table-cell;
 	height: 1px;
-	height: 100%;
-	overflow: hidden;
+	height: 1%;
+	/*[disabled]overflow:hidden;*/
 }
 .cellspacer
 {
