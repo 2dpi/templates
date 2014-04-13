@@ -392,12 +392,12 @@
 .table
 {
 	display: table;
+	height: 100%;
 }
 [class*="cell_"], .cell
 {
 	display: table-cell;
-	float: none;
-	height: 1px;
+	height: 100%;
 }
 .cellspacer
 {
