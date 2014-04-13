@@ -397,12 +397,13 @@
 [class*="cell_"], .cell
 {
 	display: table-cell;
+	height: 1px;
 	height: 100%;
+	overflow: hidden;
 }
 .cellspacer
 {
 	height: 100% !important;
-	height: 1px;
 }
 .cell_10
 {
