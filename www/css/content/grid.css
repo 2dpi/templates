@@ -400,15 +400,20 @@
 	min-height: 100%;
 	height: 1px;
 }
+[class*="cell_"]:nth-child(1) .cellspacer, .cell:nth-child(1) .cellspacer
+{
+	margin-left: 0px;
+}
 /*@-moz-document url-prefix() {
 [class*="cell_"], .cell
-	{
-		height: 100%;
-	}
+{
+height: 100%;
+}
 }*/
 .cellspacer
 {
 	height: 100%;
+	margin-left: 1.6%;
 }
 .cell_10
 {
