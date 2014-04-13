@@ -397,7 +397,7 @@
 [class*="cell_"], .cell
 {
 	display: table-cell;
-	height: 1px;
+	min-height: 1px;
 	height: 1%;
 	/*[disabled]overflow:hidden;*/
 }
