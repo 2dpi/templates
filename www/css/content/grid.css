@@ -400,6 +400,12 @@
 	min-height: 1px;
 	height: 1%;
 }
+@-moz-document url-prefix() {
+[class*="cell_"], .cell
+	{
+		height: 100%;
+	}
+}
 .cellspacer
 {
 	height: 100%;
