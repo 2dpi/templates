@@ -397,15 +397,15 @@
 [class*="cell_"], .cell
 {
 	display: table-cell;
-	min-height: 1px;
-	height: 1%;
+	min-height: 100%;
+	height: 1px;
 }
-@-moz-document url-prefix() {
+/*@-moz-document url-prefix() {
 [class*="cell_"], .cell
 	{
 		height: 100%;
 	}
-}
+}*/
 .cellspacer
 {
 	height: 100%;
