@@ -1,23 +1,2 @@
 /*HEADER*/
-HEADER#item_101
-{
-	background-color: #FFFFFF;
-	background-image: url(/templates/www/images/style/header_bg.jpg);
-	background-position: 0 60px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	height: 240px;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
-	text-align: left;
-/*correction for IE6 fix on body tag*/
-	width: 960px;
-}
-HEADER#item_101 #logo
-{
-}
-HEADER#item_101 #logo IMG
-{
-	width: 207px;
-}
+@import url(/templates/www/css/skeleton/head/header.css);
