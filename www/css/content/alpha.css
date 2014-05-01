@@ -372,6 +372,17 @@ input[type="submit"].btn:hover {
 	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #e9e9e9), color-stop(100%, #f9f9f9) );
 	background-color: #E9E9E9;
 }
+.btn.icon,
+[class*="btn_"].icon {
+	padding-right: 1.4em;
+}
+.btn i,
+[class*="btn_"] i {
+	position: absolute;
+	top: 0;
+	right: 1em;
+	width: 1em;
+}
 /*PANEL - alert*/
 [class*="panel_"] h4 {
 	color: inherit !important;
@@ -384,40 +395,6 @@ input[type="submit"].btn:hover {
 	float: right;
 	font-weight: bold;
 	font-size: 1.2em;
-}
-/*ACTIONS - message/warning*/
-.message,
-[class*="_message"],
-.warning,
-[class*="_warning"] {
-	background-color: #FCF8E3 !important;
-	border: 1px solid #FBEED5 !important;
-	color: #C09853 !important;
-}
-.message h4,
-[class*="_message"] h4 {
-	color: inherit !important;
-}
-/*ACTIONS - success*/
-.success,
-[class*="_success"] {
-	background-color: #DFF0D8 !important;
-	border-color: #D6E9C6 !important;
-	color: #468847 !important;
-}
-/*ACTIONS - info*/
-.info,
-[class*="_info"] {
-	background-color: #D9EDF7 !important;
-	border-color: #BCE8F1 !important;
-	color: #3A87AD !important;
-}
-/*ACTIONS - error*/
-.error,
-[class*="_error"] {
-	background-color: #F2DEDE;
-	border-color: #EBCCD1;
-	color: #A94442;
 }
 /*ACTIONS - remove*/
 .remove,
@@ -602,6 +579,52 @@ input[type="submit"].btn:hover {
 	background: -moz-linear-gradient( center top, #428aca 5%, #54b2ff 100% );
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#428aca', endColorstr='#54b2ff');
 	background-color: #54B2FF;
+}
+/*ACTIONS - message/warning*/
+.message,
+[class*="_message"],
+.warning,
+[class*="_warning"] {
+	background-color: #FCF8E3 !important;
+	border: 1px solid #FBEED5 !important;
+	color: #C09853 !important;
+}
+.message h4,
+[class*="_message"] h4 {
+	color: inherit !important;
+}
+/*ACTIONS - success*/
+.success,
+[class*="_success"] {
+	background-color: #DFF0D8 !important;
+	border-color: #D6E9C6 !important;
+	color: #468847 !important;
+}
+.success,
+[class*="_success"] h4 {
+	color: inherit;
+}
+/*ACTIONS - info*/
+.info,
+[class*="_info"] {
+	background-color: #D9EDF7 !important;
+	border-color: #BCE8F1 !important;
+	color: #3A87AD !important;
+}
+.info,
+[class*="_info"] h4 {
+	color: inherit;
+}
+/*ACTIONS - error*/
+.error,
+[class*="_error"] {
+	background-color: #F2DEDE;
+	border-color: #EBCCD1;
+	color: #A94442;
+}
+.error,
+[class*="_error"] h4 {
+	color: inherit;
 }
 /*TYPOGRAPHY - spacing / placement / display (columns / lists / tables)*/
 .row {
