@@ -417,6 +417,30 @@ input[type="submit"].btn,
 	border-color: #D83526;
 	color: #FFFFFF;
 }
+.remove:link,
+[class*="_remove"]:link,
+[class*="_remove"]:visited {
+	color: #FFFFFF !important;
+}
+.remove.grad,
+[class*="_remove"].grad {
+	background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0000 100% );
+	background: -ms-linear-gradient( top, #fe1a00 5%, #ce0000 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0000');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #fe1a00), color-stop(100%, #ce0000) );
+	background-color: #FE1A00;
+}
+[class*="_remove"]:hover.grad {
+	background: -moz-linear-gradient( center top, #ce0000 5%, #fe1a00 100% );
+	background: -ms-linear-gradient( top, #ce0000 5%, #fe1a00 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0000', endColorstr='#fe1a00');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #ce0000), color-stop(100%, #fe1a00) );
+	background-color: #CE0000;
+}
+[class*="_remove"]:hover {
+	background-color: #D83526;
+	border-color: #FE1900;
+}
 /*ACTIONS - edit*/
 .edit,
 [class*="_edit"] {
@@ -448,34 +472,31 @@ input[type="submit"].btn,
 /*ACTIONS - add*/
 .add,
 [class*="_add"] {
-	color: #FFF !important;
-	background-color: #428BCA !important;
-	border-color: #357EBD !important;
-}
-.add.grad,
-[class*="_add"].grad {
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #428aca), color-stop(1, #54b2ff) );
-	background: -moz-linear-gradient( center top, #428aca 5%, #54b2ff 100% );
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#428aca', endColorstr='#54b2ff');
-	background-color: #428ACA;
+	color: #FFF;
+	background-color: #428BCA;
+	border-color: #357EBD;
 }
 .add:link,
 [class*="_add"]:link,
-.add:visited,
 [class*="_add"]:visited {
 	color: #B9D9F4 !important;
 }
-.add:hover,
-[class*="_add"]:hover {
-	background-color: #BBDAF5 !important;
-	color: #228DEA !important;
-}
-.add:hover.grad,
-[class*="_add"]:hover.grad {
+.add.grad,
+[class*="_add"].grad {
+	background-color: #428ACA;
 	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #54b2ff), color-stop(1, #428aca) );
 	background: -moz-linear-gradient( center top, #54b2ff 5%, #428aca 100% );
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#54b2ff', endColorstr='#428aca');
+}
+[class*="_add"]:hover.grad {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #428aca), color-stop(1, #54b2ff) );
+	background: -moz-linear-gradient( center top, #428aca 5%, #54b2ff 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#428aca', endColorstr='#54b2ff');
 	background-color: #54B2FF;
+}
+[class*="_add"]:hover {
+	background-color: #3276B1;
+	border-color: #285E8E;
 }
 /*TYPOGRAPHY - spacing / placement / display (columns / lists / tables)*/
 .row {
