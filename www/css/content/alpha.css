@@ -467,6 +467,7 @@ input[type="submit"].btn:hover {
 [class*="btn_"] i[class*="icon-"]:before {
 	line-height: 2.2;
 	width: 2em;
+	padding-right: 0px;
 }
 /*PANEL - alert*/
 [class*="panel_"] h4 {
