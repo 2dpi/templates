@@ -460,6 +460,8 @@ input[type="submit"].btn:hover {
 	right: 0;
 	width: 2em;
 	font-size: 0.8em;
+	margin: 0px;
+	padding: 0px;
 }
 .btn i[class*="icon-"]:before,
 [class*="btn_"] i[class*="icon-"]:before {
