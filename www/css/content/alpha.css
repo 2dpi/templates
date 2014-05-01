@@ -438,7 +438,6 @@ input[type="submit"].btn:hover {
 }
 .btn.icon,
 [class*="btn_"].icon {
-	position: relative;
 	padding-right: 2em;
 }
 .btn i,
@@ -448,7 +447,7 @@ input[type="submit"].btn:hover {
 	right: 0;
 	width: 1.5em;
 	font-size: 0.8em;
-	line-height: 1.6;
+	line-height: 2.2;
 }
 /*PANEL - alert*/
 [class*="panel_"] h4 {
