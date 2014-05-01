@@ -21,7 +21,7 @@
 				"name": "linkedin",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 0
 		},
 		{
@@ -43,7 +43,7 @@
 				"name": "code",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 1
 		},
 		{
@@ -65,7 +65,7 @@
 				"name": "css3",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 2
 		},
 		{
@@ -89,7 +89,7 @@
 				"name": "rss",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 3
 		},
 		{
@@ -111,7 +111,7 @@
 				"name": "html5",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 4
 		},
 		{
@@ -136,7 +136,7 @@
 				"name": "envelope",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 5
 		},
 		{
@@ -157,7 +157,7 @@
 				"name": "embed",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 6
 		},
 		{
@@ -179,7 +179,7 @@
 				"name": "google-plus",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 7
 		},
 		{
@@ -201,7 +201,7 @@
 				"name": "circle",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 8
 		},
 		{
@@ -224,7 +224,7 @@
 				"name": "facebook",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 9
 		},
 		{
@@ -246,7 +246,7 @@
 				"name": "twitter",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 10
 		},
 		{
@@ -271,7 +271,7 @@
 				"name": "menu",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 11
 		},
 		{
@@ -296,7 +296,7 @@
 				"name": "link",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 12
 		},
 		{
@@ -319,7 +319,7 @@
 				"name": "download",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 13
 		},
 		{
@@ -340,7 +340,7 @@
 				"name": "radio-checked",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 14
 		},
 		{
@@ -359,7 +359,7 @@
 				"name": "fast_rewind",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 15
 		},
 		{
@@ -382,7 +382,7 @@
 				"name": "minus",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 16
 		},
 		{
@@ -401,7 +401,7 @@
 				"name": "fast_forward",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 17
 		},
 		{
@@ -424,7 +424,7 @@
 				"name": "plus",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 18
 		},
 		{
@@ -443,7 +443,7 @@
 				"name": "rewind",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 19
 		},
 		{
@@ -468,7 +468,7 @@
 				"name": "checkmark",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 20
 		},
 		{
@@ -487,7 +487,7 @@
 				"name": "forward",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 21
 		},
 		{
@@ -512,7 +512,7 @@
 				"name": "close",
 				"ligatures": ""
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"iconIdx": 22
 		},
 		{
@@ -531,7 +531,7 @@
 				"name": "search",
 				"ligatures": ""
 			},
-			"setIdx": 2,
+			"setIdx": 3,
 			"iconIdx": 67
 		},
 		{
@@ -553,7 +553,7 @@
 				"name": "arrow",
 				"ligatures": ""
 			},
-			"setIdx": 3,
+			"setIdx": 4,
 			"iconIdx": 2
 		},
 		{
@@ -575,7 +575,7 @@
 				"name": "ring",
 				"ligatures": ""
 			},
-			"setIdx": 3,
+			"setIdx": 4,
 			"iconIdx": 5
 		},
 		{
@@ -597,7 +597,7 @@
 				"name": "dot",
 				"ligatures": ""
 			},
-			"setIdx": 3,
+			"setIdx": 4,
 			"iconIdx": 8
 		},
 		{
@@ -616,7 +616,7 @@
 				"name": "calendar",
 				"ligatures": ""
 			},
-			"setIdx": 2,
+			"setIdx": 3,
 			"iconIdx": 50
 		},
 		{
@@ -635,7 +635,7 @@
 				"name": "square",
 				"ligatures": ""
 			},
-			"setIdx": 2,
+			"setIdx": 3,
 			"iconIdx": 53
 		},
 		{
@@ -654,6 +654,27 @@
 				"prevSize": 32,
 				"code": 92,
 				"name": "play",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M207.429 877.714l52-52-134.286-134.286-52 52v61.143h73.143v73.143h61.143zM506.286 347.429q0-12.571-12.571-12.571-5.714 0-9.714 4l-309.714 309.714q-4 4-4 9.714 0 12.571 12.571 12.571 5.714 0 9.714-4l309.714-309.714q4-4 4-9.714zM475.429 237.714l237.714 237.714-475.429 475.429h-237.714v-237.714zM865.714 292.571q0 30.286-21.143 51.429l-94.857 94.857-237.714-237.714 94.857-94.286q20.571-21.714 51.429-21.714 30.286 0 52 21.714l134.286 133.714q21.143 22.286 21.143 52z"
+				],
+				"grid": 14,
+				"tags": [
+					"edit"
+				]
+			},
+			"properties": {
+				"order": 31,
+				"id": 0,
+				"prevSize": 28,
+				"code": 101,
+				"name": "edit",
 				"ligatures": ""
 			},
 			"setIdx": 0,
