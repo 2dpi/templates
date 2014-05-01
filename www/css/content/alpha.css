@@ -351,6 +351,7 @@ input[type="submit"].btn,
 	padding: 0.4em 1.2em 0.4em;
 	border: 1px solid #DCDCDC;
 	background-color: #F9F9F9;
+	line-height: 1;
 }
 .btn:hover {
 	text-decoration: none;
