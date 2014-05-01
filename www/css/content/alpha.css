@@ -422,6 +422,10 @@ input[type="submit"].btn,
 [class*="_remove"]:visited {
 	color: #FFFFFF !important;
 }
+[class*="_remove"]:hover {
+	background-color: #CE0000;
+	border-color: #FE1900;
+}
 .remove.grad,
 [class*="_remove"].grad {
 	background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0000 100% );
@@ -437,16 +441,36 @@ input[type="submit"].btn,
 	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #ce0000), color-stop(100%, #fe1a00) );
 	background-color: #CE0000;
 }
-[class*="_remove"]:hover {
-	background-color: #D83526;
-	border-color: #FE1900;
-}
 /*ACTIONS - edit*/
 .edit,
 [class*="_edit"] {
 	background-color: #F0AD4E;
 	border-color: #EEA236;
 	color: #FFFFFF;
+}
+.edit:link,
+[class*="_edit"]:link,
+[class*="_edit"]:visited {
+	color: #FFFFFF !important;
+}
+[class*="_edit"]:hover {
+	background-color: #ED9C28;
+	border-color: #D58512;
+}
+.edit.grad,
+[class*="_edit"].grad {
+	background: -moz-linear-gradient( center top, #f0ad4e 5%, #ed9b28 100% );
+	background: -ms-linear-gradient( top, #f0ad4e 5%, #ed9b28 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0ad4e', endColorstr='#ed9b28');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #f0ad4e), color-stop(100%, #ed9b28) );
+	background-color: #F0AD4E;
+}
+[class*="_edit"]:hover.grad {
+	background: -moz-linear-gradient( center top, #ed9b28 5%, #f0ad4e 100% );
+	background: -ms-linear-gradient( top, #ed9b28 5%, #f0ad4e 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed9b28', endColorstr='#f0ad4e');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #ed9b28), color-stop(100%, #f0ad4e) );
+	background-color: #ED9B28;
 }
 /*ACTIONS - search*/
 .search,
@@ -481,6 +505,10 @@ input[type="submit"].btn,
 [class*="_add"]:visited {
 	color: #B9D9F4 !important;
 }
+[class*="_add"]:hover {
+	background-color: #3276B1;
+	border-color: #285E8E;
+}
 .add.grad,
 [class*="_add"].grad {
 	background-color: #428ACA;
@@ -493,10 +521,6 @@ input[type="submit"].btn,
 	background: -moz-linear-gradient( center top, #428aca 5%, #54b2ff 100% );
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#428aca', endColorstr='#54b2ff');
 	background-color: #54B2FF;
-}
-[class*="_add"]:hover {
-	background-color: #3276B1;
-	border-color: #285E8E;
 }
 /*TYPOGRAPHY - spacing / placement / display (columns / lists / tables)*/
 .row {
