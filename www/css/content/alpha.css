@@ -405,6 +405,12 @@ p {
 input[type="submit"].btn,
 [class*="btn_"],
 .btn:visited {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
 	display: inline-block;
 	zoom: 1;
 	vertical-align: baseline;
@@ -442,12 +448,17 @@ input[type="submit"].btn:hover {
 }
 .btn i,
 [class*="btn_"] i {
+	height: 100%;
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 1.5em;
+	width: 2em;
 	font-size: 0.8em;
+}
+.btn i[class*="icon-"]:before,
+[class*="btn_"] i[class*="icon-"]:before {
 	line-height: 2.2;
+	width: 2em;
 }
 /*PANEL - alert*/
 [class*="panel_"] h4 {
