@@ -444,7 +444,7 @@ input[type="submit"].btn:hover {
 }
 .btn.icon,
 [class*="btn_"].icon {
-	padding-right: 2em;
+	padding-right: 2.5em;
 }
 .btn i,
 [class*="btn_"] i {
