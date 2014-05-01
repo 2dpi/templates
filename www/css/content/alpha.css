@@ -647,7 +647,7 @@ input[type="submit"].btn:hover {
 .add:link,
 [class*="_add"]:link,
 [class*="_add"]:visited {
-	color: #B9D9F4 !important;
+	color: #FFFFFF;
 }
 [class*="_add"]:hover {
 	background-color: #3276B1;
