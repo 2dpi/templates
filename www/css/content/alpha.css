@@ -448,12 +448,6 @@ input[type="submit"].btn:hover {
 }
 .btn i,
 [class*="btn_"] i {
-	-webkit-box-sizing: border-box;
-	/*Safari/Chrome, other WebKit*/
-	-moz-box-sizing: border-box;
-	/*Firefox, other Gecko*/
-	box-sizing: border-box;
-	/*Opera/IE 8+*/
 	height: 100%;
 	position: absolute;
 	top: 0;
@@ -462,6 +456,7 @@ input[type="submit"].btn:hover {
 	font-size: 0.8em;
 	margin: 0px !important;
 	padding: 0px !important;
+	border: 0px solid transparent;
 }
 .btn i[class*="icon-"]:before,
 [class*="btn_"] i[class*="icon-"]:before {
