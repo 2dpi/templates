@@ -670,20 +670,12 @@ input[type="submit"].btn:hover {
 	border: 1px solid #FBEED5 !important;
 	color: #C09853 !important;
 }
-.message h4,
-[class*="_message"] h4 {
-	color: inherit !important;
-}
 /*ACTIONS - success*/
 .success,
 [class*="_success"] {
 	background-color: #DFF0D8 !important;
 	border-color: #D6E9C6 !important;
 	color: #468847 !important;
-}
-.success,
-[class*="_success"] h4 {
-	color: inherit;
 }
 /*ACTIONS - info*/
 .info,
@@ -692,20 +684,12 @@ input[type="submit"].btn:hover {
 	border-color: #BCE8F1 !important;
 	color: #3A87AD !important;
 }
-.info,
-[class*="_info"] h4 {
-	color: inherit;
-}
 /*ACTIONS - error*/
 .error,
 [class*="_error"] {
 	background-color: #F2DEDE;
 	border-color: #EBCCD1;
 	color: #A94442;
-}
-.error,
-[class*="_error"] h4 {
-	color: inherit;
 }
 /*TYPOGRAPHY - spacing / placement / display (columns / lists / tables)*/
 .row {
