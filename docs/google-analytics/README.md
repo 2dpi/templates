@@ -8,10 +8,12 @@ Easily setup and configure Google Universal Analytics Events and Campaign Variab
 #### Button Click ####
 ```javascript
 onClick="ga('send', 'event', {
-    eventCategory: 'button',
-    eventAction:  'clicked',
-    eventLabel: 'quick book'
+    eventCategory: 'Category',
+    eventAction:  'Action',
+    eventLabel: 'Label'
 });"
 ```
 
-<ul><li>test</li></ul>
+- Category - ie. button
+- Action - ie. clicked
+- Label - ie. contact form
