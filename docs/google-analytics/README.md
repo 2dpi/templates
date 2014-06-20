@@ -1,3 +1,9 @@
+---
+layout: default
+title: w3 framework
+overview: true
+keywords: css3, html5, responsive, grid, scalable
+---
 # Google Analytics #
 ### Events ###
 
