@@ -4,6 +4,7 @@
 Easily setup and configure Google Universal Analytics Events and Campaign Variable tracking.
 
 [Google Analytics Configuration Tool](http://gaconfig.com/)
+<a href="http://gaconfig.com/" target="_blank">Google Analytics Configuration Tool</a>
 
 #### Button Click ####
 ```javascript
