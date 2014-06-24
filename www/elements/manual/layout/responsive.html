@@ -10,10 +10,18 @@ keywords: css3 grid
       <article>
         <h1 class="title">CSS Grid - Responsive</h1>
         <p>Override columns widths based on viewport size using media queries to achive required results.</p>
+        <p>To achive good results when the user uses the browser zoom function it's advisable to implement the use of em's instead of px's</p>
+        <p>http://pxtoem.com/ is a useful tool to help with the conversion. e.g. Browser defaut font size is 16px so to set a breakpoint at 300px = 18.750em</p>
         <p>Popular devices to target are iPhone, iPad, Samsung Galaxy Sx etc refer to http://viewportsizes.com for reference</p>
         {% highlight css linenos %}
           {% raw %}
             @media screen and (max-width: 320px) {
+              /* smart phone portrait */
+              .container_article {
+                width: 100%;
+              }
+            }
+            @media screen and (max-width: 480px) {
               /* smart phone portrait */
               .container_article {
                 width: 100%;
@@ -31,7 +39,7 @@ keywords: css3 grid
                 width: 100%;
               }
             }
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 768px) {
               /* small tablet portrait */
               .container_article {
                 width: 100%;
