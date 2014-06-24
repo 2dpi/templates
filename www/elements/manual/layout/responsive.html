@@ -12,36 +12,43 @@ keywords: css3 grid
         <p>Override columns widths based on viewport size using media queries to achive required results.</p>
         <p>To achive good results when the user uses the browser zoom function it's advisable to implement the use of em's instead of px's</p>
         <p>http://pxtoem.com/ is a useful tool to help with the conversion. e.g. Browser defaut font size is 16px so to set a breakpoint at 300px = 18.750em</p>
+        <p>NOTE: Mobile first approach - that is start with smallest view and work your way up. This applies to media query ordering, changing the order will render different results. Each media query applied to an element will only be actioned once.</p>
         <p>Popular devices to target are iPhone, iPad, Samsung Galaxy Sx etc refer to http://viewportsizes.com for reference</p>
         {% highlight css linenos %}
           {% raw %}
             @media screen and (max-width: 320px) {
               /* smart phone portrait */
-              .container_article {
+              .class {
                 width: 100%;
               }
             }
             @media screen and (max-width: 480px) {
-              /* smart phone portrait */
-              .container_article {
+              /* smart phone landscape */
+              .class {
                 width: 100%;
               }
             }
             @media screen and (max-width: 568px) {
               /* smart phone landscape (iPhone)*/
-              .container_article {
+              .class {
                 width: 100%;
               }
             }
             @media screen and (max-width: 640px) {
               /* smart phone landscape (samsung S*)*/
-              .container_article {
+              .class {
+                width: 100%;
+              }
+            }
+            @media screen and (max-width: 767px) {
+              /* small tablet portrait */
+              .class {
                 width: 100%;
               }
             }
             @media screen and (max-width: 768px) {
               /* small tablet portrait */
-              .container_article {
+              .class {
                 width: 100%;
               }
             }
