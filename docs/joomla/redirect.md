@@ -4,17 +4,11 @@ When working with forms or user specific actions a [redirect](http://api.joomla.
 
 After redirecting a user a [message](http://docs.joomla.org/Display_error_messages_and_notices) can be used to confirm any action taken. 
 
-
+**Note:** error message needs to be placed in front of redirect
 ``` php
 JFactory::getApplication()->enqueueMessage($msg, $msgType);
 JFactory::getApplication()->redirect($url);
 ```
-[Note][2]
-[2]: This is the text of the note
-
-
-[Note][1]
 
 
 
-[1]: test
