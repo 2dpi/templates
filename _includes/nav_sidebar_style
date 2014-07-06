@@ -1,0 +1,13 @@
+<ul class="menu">
+	<li class="item-8"><a href="/templates/www/elements/manual/style/borders.html">Borders</a></li>
+	<li class="item-9"><a href="/templates/www/elements/manual/style/gradients.html">Gradients</a></li>
+	<li class="item-10"><a href="/templates/www/elements/manual/style/spacing.html">Spacing</a></li>
+	<ul>
+		<li class="item-1"><a href="{{ site.url }}/templates/www/elements/manual/style/padding.html">Padding</a></li>
+		<li class="item-2"><a href="{{ site.url }}/templates/www/elements/manual/style/margin.html">Margin</a></li>
+	</ul>
+	<li class="item-11"><a href="/templates/www/elements/manual/style/text_shadow.html">Text Shadow</a></li>
+	<li class="item-12"><a href="/templates/www/elements/manual/style/box_shadow.html">Box Shadow</a></li>
+	<li class="item-13"><a href="/templates/www/elements/manual/style/transparency.html">Transparency</a></li>
+	<li class="item-14"><a href="/templates/www/elements/manual/style/typography.html">Typography</a></li>
+</ul>
