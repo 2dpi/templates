@@ -63,6 +63,56 @@ keywords: css3 grid
           <li></li>
           <li></li>
         </ul>
+        {% highlight css linenos %}
+          {% raw %}
+        <style>
+          .wide_80{}
+          .wide_75{}
+          .wide_70{}
+          .wide_66{}
+          .wide_60{}
+          .wide_50{}
+          .wide_40{}
+          .wide_33{}
+          .wide_30{}
+          .wide_25{}
+          .wide_20{}
+
+          .columns_5{}
+          .columns_4{}
+          .columns_3{}
+          .columns_2{}
+
+          .stagger_5_3_2_1{}
+          .stagger_4_4_2_1{}
+          .stagger_3_3_2_1{}
+          .stagger_2_2_2_1{}
+
+        </style>
+          {% endraw %}
+        {% endhighlight %}
+        MEDIA QUERY BREAK POINTS (MOBILE > UP)
+        - 320 > MOBILE PORTRAIT (ASSUMED BELOW 480)
+        - 480 > MOBILE LANSCAPE (BREAK 1)
+        - 568 > MOBILE LANSCAPE (BREAK 2)
+        - 640 > MOBILE LANDSCAPE (BREAK 3)
+        - 768 > IPAD PORTRAIT & DESKTOP (BREAK 3) (exceptions 800/853/966)
+
+        STAGGER (ASSUME MAX 5 COLS) 320 > 480 > 586 > 640 > 768
+        - 1-2-3-5
+        - 1-2-4-4
+        - 1-2-3-3
+        - 1-2-2-2
+
+
+        EM GUIDE
+        320@14 20em
+        480@14 30em
+        568@14 35.5em
+        640@14 40em
+        767@14 47.938em
+        768@14 48em
+
       </article>
     </div>
     <aside class="container_aside">
