@@ -1,4 +1,6 @@
-/*GRID - fractions*/
+/*=============
+GRID - fractions
+=============*/
 [class*="wide_"]
 {
 	-webkit-box-sizing: border-box;
@@ -10,15 +12,7 @@
 	float: left;
 	margin-left: 1.6%;
 }
-@media screen and (max-width: 568px)
-{
-	[class*="wide_"]
-	{
-		margin-left: 0;
-		margin-bottom: 1em;
-	}
-}
-[class*="wide_"].first, [class*="wide_"]:nth-child(1)
+[class*="wide_"].first, [class*="wide_"]:first-child
 {
 	margin-left: 0px;
 }
@@ -26,6 +20,9 @@
 {
 	margin: 0px;
 }
+/*===========
+10% WIDTH
+===========*/
 .wide_10
 {
 	width: 8.56%;
@@ -34,29 +31,33 @@
 {
 	width: 10%;
 }
+/*===========
+20% WIDTH
+===========*/
 .wide_20
 {
 	width: 18.72%;
 }
-@media screen and (max-width: 568px)
+.static .wide_20
 {
-	.wide_20
-	{
-		width: 100%;
-	}
+	width: 18.72%;
 }
 .wide_20.flush, .flush .wide_20
 {
 	width: 20%;
 }
-@media screen and (max-width: 568px)
+.static .wide_20.flush, .static.flush .wide_20
 {
-	.wide_20.flush, .flush .wide_20
-	{
-		width: 100%;
-	}
+	width: 20%;
 }
+/*===========
+25% WIDTH
+===========*/
 .wide_25
+{
+	width: 23.8%;
+}
+.static .wide_25
 {
 	width: 23.8%;
 }
@@ -64,190 +65,170 @@
 {
 	width: 25%;
 }
-@media screen and (max-width: 568px)
+.static .wide_25.flush, .static.flush .wide_25
 {
-	.wide_25.flush, .flush .wide_25
-	{
-		width: 25%;
-	}
+	width: 25%;
 }
+/*===========
+30% WIDTH
+===========*/
 .wide_30
 {
 	width: 28.88%;
 }
-@media screen and (max-width: 568px)
+.static .wide_30
 {
-	.wide_30
-	{
-		width: 100%;
-	}
+	width: 28.88%;
 }
 .wide_30.flush, .flush .wide_30
 {
 	width: 30%;
 }
-@media screen and (max-width: 568px)
+.static .wide_30.flush, .static.flush .wide_30
 {
-	.wide_30.flush, .flush .wide_30
-	{
-		width: 100%;
-	}
+	width: 30%;
 }
+/*===========
+33% WIDTH
+===========*/
 .wide_33
 {
 	width: 32.26%;
 }
-@media screen and (max-width: 568px)
+.static .wide_33
 {
-	.wide_33
-	{
-		width: 100%;
-	}
+	width: 32.26%;
 }
 .wide_33.flush, .flush .wide_33
 {
 	width: 33.33%;
 }
-@media screen and (max-width: 568px)
+.static .wide_33.flush, .static.flush .wide_33
 {
-	.wide_33.flush, .flush .wide_33
-	{
-		width: 100%;
-	}
+	width: 33.33%;
 }
+/*===========
+40% WIDTH
+===========*/
 .wide_40
 {
 	width: 39.04%;
 }
-@media screen and (max-width: 568px)
+.static .wide_40
 {
-	.wide_40
-	{
-		width: 100%;
-	}
+	width: 39.04%;
 }
 .wide_40.flush, .flush .wide_40
 {
 	width: 40%;
 }
-@media screen and (max-width: 568px)
+.static .wide_40.flush, .static.flush .wide_40
 {
-	.wide_40.flush, .flush .wide_40
-	{
-		width: 100%;
-	}
+	width: 40%;
 }
+/*===========
+50% WIDTH
+===========*/
 .wide_50, .wide_half
 {
 	width: 49.2%;
 }
-@media screen and (max-width: 568px)
+.static .wide_50, .static .wide_half
 {
-	.wide_50, .wide_half
-	{
-		width: 100%;
-	}
+	width: 49.2%;
 }
 .wide_50.flush, .wide_half.flush, .flush .wide_50, .flush .wide_half
 {
 	width: 50%;
 }
-@media screen and (max-width: 568px)
+.static .wide_50.flush, .static .wide_half.flush, .static.flush .wide_50, .static.flush .wide_half
 {
-	.wide_50.flush, .wide_half.flush, .flush .wide_50, .flush .wide_half
-	{
-		width: 100%;
-	}
+	width: 50%;
 }
+/*===========
+60% WIDTH
+===========*/
 .wide_60
 {
 	width: 59.36%;
 }
-@media screen and (max-width: 568px)
+.static .wide_60
 {
-	.wide_60
-	{
-		width: 100%;
-	}
+	width: 59.36%;
 }
 .wide_60.flush, .flush .wide_60
 {
 	width: 60%;
 }
-@media screen and (max-width: 568px)
+.static .wide_60.flush, .static.flush .wide_60
 {
-	.wide_60.flush, .flush .wide_60
-	{
-		width: 100%;
-	}
+	width: 60%;
 }
+/*===========
+66% WIDTH
+===========*/
 .wide_66
 {
 	width: 66.13%;
 }
-@media screen and (max-width: 568px)
+.static .wide_66
 {
-	.wide_66
-	{
-		width: 100%;
-	}
+	width: 66.13%;
 }
 .wide_66.flush, .flush .wide_66
 {
 	width: 66.666666%;
 }
-@media screen and (max-width: 568px)
+.static .wide_66.flush, .static.flush .wide_66
 {
-	.wide_66.flush, .flush .wide_66
-	{
-		width: 100%;
-	}
+	width: 66.666666%;
 }
+/*===========
+70% WIDTH
+===========*/
 .wide_70
 {
 	width: 69.52%;
 }
-@media screen and (max-width: 568px)
+.static .wide_70
 {
-	.wide_70
-	{
-		width: 100%;
-	}
+	width: 69.52%;
 }
 .wide_70.flush, .flush .wide_70
 {
 	width: 70%;
 }
-@media screen and (max-width: 568px)
+.static .wide_70.flush, .static.flush .wide_70
 {
-	.wide_70.flush, .flush .wide_70
-	{
-		width: 100%;
-	}
+	width: 70%;
 }
+/*===========
+75% WIDTH
+===========*/
 .wide_75
 {
 	width: 74.6%;
 }
-@media screen and (max-width: 568px)
+.static .wide_75
 {
-	.wide_75
-	{
-		width: 100%;
-	}
+	width: 74.6%;
 }
 .wide_75.flush, .flush .wide_75
 {
 	width: 75%;
 }
-@media screen and (max-width: 568px)
+.static .wide_75.flush, .static.flush .wide_75
 {
-	.wide_75.flush, .flush .wide_75
-	{
-		width: 100%;
-	}
+	width: 75%;
 }
+/*===========
+80% WIDTH
+===========*/
 .wide_80
+{
+	width: 79.68%;
+}
+.static .wide_80
 {
 	width: 79.68%;
 }
@@ -255,6 +236,13 @@
 {
 	width: 80%;
 }
+.static .wide_80.flush, .static.flush .wide_80
+{
+	width: 80%;
+}
+/*===========
+100% WIDTH
+===========*/
 .wide_100, .wide_full
 {
 	-webkit-box-sizing: border-box;
@@ -264,8 +252,11 @@
 	box-sizing: border-box;
 	/*Opera/IE 8+*/
 	width: 100% !important;
+	margin-left: 0px !important;
 }
-/*GRID - columns*/
+/*=============
+GRID - columns
+=============*/
 [class*="columns_"]
 {
 	-webkit-box-sizing: border-box;
@@ -288,107 +279,61 @@
 	margin-left: 1.6%;
 	position: relative;
 }
-[class*="columns_"] > .column:nth-child(1)
+[class*="columns_"] > .column:nth-child(n+1)
 {
 	margin-left: 0px;
 }
-[class*="columns_"].flush > .column:nth-child(1n)
+[class*="columns_"].flush > .column:nth-child(n0)
 {
 	margin: 0px;
 }
-/*GRID - 2 columns*/
-.columns_2.flush > .column:nth-child(1n)
+/*==============
+GRID - 2 columns
+==============*/
+.columns_2.flush > .column:nth-child(n0)
 {
 	width: 50%;
-}
-@media screen and (max-width: 568px)
-{
-	.columns_2.flush > .column:nth-child(1n)
-	{
-		width: 100%;
-	}
 }
 .columns_2 > .column
 {
 	width: 49.2%;
 }
-@media screen and (max-width: 568px)
-{
-	.columns_2 > .column
-	{
-		width: 100%;
-	}
-}
-/*GRID - 3 columns*/
-.columns_3.flush > .column:nth-child(1n)
+/*==============
+GRID - 3 columns
+==============*/
+.columns_3.flush > .column:nth-child(n0)
 {
 	width: 33%;
-}
-@media screen and (max-width: 568px)
-{
-	.columns_3.flush > .column:nth-child(1n)
-	{
-		width: 100%;
-	}
 }
 .columns_3 > .column
 {
 	width: 32.26%;
 }
-@media screen and (max-width: 568px)
-{
-	.columns_3 > .column
-	{
-		width: 100%;
-	}
-}
-/*GRID - 4 columns*/
-.columns_4.flush > .column:nth-child(1n)
+/*==============
+GRID - 4 columns
+==============*/
+.columns_4.flush > .column:nth-child(n0)
 {
 	width: 25%;
-}
-@media screen and (max-width: 568px)
-{
-	.columns_4.flush > .column:nth-child(1n)
-	{
-		width: 100%;
-	}
 }
 .columns_4 > .column
 {
 	width: 23.8%;
 }
-@media screen and (max-width: 568px)
-{
-	.columns_4 > .column
-	{
-		width: 100%;
-	}
-}
-/*GRID - 5 columns*/
-.columns_5.flush > .column:nth-child(1n)
+/*==============
+GRID - 5 columns
+==============*/
+.columns_5.flush > .column:nth-child(n0)
 {
 	width: 20%;
-}
-@media screen and (max-width: 568px)
-{
-	.columns_5.flush > .column:nth-child(1n)
-	{
-		width: 100%;
-	}
 }
 .columns_5 > .column
 {
 	width: 18.72%;
 }
-@media screen and (max-width: 568px)
-{
-	.columns_5 > .column
-	{
-		width: 100%;
-	}
-}
-/*TABLE*/
+/*===============
+CSS TABLE LAYOUT
+===============*/
 .table
 {
 	display: table;
@@ -400,20 +345,24 @@
 }
 [class*="cell_"], .cell
 {
+	vertical-align: top;
 	display: table-cell;
 	min-height: 100%;
 	height: 1px;
 }
-[class*="cell_"]:nth-child(1).cellspaced, .cell:nth-child(1).cellspaced
+[class*="cell_"]:nth-child(n+1).cellspaced, .cell:nth-child(n+1).cellspaced
 {
 	padding-left: 0;
 }
-/*@-moz-document url-prefix() {
-[class*="cell_"], .cell
+
+@-moz-document url-prefix()
 {
-height: 100%;
+	[class*="cell_"], .cell
+	{
+		height: 100%;
+	}
 }
-}*/
+
 .cellspacer
 {
 	height: 100%;
@@ -466,3 +415,185 @@ height: 100%;
 {
 	width: 90%;
 }
+/*==============
+MEDIA QUERIES
+==============
+768 =  48em
+767 =  47.938em
+640 =  40em
+568 =  35.5em
+480 =  30em
+320 =  20em*/
+/*===================
+RESPONSIVE @ 568 =  35.5em
+===================*/
+@media screen and (max-width: 35.5em)
+{
+	[class*="wide_"]
+	{
+		margin-bottom: 1em;
+	}
+	/*===========
+	20% WIDTH
+	===========*/
+	.wide_20
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_20.flush, .flush .wide_20
+	{
+		width: 100%;
+	}
+	/*===========
+	25% WIDTH
+	===========*/
+	.wide_25
+	{
+		width: 49.2%;
+	}
+	.wide_25.flush, .flush .wide_25
+	{
+		width: 50%;
+	}
+	/*===========
+	30% WIDTH
+	===========*/
+	.wide_30
+	{
+		width: 100%;
+	}
+	.wide_30.flush, .flush .wide_30
+	{
+		width: 100%;
+	}
+	/*===========
+	33% WIDTH
+	===========*/
+	.wide_33
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_33.flush, .flush .wide_33
+	{
+		width: 100%;
+	}
+	/*===========
+	40% WIDTH
+	===========*/
+	.wide_40
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_40.flush, .flush .wide_40
+	{
+		width: 100%;
+	}
+	/*===========
+	50% WIDTH
+	===========*/
+	.wide_50, .wide_half
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_50.flush, .wide_half.flush, .flush .wide_50, .flush .wide_half
+	{
+		width: 100%;
+	}
+	/*===========
+	60% WIDTH
+	===========*/
+	.wide_60
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_60.flush, .flush .wide_60
+	{
+		width: 100%;
+	}
+	/*===========
+	66% WIDTH
+	===========*/
+	.wide_66
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.wide_66.flush, .flush .wide_66
+	{
+		width: 100%;
+	}
+	/*===========
+	70% WIDTH
+	===========*/
+	.wide_70
+	{
+		width: 100%;
+	}
+	.wide_70.flush, .flush .wide_70
+	{
+		width: 100%;
+	}
+	/*===========
+	75% WIDTH
+	===========*/
+	.wide_75
+	{
+		width: 100%;
+	}
+	.wide_75.flush, .flush .wide_75
+	{
+		width: 100%;
+	}
+	/*==============
+	GRID - 2 columns
+	==============*/
+	.columns_2.flush > .column:nth-child(n0)
+	{
+		width: 100%;
+	}
+	.columns_2 > .column
+	{
+		width: 100%;
+	}
+	/*==============
+	GRID - 3 columns
+	==============*/
+	.columns_3.flush > .column:nth-child(n0)
+	{
+		width: 100%;
+	}
+	.columns_3 > .column
+	{
+		width: 100%;
+	}
+	/*==============
+	GRID - 4 columns
+	==============*/
+	.columns_4.flush > .column:nth-child(n0)
+	{
+		width: 100%;
+	}
+	.columns_4 > .column
+	{
+		width: 100%;
+	}
+	/*==============
+	GRID - 5 columns
+	==============*/
+	.columns_5.flush > .column:nth-child(n0)
+	{
+		width: 100%;
+	}
+	.columns_5 > .column
+	{
+		width: 100%;
+	}
+}
+/*===============
+END OF GRID CSS
+===============*/
