@@ -8,8 +8,17 @@ For simplicty's sake it's probably best to duplicate the menu required to act re
 
 To achieve this we need to do the following:
 
+- cretae new menu layout override
+- templates/www/html/mod_menu/layout.php
+
+```php
+// Note. It is important to remove spaces between elements.
+$layout = isset($attribs['layout'])?$attribs['layout']:'default';
+require(JModuleHelper::getLayoutPath('mod_menu',$layout));
+```
+
 - call in the module by title
-- change the layout template for the responsive view
+- define layout
 
 ``` php
 $module = JModuleHelper::getModule( 'menu', $menuTitle );
