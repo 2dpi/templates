@@ -38,6 +38,8 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
         echo JModuleHelper::renderModule( $module, $attribs );
     ?>
 </nav>
+```
+```php
 <nav class="menuHolder is_responsive">
     <!-- responsive layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
