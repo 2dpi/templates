@@ -7,7 +7,7 @@ Adding a responsive menu requires a few template changes.
 For simplicty's sake it's probably best to duplicate the menu required to act responsive as it will allow more flexibilty with custom layout and have it's own styles/style sheet.
 
 To achieve this we need to do the following:
-
+### menu override template ###
 - create a reponsive menu template override
 - templates/yourtemplate/html/mod_menu/responsive.php
 - templates/yourtemplate/html/mod_menu/responsive_component.php
@@ -15,6 +15,7 @@ To achieve this we need to do the following:
 - templates/yourtemplate/html/mod_menu/responsive_separator.php
 - templates/yourtemplate/html/mod_menu/responsive_url.php
 
+### menu override layout ###
 - create new menu layout override
 - templates/yourtemplate/html/mod_menu/layout.php
 - assign layout to menu module in advanced tab
