@@ -26,11 +26,12 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 ```
 
+### duplicate menu module ###
 - call in the module by title in your template
 - define layout
 - add some wrappers and css to handle visibility
 
-```
+```html
 <nav class="nav_main not_responsive">
     <!-- default layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
@@ -39,7 +40,7 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
     ?>
 </nav>
 ```
-```
+```html
 <nav class="menuHolder is_responsive">
     <!-- responsive layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
