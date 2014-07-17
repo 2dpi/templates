@@ -63,3 +63,13 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 <div class="wrapper" onclick=""></div>
 ```
 
+### fine tune css ###
+Naturally the default styling will most likely not suite the site so adjustments will be required.
+
+
+### files ###
+Override files are part of the www framework. 
+
+### enhacements ###
+Replace images with SVG's of IcoMoon Font
+
