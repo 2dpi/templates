@@ -17,34 +17,25 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 ```
 
-- call in the module by title
+- call in the module by title in yout template
 - define layout
-
-``` php
-// default layout
-$module = JModuleHelper::getModule( 'menu', $menuTitle );
-$attribs = array('layout' => '_:default');
-echo JModuleHelper::renderModule( $module, $attribs );
-
-// responsive layout
-$module = JModuleHelper::getModule( 'menu', $menuTitle );
-$attribs = array('layout' => 'yourtemplate:responsive');
-echo JModuleHelper::renderModule( $module, $attribs );
-```
-
 - add some wrappers and css to handle visibility
 
 ```php
 <nav class="nav_main not_responsive">
+    <!-- default layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
         $attribs = array('layout' => '_:default');
         echo JModuleHelper::renderModule( $module, $attribs );
     ?>
 </nav>
 <nav class="menuHolder is_responsive">
+    <!-- responsive layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
         $attribs = array('layout' => 'www:responsive');
         echo JModuleHelper::renderModule( $module, $attribs );
     ?>
 </nav>
 ```
+
+
