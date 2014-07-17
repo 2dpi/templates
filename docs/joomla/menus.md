@@ -31,7 +31,7 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 - define layout
 - add some wrappers and css to handle visibility
 
-```html
+```php
 <nav class="nav_main not_responsive">
     <!-- default layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
@@ -40,7 +40,7 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
     ?>
 </nav>
 ```
-```html
+```php
 <nav class="menuHolder is_responsive">
     <!-- responsive layout -->
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
@@ -49,9 +49,15 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
     ?>
 </nav>
 ```
+
+### add toggle ###
 - add the (hamburger) toggle to your template 
 
 ```html
+<div class="trigger">
+    <label for="toggle"><span>Menu Toggle</span></label>
+</div>
 <input type="checkbox" id="toggle" />
+<div class="wrapper" onclick=""></div>
 ```
 
