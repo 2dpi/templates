@@ -8,8 +8,16 @@ For simplicty's sake it's probably best to duplicate the menu required to act re
 
 To achieve this we need to do the following:
 
+- create a reponsive menu template override
+- templates/yourtemplate/html/mod_menu/responsive.php
+- templates/yourtemplate/html/mod_menu/responsive_component.php
+- templates/yourtemplate/html/mod_menu/responsive_heading.php
+- templates/yourtemplate/html/mod_menu/responsive_separator.php
+- templates/yourtemplate/html/mod_menu/responsive_url.php
+
 - create new menu layout override
 - templates/yourtemplate/html/mod_menu/layout.php
+- assign layout to menu module in advanced tab
 
 ```php
 // Note. It is important to remove spaces between elements.
@@ -17,7 +25,7 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 ```
 
-- call in the module by title in yout template
+- call in the module by title in your template
 - define layout
 - add some wrappers and css to handle visibility
 
@@ -37,5 +45,9 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
     ?>
 </nav>
 ```
+- add the (hamburger) toggle to your template 
 
+```html
+<input type="checkbox" id="toggle" />
+```
 
