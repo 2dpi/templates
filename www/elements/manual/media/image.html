@@ -11,6 +11,26 @@ description: w3 framework - media
       <article>
         <h1 class="title">Media</h1>
         <p>Add content here.</p>
+        <p>Need a list that respects aspect ratio?</p>
+        <p><a href="http://www.mademyday.de/css-height-equals-width-with-pure-css.html">CSS Aspect ratio trick</a></p>
+
+        <div class="callout">
+          <h4>CSS Aspect ratio trick<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes/elements used <code>figure</code> <code>img</code></p>
+        </div>
+        <div class="toggle_hide out_tight out_only_bottom table wide_full">
+          <figure>
+            <img src="http://placehold.it/100x75" alt="Aspect ratio 4:3">
+          </figure>
+        </div>
+        <div class="toggle_show out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}
+<figure>
+  <img src="http://placehold.it/100x75" alt="Aspect ratio 4:3">
+</figure>
+{% endraw %}{% endhighlight %}
+        </div>
+        <hr>
 
       </article>
     </div>
