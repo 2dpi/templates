@@ -10,8 +10,20 @@ description: w3 framework - elements
     <div class="container_article">
       <article>
         <h1 class="title">Panels / Alerts</h1>
-        <button type="button" class="btn add toggle">Code</button>
-
+        <div class="callout"><h4>Message<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.panel_message</code></p>
+        </div>
+        <div class="toggle_hide container_panel out_tight out_only_bottom group">
+          <div class="panel_message">
+          </div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+        {% highlight html %}{% raw %}
+        <div class="panel_message">
+          <p>add message here</p>
+        </div>
+        {% endraw %}{% endhighlight %}</div>
+        <hr>
         <div class="toggle_show container_panel out_tight_bot">
           {% highlight html linenos %}{% raw %}<div class="container_panel out_tight_bot">
           <div class="in_tight panel_message outline_rounder">

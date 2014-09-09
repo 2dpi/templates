@@ -7,9 +7,9 @@
        * [Spacing](spacing.md)
 * [Resources](resources/README.md)
    * [Browser Updates](resources/browser_updates.md)
-* [google-analytics](google-analytics/README.md)
-* [javascript](javascript/README.md)
+* [Google Analytics](google-analytics/README.md)
+* [Javascript](javascript/README.md)
 * [Joomla!](joomla/README.md)
-* [seblod](seblod/README.md)
+* [Seblod](seblod/README.md)
    * [Booking System](seblod/booking_system.md)
 
