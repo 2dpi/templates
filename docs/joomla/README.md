@@ -1,0 +1,1 @@
+# Joomla! Specific Stuff
