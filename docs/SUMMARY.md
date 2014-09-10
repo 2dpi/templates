@@ -5,6 +5,8 @@
        * [Colour](colour.md)
        * [Size](size.md)
        * [Spacing](spacing.md)
+       * [Grouping](grouping.md)
+       * [Layout](layout.md)
 * [Resources](resources/README.md)
    * [Browser Updates](resources/browser_updates.md)
 * [Google Analytics](google-analytics/README.md)
