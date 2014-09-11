@@ -24,3 +24,17 @@ Specaial thanks to some of the existing frameworks out there for guidance and in
 Look at following link for general overiew for basic elements.
 
 [Layout inspiration](http://codecanyon.net/item/tabbed-html5-css3-responsive-tabs/full_screen_preview/6609747)
+
+![Dogon](http://dogongroup.com/images/logos/logo_dogon_group.gif)
+
+
+<img src="http://dogongroup.com/images/logos/logo_dogon_group.gif"/>
+
+-
+
+
+
+
+
+
+

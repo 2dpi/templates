@@ -9,6 +9,7 @@
        * [Layout](layout.md)
 * [Resources](resources/README.md)
    * [Browser Updates](resources/browser_updates.md)
+   * [IE Specific](resources/ie_specific.md)
 * [Google Analytics](google-analytics/README.md)
 * [Javascript](javascript/README.md)
 * [Joomla!](joomla/README.md)
