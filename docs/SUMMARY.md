@@ -13,6 +13,9 @@
 * [Google Analytics](google-analytics/README.md)
 * [Javascript](javascript/README.md)
 * [Joomla!](joomla/README.md)
+   * [Calendar](joomla/calendar.md)
 * [Seblod](seblod/README.md)
+   * [Fields](fields/README)
+       * [Related Article Field](seblod/related_article_field.md)
    * [Booking System](seblod/booking_system.md)
 
