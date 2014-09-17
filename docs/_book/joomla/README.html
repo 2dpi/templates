@@ -18,7 +18,7 @@
     
     
     
-    <link rel="next" href="../seblod/README.html" />
+    <link rel="next" href="../joomla/calendar.html" />
     
     
     <link rel="prev" href="../javascript/README.html" />
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="4" data-basepath=".." data-revision="1410438427120">
+    <div class="book"  data-level="4" data-basepath=".." data-revision="1410946868974">
     
 
 <div class="book-summary">
@@ -272,6 +272,44 @@
                 
             
             
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="joomla/calendar.html">
+            
+                
+                    <a href="../joomla/calendar.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         Calendar
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="joomla/menu.html">
+            
+                
+                    <a href="../joomla/menu.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         Menu
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
         </li>
     
         
@@ -292,15 +330,91 @@
                 
     
         
-        <li class="chapter " data-level="5.1" data-path="seblod/booking_system.html">
+        <li class="chapter " data-level="5.1" data-path="fields/README">
+            
+                
+                    <a href="../fields/README">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         Fields
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1.1" data-path="seblod/related_article_field.html">
+            
+                
+                    <a href="../seblod/related_article_field.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                         Related Article Field
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="seblod/booking_system.html">
             
                 
                     <a href="../seblod/booking_system.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>5.1.</b>
+                            <b>5.2.</b>
                         
                          Booking System
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="php/README">
+            
+                
+                    <a href="../php/README">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         PHP
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="6.1" data-path="php/back_link.html">
+            
+                
+                    <a href="../php/back_link.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                         Back link
                     </a>
                 
             
@@ -401,9 +515,12 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_418">
+                    <section class="normal" id="section-gitbook_130">
                     
                         <h1 id="joomla-specific-stuff">Joomla! Specific Stuff</h1>
+<pre><code class="lang-php"><span class="hljs-preprocessor">&lt;?php</span> <span class="hljs-variable">$dateFromDefault</span> = (<span class="hljs-variable">$jinput</span><span class="hljs-variable">-&gt;getCmd</span>(<span class="hljs-string">'dpi_booking_date_search_from'</span>) ? <span class="hljs-variable">$jinput</span><span class="hljs-variable">-&gt;getCmd</span>(<span class="hljs-string">'dpi_booking_date_search_from'</span>) : <span class="hljs-variable">$cck</span><span class="hljs-variable">-&gt;getValue</span>(<span class="hljs-string">'dpi_booking_date_search_from'</span>) );<span class="hljs-preprocessor">?&gt;</span>
+<span class="hljs-preprocessor">&lt;?php</span> <span class="hljs-keyword">echo</span> JHtml::calendar(<span class="hljs-variable">$dateFromDefault</span>, <span class="hljs-string">'dpi_booking_date_search_from'</span>, <span class="hljs-string">'dpi_booking_date_search_from'</span>, <span class="hljs-string">'%Y-%m-%d'</span>, <span class="hljs-keyword">array</span>(<span class="hljs-string">'placeholder'</span> =&gt; <span class="hljs-string">'- Date From -'</span>));<span class="hljs-preprocessor">?&gt;</span>
+</code></pre>
 
                     
                     </section>
@@ -417,7 +534,7 @@
         <a href="../javascript/README.html" class="navigation navigation-prev " aria-label="Previous page: Javascript"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../seblod/README.html" class="navigation navigation-next " aria-label="Next page: Seblod"><i class="fa fa-angle-right"></i></a>
+        <a href="../joomla/calendar.html" class="navigation navigation-next " aria-label="Next page: Calendar"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
