@@ -41,7 +41,7 @@ description: w3 framework - elements
         </div>
         <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
 {% highlight html %}{% raw %}
-<div class="toggle_hide in_tight panel_success">
+<div class="in_tight panel_success">
   <a class="close" data-dismiss="alert">×</a>
   <h4 class="panel-heading">Success</h4>
   <div>You have a message that requires attention.</div>
@@ -49,33 +49,24 @@ description: w3 framework - elements
 {% endraw %}{% endhighlight %}
         </div><hr>
         
-        <div class="columns_2 flush out_tight_bot">
-          <div class="container_panel in_tightest_right column">
-            <button type="button" class="btn add toggle">Code</button>
-            <div class="toggle_show container_panel out_tight_bot">
-              {% highlight html linenos %}{% raw %}<div class="in_tight panel_success">
-              <a class="close" data-dismiss="alert">×</a>
-              <h4 class="panel-heading">Success</h4>
-              <div>You have a message that requires attention.</div>
-              </div>
-              {% endraw %}{% endhighlight %}
-            </div>
-            <div class="toggle_hide in_tight panel_success">
-              <a class="close" data-dismiss="alert">×</a>
-              <h4 class="panel-heading">Success</h4>
-              <div>You have a message that requires attention.</div>
-            </div>
-          </div>
-          <div class="container_panel in_tightest_left column">
-          <button type="button" class="btn add toggle">Code</button>
-          <p class="toggle_show">Add content here.</p>
-            <div class="toggle_hide in_tight panel_info">
-              <a class="close" data-dismiss="alert">×</a>
-              <h4 class="panel-heading">Info</h4>
-              <div>You have a message that requires attention.</div>
-            </div>
-          </div>
+        <div class="callout"><h4>Info<i class="icon-embed float_right toggle"></i></h4>
+          <p>CSS classes used <code>.info</code></p>
         </div>
+        <div class="toggle_hide container_panel out_tight out_only_bottom group">
+          <a class="close" data-dismiss="alert">×</a>
+          <h4 class="panel-heading">Info</h4>
+          <div>You have a message that requires attention.</div>
+        </div>
+        <div class="toggle_show container_panel out_tight out_only_bottom in_tight fill">
+{% highlight html %}{% raw %}
+<div class="container_panel out_tight out_only_bottom group">
+  <a class="close" data-dismiss="alert">×</a>
+  <h4 class="panel-heading">Info</h4>
+  <div>You have a message that requires attention.</div>
+</div>
+{% endraw %}{% endhighlight %}
+        </div><hr>
+
         <div class="columns_2 flush out_tight_bot">
           <button type="button" class="btn add toggle">Code</button>
           <p class="toggle_show">Add content here.</p>
