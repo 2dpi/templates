@@ -20,6 +20,7 @@
    * [Ajax](joomla/ajax.md)
    * [Database](joomla/database.md)
    * [Date](joomla/date.md)
+   * [Redirect](joomla/redirect.md)
 * [Seblod](seblod/README.md)
    * [Fields](fields/README.md)
        * [Related Article Field](seblod/related_article_field.md)
@@ -34,4 +35,8 @@
 * [PHP](php/README.md)
    * [Back link](php/back_link.md)
    * [SimpleImage Class](php/simpleimage_class.md)
+   * [Currency Converter](php/currency_converter.md)
+* [Javascript](javascript/README)
+   * [Redirect](javascript/redirect.md)
+   * [Select Option Text](javascript/select_option_text.md)
 
