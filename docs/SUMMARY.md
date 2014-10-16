@@ -21,6 +21,8 @@
    * [Database](joomla/database.md)
    * [Date](joomla/date.md)
    * [Redirect](joomla/redirect.md)
+   * [Form Fields](joomla/form_fields)
+   * [Admin / Site](joomla/admin__site.md)
 * [Seblod](seblod/README.md)
    * [Fields](fields/README.md)
        * [Related Article Field](seblod/related_article_field.md)
