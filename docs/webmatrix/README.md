@@ -23,7 +23,8 @@ Admin Email: info@2dpi.co.za
 Next
 
 Database:
-Username: root Password: admin
+Username: root
+Password: admin
 Database Name: (Go back to Webmatrix to check)
 
 Next

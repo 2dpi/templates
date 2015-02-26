@@ -6,7 +6,7 @@ Adding a responsive menu requires a few template changes.
 
 For simplicty's sake it's probably best to duplicate the menu required to act responsive as it will allow more flexibilty with custom layout and have it's own styles/style sheet.
 
-Based on a menu found [here](http://www.cssplay.co.uk/menus/) 
+Based on a menu found [here](http://www.cssplay.co.uk/menus/)
 
 To achieve this we need to do the following:
 ### menu override template ###
@@ -20,7 +20,7 @@ To achieve this we need to do the following:
 ### menu override layout ###
 - create new menu layout override
 - templates/yourtemplate/html/mod_menu/layout.php
-- assign layout to menu module in advanced tab
+- select layout under Alternative Layout on the menu module in advanced tab
 
 ```php
 // Note. It is important to remove spaces between elements.
@@ -42,6 +42,8 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
     ?>
 </nav>
 ```
+see example:
+
 ```php
 <nav class="menuHolder is_responsive">
     <!-- responsive layout -->
@@ -53,14 +55,19 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 ```
 
 ### add toggle ###
-- add the (hamburger) toggle to your template 
+
+- add checkbox toggle to main template layout.php just below the body tag or on the main page wrapper.
+
+```html
+<input type="checkbox" id="toggle" />
+<div class="wrapper" onclick=""></div>
+```
+- add the (hamburger) toggle to your template in or around where the responsive menu is assigned.
 
 ```html
 <div class="trigger">
     <label for="toggle"><span>Menu Toggle</span></label>
 </div>
-<input type="checkbox" id="toggle" />
-<div class="wrapper" onclick=""></div>
 ```
 
 ### fine tune css ###
@@ -68,7 +75,7 @@ Naturally the default styling will most likely not suite the site so adjustments
 
 
 ### files ###
-Override files are part of the www framework. 
+Override files are part of the www framework.
 
 ### enhacements ###
 Replace images with SVG's of IcoMoon Font

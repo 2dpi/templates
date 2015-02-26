@@ -29,6 +29,7 @@
    * [Add Stylesheet](joomla/add_stylesheet.md)
    * [Icons](joomla/icons.md)
    * [Template Overides](joomla/template_overides.md)
+   * [Menus](joomla/menus)
 * [Seblod](seblod/README.md)
    * [Fields](fields/README.md)
        * [Related Article Field](seblod/related_article_field.md)
@@ -50,4 +51,5 @@
    * [Redirect](javascript/redirect.md)
    * [Select Option Text](javascript/select_option_text.md)
 * [Webmatrix](webmatrix/README.md)
+* [Navicat](navicat/README.md)
 
