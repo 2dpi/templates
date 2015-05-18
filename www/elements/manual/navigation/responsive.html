@@ -44,11 +44,7 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
 
-```php
-// Note. It is important to remove spaces between elements.
-$layout = isset($attribs['layout'])?$attribs['layout']:'default';
-require(JModuleHelper::getLayoutPath('mod_menu',$layout));
-```
+
         <h3>duplicate menu module</h3> 
         <ul>
           <li>call in the module by title in your template</li>
@@ -56,19 +52,16 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
           <li>add some wrappers and css to handle visibility</li>
         </ul>
 
-{% highlight %}
+{% highlight php startinline=false %}{% raw %}
 <nav class="nav_main not_responsive">
     <!-- default layout -->
-{% endhighlight %}
-{% highlight php startinline=true %}
-     $module = JModuleHelper::getModule( 'menu', $menuTitle );
+
+    <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
         $attribs = array('layout' => '_:default');
         echo JModuleHelper::renderModule( $module, $attribs );
-
-{% endhighlight %}
-{% highlight %}
+    ?>
 </nav>
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 {% highlight html %}{% raw %}
 <nav class="menuHolder is_responsive">
     <!-- responsive layout -->
