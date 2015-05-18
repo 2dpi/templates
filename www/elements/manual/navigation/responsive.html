@@ -55,11 +55,14 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% highlight %}
 <nav class="nav_main not_responsive">
     <!-- default layout -->
-
+{% endhighlight %}
+{% highlight php %}
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
         $attribs = array('layout' => '_:default');
         echo JModuleHelper::renderModule( $module, $attribs );
     ?>
+{% endhighlight %}
+{% highlight %}
 </nav>
 {% endhighlight %}
 {% highlight html %}{% raw %}
