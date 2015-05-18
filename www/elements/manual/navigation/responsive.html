@@ -64,16 +64,17 @@ description: w3 framework - media
         </nav>
         ```
 
-        ### add toggle ###
-        - add the (hamburger) toggle to your template 
+        <h3>Add Toggle</h3>
+        <p>add the (hamburger) toggle to your template </p>
 
-        ```html
-        <div class="trigger">
-            <label for="toggle"><span>Menu Toggle</span></label>
-        </div>
-        <input type="checkbox" id="toggle" />
-        <div class="wrapper" onclick=""></div>
-        ```
+{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+<div class="trigger">
+    <label for="toggle"><span>Menu Toggle</span></label>
+</div>
+<input type="checkbox" id="toggle" />
+<div class="wrapper" onclick=""></div>
+{% endraw %}{% endhighlight %}
+
 
         ### fine tune css ###
         Naturally the default styling will most likely not suite the site so adjustments will be required.
