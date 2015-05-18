@@ -3,7 +3,7 @@
 	{% include html_header.html %}
 	<body>
 		{% include header.html %}
-		{{ content }}
+		{{ page.content | markdownify }}
 		{% include footer.html %}
 	</body>
 </html>
