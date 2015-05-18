@@ -45,9 +45,10 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 
 {% endhighlight %}
-<div class="highlight">
+{% raw %}
   $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
+{% endraw %}
 </div>
 
         <h3>duplicate menu module</h3> 
