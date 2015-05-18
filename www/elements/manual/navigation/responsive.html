@@ -3,42 +3,46 @@ layout: default
 title: w3 framework - navigation
 overview: true
 keywords: css3 grid
-description: w3 framework - media
+description: w3 framework - navigation
 ---
 <div class="container_body_wrapper">
   <div class="container_content article">
     <div class="container_article">
       <article>
         <h1 class="title">Navigation</h1>
-        # Working with menus in Joomla#
+        <p>Working with menus in Joomla</p>
 
-        ## Responsive Menu - Pure CSS##
+        <h2>Responsive Menu - Pure CSS</h2>
 
-        Adding a responsive menu requires a few template changes.
+        <p>Adding a responsive menu requires a few template changes.</p>
 
-        For simplicty's sake it's probably best to duplicate the menu required to act responsive as it will allow more flexibilty with custom layout and have it's own styles/style sheet.
+        <p>For simplicty's sake it's probably best to duplicate the menu required to act responsive as it will allow more flexibilty with custom layout and have it's own styles/style sheet.</p>
 
-        Based on a menu found [here](http://www.cssplay.co.uk/menus/) 
+        <p>Based on a menu found [here](http://www.cssplay.co.uk/menus/) </p>
 
-        To achieve this we need to do the following:
-        ### menu override template ###
-        - create a reponsive menu template override
-        - templates/yourtemplate/html/mod_menu/responsive.php
-        - templates/yourtemplate/html/mod_menu/responsive_component.php
-        - templates/yourtemplate/html/mod_menu/responsive_heading.php
-        - templates/yourtemplate/html/mod_menu/responsive_separator.php
-        - templates/yourtemplate/html/mod_menu/responsive_url.php
+        <p>To achieve this we need to do the following:</p>
+        <h3>menu override template</h3>h3>
+        <ul>
+          <li>create a reponsive menu template override</li>
+          <li>templates/yourtemplate/html/mod_menu/responsive.php</li>
+          <li>templates/yourtemplate/html/mod_menu/responsive_component.php</li>
+          <li>templates/yourtemplate/html/mod_menu/responsive_heading.php</li>
+          <li>templates/yourtemplate/html/mod_menu/responsive_separator.php</li>
+          <li>templates/yourtemplate/html/mod_menu/responsive_url.php</li>
+        </ul>
 
-        ### menu override layout ###
-        - create new menu layout override
-        - templates/yourtemplate/html/mod_menu/layout.php
-        - assign layout to menu module in advanced tab
+        <h3>menu override layout </h3>
+        <ul>
+          <li>create new menu layout override</li>
+          <li>templates/yourtemplate/html/mod_menu/layout.php</li>
+          <li>assign layout to menu module in advanced tab</li>
+        </ul>
 
-        ```php
+{% highlight php %}{% raw %}
         // Note. It is important to remove spaces between elements.
         $layout = isset($attribs['layout'])?$attribs['layout']:'default';
         require(JModuleHelper::getLayoutPath('mod_menu',$layout));
-        ```
+{% endraw %}{% endhighlight %}
 
         <h3>duplicate menu module</h3> 
         <ul>
@@ -86,7 +90,7 @@ description: w3 framework - media
         <p>Override files are part of the www framework.</p> 
 
         <h3>enhacements</h3> 
-        <p>Replace images with SVG's of IcoMoon Fon</p>t
+        <p>Replace images with SVG's of IcoMoon Font</p>
 
 
       </article>
