@@ -40,34 +40,36 @@ description: w3 framework - media
         require(JModuleHelper::getLayoutPath('mod_menu',$layout));
         ```
 
-        ### duplicate menu module ###
-        - call in the module by title in your template
-        - define layout
-        - add some wrappers and css to handle visibility
+        <h3>duplicate menu module</h3> 
+        <ul>
+          <li>call in the module by title in your template</li>
+          <li>define layout</li>
+          <li>add some wrappers and css to handle visibility</li>
+        </ul>
 
-        ```php
-        <nav class="nav_main not_responsive">
-            <!-- default layout -->
-            <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
-                $attribs = array('layout' => '_:default');
-                echo JModuleHelper::renderModule( $module, $attribs );
-            ?>
-        </nav>
-        ```
-        ```php
-        <nav class="menuHolder is_responsive">
-            <!-- responsive layout -->
-            <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
-                $attribs = array('layout' => 'www:responsive');
-                echo JModuleHelper::renderModule( $module, $attribs );
-            ?>
-        </nav>
-        ```
+{% highlight html %}{% raw %}
+<nav class="nav_main not_responsive">
+    <!-- default layout -->
+    <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
+        $attribs = array('layout' => '_:default');
+        echo JModuleHelper::renderModule( $module, $attribs );
+    ?>
+</nav>
+{% endraw %}{% endhighlight %}
+{% highlight html %}{% raw %}
+<nav class="menuHolder is_responsive">
+    <!-- responsive layout -->
+    <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
+        $attribs = array('layout' => 'www:responsive');
+        echo JModuleHelper::renderModule( $module, $attribs );
+    ?>
+</nav>
+{% endraw %}{% endhighlight %}
 
         <h3>Add Toggle</h3>
         <p>add the (hamburger) toggle to your template </p>
 
-{% highlight html %}{% raw %}<!-- add .group (clearfix) to solve floating problems -->
+{% highlight html %}{% raw %}
 <div class="trigger">
     <label for="toggle"><span>Menu Toggle</span></label>
 </div>
@@ -76,15 +78,15 @@ description: w3 framework - media
 {% endraw %}{% endhighlight %}
 
 
-        ### fine tune css ###
-        Naturally the default styling will most likely not suite the site so adjustments will be required.
+        <h3>fine tune css</h3>         
+        <p>Naturally the default styling will most likely not suite the site so adjustments will be required.</p>
 
 
-        ### files ###
-        Override files are part of the www framework. 
+        <h3>files</h3>         
+        <p>Override files are part of the www framework.</p> 
 
-        ### enhacements ###
-        Replace images with SVG's of IcoMoon Font
+        <h3>enhacements</h3> 
+        <p>Replace images with SVG's of IcoMoon Fon</p>t
 
 
       </article>
