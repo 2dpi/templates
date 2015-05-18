@@ -1,5 +1,6 @@
 markdown: kramdown
 highlighter: pygments
 pygments: true
+pygmentsuseclasses: true
 repository: https://github.com/2dpi/templates
 baseurl: /templates

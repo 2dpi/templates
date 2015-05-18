@@ -44,7 +44,11 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
 
-
+```php
+// Note. It is important to remove spaces between elements.
+$layout = isset($attribs['layout'])?$attribs['layout']:'default';
+require(JModuleHelper::getLayoutPath('mod_menu',$layout));
+```
         <h3>duplicate menu module</h3> 
         <ul>
           <li>call in the module by title in your template</li>
