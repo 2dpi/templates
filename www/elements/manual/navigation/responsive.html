@@ -60,14 +60,18 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
           <li>add some wrappers and css to handle visibility</li>
         </ul>
 
-{% highlight php startinline=false %}
+{% highlight html %}
 <nav class="nav_main not_responsive">
     <!-- default layout -->
+{% endhighlight %}
 
+{% highlight php startinline=false %}
     <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
         $attribs = array('layout' => '_:default');
         echo JModuleHelper::renderModule( $module, $attribs );
     ?>
+{% endhighlight %}
+{% highlight html %}
 </nav>
 {% endhighlight %}
 {% highlight html %}{% raw %}
