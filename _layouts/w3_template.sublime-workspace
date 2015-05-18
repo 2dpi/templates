@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/dwight.b/Documents/github/templates/www/elements/manual/navigation/subnav.md",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dwight.b/Documents/github/templates/_includes/nav_sidebar_navigation.html",
+			"settings":
+			{
+				"buffer_size": 771,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -45,7 +61,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/dwight.b/Documents/github/templates"
+		"/C/Users/dwight.b/Documents/github/templates",
+		"/C/Users/dwight.b/Documents/github/templates/_includes",
+		"/C/Users/dwight.b/Documents/github/templates/www/elements",
+		"/C/Users/dwight.b/Documents/github/templates/www/elements/manual",
+		"/C/Users/dwight.b/Documents/github/templates/www/elements/manual/navigation"
 	],
 	"file_history":
 	[
@@ -99,8 +119,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/dwight.b/Documents/github/templates/www/elements/manual/navigation/subnav.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/dwight.b/Documents/github/templates/_includes/nav_sidebar_navigation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
