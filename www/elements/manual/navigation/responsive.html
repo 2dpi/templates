@@ -43,9 +43,12 @@ description: w3 framework - navigation
 $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
-{% markdown %}
+~~~php
+$layout = isset($attribs['layout'])?$attribs['layout']:'default';
+require(JModuleHelper::getLayoutPath('mod_menu',$layout));
+~~~
+
 ### test heading
-{% endmarkdown %}
 
 
 
