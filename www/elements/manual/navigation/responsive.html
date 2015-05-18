@@ -44,6 +44,15 @@ $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
 
+{% raw %}
+```php
+// Note. It is important to remove spaces between elements.
+$layout = isset($attribs['layout'])?$attribs['layout']:'default';
+require(JModuleHelper::getLayoutPath('mod_menu',$layout));
+```
+{% endraw %}
+
+
 
         <h3>duplicate menu module</h3> 
         <ul>
