@@ -46,9 +46,6 @@ description: w3 framework - navigation
 $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
-</div> 
-
-
         <h3>duplicate menu module</h3> 
         <ul>
           <li>call in the module by title in your template</li>
@@ -56,29 +53,39 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
           <li>add some wrappers and css to handle visibility</li>
         </ul>
 
-{% highlight html %}
-<nav class="nav_main not_responsive">
-    <!-- default layout -->
-{% endhighlight %}
 
-{% highlight php startinline=false %}
-    <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
-        $attribs = array('layout' => '_:default');
-        echo JModuleHelper::renderModule( $module, $attribs );
-    ?>
-{% endhighlight %}
-{% highlight html %}
-</nav>
-{% endhighlight %}
-{% highlight html %}{% raw %}
-<nav class="menuHolder is_responsive">
-    <!-- responsive layout -->
-    <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
-        $attribs = array('layout' => 'www:responsive');
-        echo JModuleHelper::renderModule( $module, $attribs );
-    ?>
-</nav>
-{% endraw %}{% endhighlight %}
+        {% highlight html %}
+        <nav class="nav_main not_responsive">
+            <!-- default layout -->
+        {% endhighlight %}
+
+        {% highlight php startinline=false %}
+            <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
+                $attribs = array('layout' => '_:default');
+                echo JModuleHelper::renderModule( $module, $attribs );
+            ?>
+        {% endhighlight %}
+        {% highlight html %}
+        </nav>
+        {% endhighlight %}
+        {% highlight html %}{% raw %}
+        <nav class="menuHolder is_responsive">
+            <!-- responsive layout -->
+            <?php $module = JModuleHelper::getModule( 'menu', $menuTitle );
+                $attribs = array('layout' => 'www:responsive');
+                echo JModuleHelper::renderModule( $module, $attribs );
+            ?>
+        </nav>
+        {% endraw %}{% endhighlight %}
+</div> 
+
+NB!! As of Joomla! v3 follow this procedure:
+
+- add menu override for default and responsive layout to include wrapping elements with required classes
+- duplicate the menu module (1 default and 1 responsive)
+- assigne alt layout to responsive menu
+
+
 
         <h3>Add Toggle</h3>
         <p>add the (hamburger) toggle to your template </p>
