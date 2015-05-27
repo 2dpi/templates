@@ -30,8 +30,11 @@ description: w3 framework - navigation
           <li>templates/yourtemplate/html/mod_menu/responsive_separator.php</li>
           <li>templates/yourtemplate/html/mod_menu/responsive_url.php</li>
         </ul>
-
+ <div class="callout"> 
         <h3>menu override layout </h3>
+         <div class="info">
+           <p>This is only required for joomla versions that do not support alternative layouts.</p>
+         </div>     
         <ul>
           <li>create new menu layout override</li>
           <li>templates/yourtemplate/html/mod_menu/layout.php</li>
@@ -43,7 +46,7 @@ description: w3 framework - navigation
 $layout = isset($attribs['layout'])?$attribs['layout']:'default';
 require(JModuleHelper::getLayoutPath('mod_menu',$layout));
 {% endhighlight %}
-
+</div> 
 <div class="highlight">
 <h3>duplicate menu module</h3> 
 </div>
