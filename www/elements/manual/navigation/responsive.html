@@ -23,6 +23,14 @@ description: w3 framework - navigation
         <p>To achieve this we need to do the following:</p>
         <h3>menu override template</h3>
         <ul>
+          <li>create a default menu template override</li>
+          <li>templates/yourtemplate/html/mod_menu/default.php</li>
+          <li>templates/yourtemplate/html/mod_menu/default_component.php</li>
+          <li>templates/yourtemplate/html/mod_menu/default_heading.php</li>
+          <li>templates/yourtemplate/html/mod_menu/default_separator.php</li>
+          <li>templates/yourtemplate/html/mod_menu/default_url.php</li>
+        </ul>
+        <ul>
           <li>create a reponsive menu template override</li>
           <li>templates/yourtemplate/html/mod_menu/responsive.php</li>
           <li>templates/yourtemplate/html/mod_menu/responsive_component.php</li>
@@ -30,6 +38,25 @@ description: w3 framework - navigation
           <li>templates/yourtemplate/html/mod_menu/responsive_separator.php</li>
           <li>templates/yourtemplate/html/mod_menu/responsive_url.php</li>
         </ul>
+
+        <p>NB!! As of Joomla! v3 follow this procedure:</p>
+        <ul>
+          <li>add menu override for default and responsive layout to include wrapping elements with required classes</li>
+          <li>duplicate the menu module (1 default and 1 responsive)</li>
+          <li>assigne alt layout to responsive menu</li>
+        </ul>
+
+                <h3>Add Toggle</h3>
+                <p>add the (hamburger) toggle to your template </p>
+
+        {% highlight html %}{% raw %}
+        <div class="trigger">
+            <label for="toggle"><span>Menu Toggle</span></label>
+        </div>
+        <input type="checkbox" id="toggle" />
+        <div class="wrapper" onclick=""></div>
+        {% endraw %}{% endhighlight %}
+
  <div class="callout"> 
         <h3>menu override layout </h3>
          <div class="info in_loose">
@@ -79,24 +106,7 @@ require(JModuleHelper::getLayoutPath('mod_menu',$layout));
         {% endraw %}{% endhighlight %}
 </div> 
 
-NB!! As of Joomla! v3 follow this procedure:
 
-- add menu override for default and responsive layout to include wrapping elements with required classes
-- duplicate the menu module (1 default and 1 responsive)
-- assigne alt layout to responsive menu
-
-
-
-        <h3>Add Toggle</h3>
-        <p>add the (hamburger) toggle to your template </p>
-
-{% highlight html %}{% raw %}
-<div class="trigger">
-    <label for="toggle"><span>Menu Toggle</span></label>
-</div>
-<input type="checkbox" id="toggle" />
-<div class="wrapper" onclick=""></div>
-{% endraw %}{% endhighlight %}
 
 
         <h3>fine tune css</h3>         
