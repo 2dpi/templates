@@ -1,3 +1,17 @@
+@font-face {
+	font-family: icomoon;
+	src: url('/templates/www/fonts/icomoon/fonts/icomoon.eot');
+	src: url('/templates/www/fonts/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('/templates/www/fonts/icomoon/fonts/icomoon.ttf') format('truetype'), url('/templates/www/fonts/icomoon/fonts/icomoon.woff') format('woff'), url('/templates/www/fonts/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*CALL IN SVG FOR BETTER CHROME RENDERING*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	@font-face {
+		font-family: icomoon;
+		src: url('/templates/www/fonts/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+	}
+}
 [class^="icon-"], [class*=" icon-"]
 {
 	font-family: icomoon;
