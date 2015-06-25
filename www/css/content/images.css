@@ -1,5 +1,23 @@
 /*[fmt]1A90-1A0A-6*/
 /*IMAGES CSS HERE*/
 /*LEADING IMAGE*/
-/*PRIMARY IMAGE*/
+/*DETAILS PRIMARY IMAGE*/
+.details FIGURE
+{
+float: left;
+width: 31.29890453834116%;
+margin-right: 1em;
+}
+.details FIGURE IMG CAPTION
+{
+}
+.details FIGURE IMG
+{
+width: 100%;
+}
 /*SECONDARY IMAGE*/
+/*dealing with images per view (list, details, module)
+view > leading
+view > primary
+view > secondary
+:*/

@@ -1,32 +1,28 @@
-/*[fmt]1A90-1A0A-6*/
-/*EXTRA CSS HERE
-MODULE - AGOA banner*/
-.no_117 a {
-	display: block;
+/*EXTRA CSS HERE*/
+/*FOOTER ABOVE */
+.container_footer_above {
+	text-align: left;
 }
-/*MODULE - newsletter*/
-.no_115 {
-	background-image: url(/templates/www/images/style/newsletter.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: 100% auto;
-	-moz-background-size: 100% auto;
-	background-size: 100% auto;
-	background-color: #EBE5E8;
+.container_footer_above .wide_33 {
+	border-right: 1px solid #B2B2B2;
+	height: 100%;
+	min-height: 137px;
+	color: #B2B2B2;
 }
-.no_115 input[type='email'] {
-	width: 50%;
+.container_footer_above .wide_33 strong {
+	color: #919191;
 }
-.no_115 h3.title {
-	color: #64253A;
-	border-bottom: 1px solid #64253A;
+.container_footer_above .wide_33 h3 {
+	color: #3C4F60;
 }
-.no_115 h3.title:after {
-	border-bottom: 3px solid #64253A;
+.container_footer_above .wide_33:last-child {
+	border-right: 0px solid #B2B2B2;
+}
+.container_footer_above img {
+	display: inline;
 }
 /*ICOMOON - icons/font*/
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
 	font-family: icomoon;
 	speak: none;
 	font-style: normal;
@@ -64,22 +60,108 @@ MODULE - AGOA banner*/
 .icon-download:before {
 	content: "\64";
 }
-/*HIDDEN LINKS*/
-.item-124,
-.item-165,
-.item-173,
-.item-178 {
-	display: none !important;
-}
-a[title="Reset"] {
-	display: none;
-	background-color: #BE1B1B;
-}
-/*COMPONENT - chronoforms + xmap*/
-.gbs3 .columns_2 .column:nth-child(2) {
-	padding-top: 2em;
-}
-.chrono_credits,
+/*COMPONENT -  xmap*/
 #xmap .muted {
 	display: none;
+}
+/*STAR RATING*/
+.ratings {
+	padding: 0;
+}
+.ratings > .label {
+	font-family: "coda caption";
+	width: inherit;
+	padding-right: 0.5em;
+}
+.star1, .star2, .star3, .star4, .star5 {
+	color: transparent;
+	display: inline-block;
+	background: url(/images/assets/5-star-sprite.png);
+	background-position: 0;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	overflow: hidden;
+	height: 20px;
+}
+.star1 {
+	width: 40px;
+	background-position: 0px 0px;
+}
+.star2 {
+	width: 60px;
+	background-position: 0px 0px;
+}
+.star3 {
+	width: 80px;
+	background-position: 0px 0px;
+}
+.star4 {
+	width: 100px;
+	background-position: 0px 0px;
+}
+.star5 {
+	width: 120px;
+	background-position: 0px 0px;
+}
+/*MICRO FORMATS*/
+.vcard .type {
+	color: #3B4F61;
+	font-weight: bold;
+	display: block;
+}
+/*MAPS*/
+.vcard .map {
+	margin-top: 0.5em;
+}
+.mapdirform {
+	padding-top: 11px;
+	text-align: left;
+}
+.mapdirform br {
+	display: none;
+}
+.mapdirform input {
+	width: 100%;
+	margin: 0.5em 0;
+	color: #999999;
+}
+.mapdirform input[type="submit"], [name="Goback"] {
+	width: auto;
+	background-color: #B0D236;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 0.5em;
+}
+/*BUTTONS*/
+[name="Goback"] {
+	margin-top: 4px;
+}
+[name="Goback"]:hover {
+	background-color: #B0D236;
+	color: #3B4F61;
+}
+#page_153 .container_header {
+	padding-bottom:50px;	
+}
+#page_153 .logo {
+	padding-top:50px;
+}
+#page_153 .logins {
+	padding-top:100px;
+}
+#page_153 .container_body_wrapper {
+	background-color: transparent;
+	overflow: inherit;
+	z-index: 2;
+}
+#page_153 .container_content {
+	margin-top: -50px;
+	-webkit-border-radius:10px;
+  	-moz-border-radius:10px;
+  	border-radius:10px;
+}
+#page_153 .container_article {
+  	background-color: #3B4F61;
+	padding: 0;
 }

@@ -1,0 +1,65 @@
+/*BUTTONS*/
+.btn,
+input[type="submit"].btn,
+[class*="btn_"],
+.btn:visited {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	display: inline-block;
+	zoom: 1;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 0.4em 1.2em 0.4em;
+	border: 1px solid transparent;
+	background-color: #F9F9F9;
+	line-height: 1;
+	position: relative;
+}
+.btn:hover,
+input[type="submit"].btn:hover {
+	text-decoration: none;
+	background-color: #E9E9E9;
+}
+.btn.grad {
+	background: -moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	background: -ms-linear-gradient(top, #F9F9F9 5%, #E9E9E9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #f9f9f9), color-stop(100%, #e9e9e9) );
+	background-color: #F9F9F9;
+}
+.btn:hover.grad {
+	background: -moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	background: -ms-linear-gradient(top, #E9E9E9 5%, #F9F9F9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #e9e9e9), color-stop(100%, #f9f9f9) );
+	background-color: #E9E9E9;
+}
+.btn.icon,
+[class*="btn_"].icon {
+	padding-right: 2.5em;
+}
+.btn i,
+[class*="btn_"] i {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2em;
+	font-size: 0.8em;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: 0px solid transparent;
+}
+.btn i[class*="icon-"]:before,
+[class*="btn_"] i[class*="icon-"]:before {
+	line-height: 2.2;
+	width: 2em;
+	padding-right: 0px;
+}

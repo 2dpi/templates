@@ -1,7 +1,7 @@
 /*=============
 GRID - fractions
 =============*/
-[class*="wide_"]
+[class*="wide_"], .flush .group [class*="wide_"]
 {
 	-webkit-box-sizing: border-box;
 	/*Safari/Chrome, other WebKit*/
@@ -12,7 +12,7 @@ GRID - fractions
 	float: left;
 	margin-left: 1.6%;
 }
-[class*="wide_"].first, [class*="wide_"]:first-child
+[class*="wide_"].first, [class*="wide_"]:first-child, .flush .group [class*="wide_"].first, .flush .group [class*="wide_"]:first-child
 {
 	margin-left: 0px;
 }
@@ -23,7 +23,7 @@ GRID - fractions
 /*===========
 10% WIDTH
 ===========*/
-.wide_10
+.wide_10, .flush .group .wide_10
 {
 	width: 8.56%;
 }
@@ -34,11 +34,11 @@ GRID - fractions
 /*===========
 20% WIDTH
 ===========*/
-.wide_20
+.wide_20, .flush .group .wide_20
 {
 	width: 18.72%;
 }
-.static .wide_20
+.static .wide_20, .static .flush .group .wide_20
 {
 	width: 18.72%;
 }
@@ -53,11 +53,11 @@ GRID - fractions
 /*===========
 25% WIDTH
 ===========*/
-.wide_25
+.wide_25, .flush .group .wide_25
 {
 	width: 23.8%;
 }
-.static .wide_25
+.static .wide_25, .static .flush .group .wide_25
 {
 	width: 23.8%;
 }
@@ -72,11 +72,11 @@ GRID - fractions
 /*===========
 30% WIDTH
 ===========*/
-.wide_30
+.wide_30, .flush .group .wide_30
 {
 	width: 28.88%;
 }
-.static .wide_30
+.static .wide_30, .static .flush .group .wide_30
 {
 	width: 28.88%;
 }
@@ -91,11 +91,11 @@ GRID - fractions
 /*===========
 33% WIDTH
 ===========*/
-.wide_33
+.wide_33, , .flush .group .wide_33
 {
 	width: 32.26%;
 }
-.static .wide_33
+.static .wide_33, .static .flush .group .wide_33
 {
 	width: 32.26%;
 }
@@ -110,11 +110,11 @@ GRID - fractions
 /*===========
 40% WIDTH
 ===========*/
-.wide_40
+.wide_40, .flush .group .wide_40
 {
 	width: 39.04%;
 }
-.static .wide_40
+.static .wide_40, .static .flush .group .wide_40
 {
 	width: 39.04%;
 }
@@ -129,11 +129,11 @@ GRID - fractions
 /*===========
 50% WIDTH
 ===========*/
-.wide_50, .wide_half
+.wide_50, .wide_half, .flush .group .wide_50, .flush .group .wide_half
 {
 	width: 49.2%;
 }
-.static .wide_50, .static .wide_half
+.static .wide_50, .static .wide_half, .static .flush .group .wide_50, .static .flush .group .wide_50.flush
 {
 	width: 49.2%;
 }
@@ -148,11 +148,11 @@ GRID - fractions
 /*===========
 60% WIDTH
 ===========*/
-.wide_60
+.wide_60, .flush .group .wide_60
 {
 	width: 59.36%;
 }
-.static .wide_60
+.static .wide_60, .static .flush .group .wide_60
 {
 	width: 59.36%;
 }
@@ -167,11 +167,11 @@ GRID - fractions
 /*===========
 66% WIDTH
 ===========*/
-.wide_66
+.wide_66, .flush .group .wide_66
 {
 	width: 66.13%;
 }
-.static .wide_66
+.static .wide_66, .static .flush .group .wide_66
 {
 	width: 66.13%;
 }
@@ -186,11 +186,11 @@ GRID - fractions
 /*===========
 70% WIDTH
 ===========*/
-.wide_70
+.wide_70, .flush .group .wide_70
 {
 	width: 69.52%;
 }
-.static .wide_70
+.static .wide_70, .static .flush .group .wide_70
 {
 	width: 69.52%;
 }
@@ -205,11 +205,11 @@ GRID - fractions
 /*===========
 75% WIDTH
 ===========*/
-.wide_75
+.wide_75, .flush .group .wide_75
 {
 	width: 74.6%;
 }
-.static .wide_75
+.static .wide_75, .static .flush .group .wide_75
 {
 	width: 74.6%;
 }
@@ -224,11 +224,11 @@ GRID - fractions
 /*===========
 80% WIDTH
 ===========*/
-.wide_80
+.wide_80, .flush .group .wide_80
 {
 	width: 79.68%;
 }
-.static .wide_80
+.static .wide_80, .static .flush .group .wide_80
 {
 	width: 79.68%;
 }
@@ -253,83 +253,6 @@ GRID - fractions
 	/*Opera/IE 8+*/
 	width: 100% !important;
 	margin-left: 0px !important;
-}
-/*=============
-GRID - columns
-=============*/
-[class*="columns_"]
-{
-	-webkit-box-sizing: border-box;
-	/*Safari/Chrome, other WebKit*/
-	-moz-box-sizing: border-box;
-	/*Firefox, other Gecko*/
-	box-sizing: border-box;
-	/*Opera/IE 8+*/
-	overflow: hidden;
-}
-[class*="columns_"] > .column
-{
-	-webkit-box-sizing: border-box;
-	/*Safari/Chrome, other WebKit*/
-	-moz-box-sizing: border-box;
-	/*Firefox, other Gecko*/
-	box-sizing: border-box;
-	/*Opera/IE 8+*/
-	float: left;
-	margin-left: 1.6%;
-	position: relative;
-}
-[class*="columns_"] > .column:nth-child(n+1)
-{
-	margin-left: 0px;
-}
-[class*="columns_"].flush > .column:nth-child(n0)
-{
-	margin: 0px;
-}
-/*==============
-GRID - 2 columns
-==============*/
-.columns_2.flush > .column:nth-child(n0)
-{
-	width: 50%;
-}
-.columns_2 > .column
-{
-	width: 49.2%;
-}
-/*==============
-GRID - 3 columns
-==============*/
-.columns_3.flush > .column:nth-child(n0)
-{
-	width: 33%;
-}
-.columns_3 > .column
-{
-	width: 32.26%;
-}
-/*==============
-GRID - 4 columns
-==============*/
-.columns_4.flush > .column:nth-child(n0)
-{
-	width: 25%;
-}
-.columns_4 > .column
-{
-	width: 23.8%;
-}
-/*==============
-GRID - 5 columns
-==============*/
-.columns_5.flush > .column:nth-child(n0)
-{
-	width: 20%;
-}
-.columns_5 > .column
-{
-	width: 18.72%;
 }
 /*===============
 CSS TABLE LAYOUT
