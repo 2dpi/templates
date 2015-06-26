@@ -91,7 +91,7 @@ GRID - fractions
 /*===========
 33% WIDTH
 ===========*/
-.wide_33, , .flush .group .wide_33
+.wide_33, .flush .group .wide_33
 {
 	width: 32.26%;
 }
