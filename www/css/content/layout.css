@@ -1,528 +1,141 @@
-/*=============
-GRID - fractions
-=============*/
-[class*="wide_"], .flush .group [class*="wide_"]
-{
-	-webkit-box-sizing: border-box;
-	/*Safari/Chrome, other WebKit*/
-	-moz-box-sizing: border-box;
-	/*Firefox, other Gecko*/
-	box-sizing: border-box;
-	/*Opera/IE 8+*/
-	float: left;
-	margin-left: 1.6%;
+/*TYPOGRAPHY - spacing / placement / display (columns / lists / tables)*/
+.row {
+	clear: both;
 }
-[class*="wide_"].first, [class*="wide_"]:first-child, .flush .group [class*="wide_"].first, .flush .group [class*="wide_"]:first-child
-{
-	margin-left: 0px;
+.inline {
+	display: inline-block;
 }
-[class*="wide_"].flush, .flush [class*="wide_"]
-{
-	margin: 0px;
+.module {
 }
-/*===========
-10% WIDTH
-===========*/
-.wide_10, .flush .group .wide_10
-{
-	width: 8.56%;
+.summary {
+	margin: 0px 17px 0px 16px;
+	padding: 10px;
 }
-.wide_10.flush, .flush .wide_10
-{
-	width: 10%;
+.segment {
+	padding: 1em;
 }
-/*===========
-20% WIDTH
-===========*/
-.wide_20, .flush .group .wide_20
-{
-	width: 18.72%;
+.segment.flush {
+	padding: 0;
 }
-.static .wide_20, .static .flush .group .wide_20
-{
-	width: 18.72%;
+.landscape {
+	padding-top: 0;
+	padding-bottom: 0;
 }
-.wide_20.flush, .flush .wide_20
-{
-	width: 20%;
+.portrait {
+	padding-top: 0;
+	padding-bottom: 0;
 }
-.static .wide_20.flush, .static.flush .wide_20
-{
-	width: 20%;
+.panel {
+	margin: 1em;
 }
-/*===========
-25% WIDTH
-===========*/
-.wide_25, .flush .group .wide_25
-{
-	width: 23.8%;
-}
-.static .wide_25, .static .flush .group .wide_25
-{
-	width: 23.8%;
-}
-.wide_25.flush, .flush .wide_25
-{
-	width: 25%;
-}
-.static .wide_25.flush, .static.flush .wide_25
-{
-	width: 25%;
-}
-/*===========
-30% WIDTH
-===========*/
-.wide_30, .flush .group .wide_30
-{
-	width: 28.88%;
-}
-.static .wide_30, .static .flush .group .wide_30
-{
-	width: 28.88%;
-}
-.wide_30.flush, .flush .wide_30
-{
-	width: 30%;
-}
-.static .wide_30.flush, .static.flush .wide_30
-{
-	width: 30%;
-}
-/*===========
-33% WIDTH
-===========*/
-.wide_33, .flush .group .wide_33
-{
-	width: 32.26%;
-}
-.static .wide_33, .static .flush .group .wide_33
-{
-	width: 32.26%;
-}
-.wide_33.flush, .flush .wide_33
-{
-	width: 33.33%;
-}
-.static .wide_33.flush, .static.flush .wide_33
-{
-	width: 33.33%;
-}
-/*===========
-40% WIDTH
-===========*/
-.wide_40, .flush .group .wide_40
-{
-	width: 39.04%;
-}
-.static .wide_40, .static .flush .group .wide_40
-{
-	width: 39.04%;
-}
-.wide_40.flush, .flush .wide_40
-{
-	width: 40%;
-}
-.static .wide_40.flush, .static.flush .wide_40
-{
-	width: 40%;
-}
-/*===========
-50% WIDTH
-===========*/
-.wide_50, .wide_half, .flush .group .wide_50, .flush .group .wide_half
-{
-	width: 49.2%;
-}
-.static .wide_50, .static .wide_half, .static .flush .group .wide_50, .static .flush .group .wide_50.flush
-{
-	width: 49.2%;
-}
-.wide_50.flush, .wide_half.flush, .flush .wide_50, .flush .wide_half
-{
-	width: 50%;
-}
-.static .wide_50.flush, .static .wide_half.flush, .static.flush .wide_50, .static.flush .wide_half
-{
-	width: 50%;
-}
-/*===========
-60% WIDTH
-===========*/
-.wide_60, .flush .group .wide_60
-{
-	width: 59.36%;
-}
-.static .wide_60, .static .flush .group .wide_60
-{
-	width: 59.36%;
-}
-.wide_60.flush, .flush .wide_60
-{
-	width: 60%;
-}
-.static .wide_60.flush, .static.flush .wide_60
-{
-	width: 60%;
-}
-/*===========
-66% WIDTH
-===========*/
-.wide_66, .flush .group .wide_66
-{
-	width: 66.13%;
-}
-.static .wide_66, .static .flush .group .wide_66
-{
-	width: 66.13%;
-}
-.wide_66.flush, .flush .wide_66
-{
-	width: 66.666666%;
-}
-.static .wide_66.flush, .static.flush .wide_66
-{
-	width: 66.666666%;
-}
-/*===========
-70% WIDTH
-===========*/
-.wide_70, .flush .group .wide_70
-{
-	width: 69.52%;
-}
-.static .wide_70, .static .flush .group .wide_70
-{
-	width: 69.52%;
-}
-.wide_70.flush, .flush .wide_70
-{
-	width: 70%;
-}
-.static .wide_70.flush, .static.flush .wide_70
-{
-	width: 70%;
-}
-/*===========
-75% WIDTH
-===========*/
-.wide_75, .flush .group .wide_75
-{
-	width: 74.6%;
-}
-.static .wide_75, .static .flush .group .wide_75
-{
-	width: 74.6%;
-}
-.wide_75.flush, .flush .wide_75
-{
-	width: 75%;
-}
-.static .wide_75.flush, .static.flush .wide_75
-{
-	width: 75%;
-}
-/*===========
-80% WIDTH
-===========*/
-.wide_80, .flush .group .wide_80
-{
-	width: 79.68%;
-}
-.static .wide_80, .static .flush .group .wide_80
-{
-	width: 79.68%;
-}
-.wide_80.flush, .flush .wide_80
-{
-	width: 80%;
-}
-.static .wide_80.flush, .static.flush .wide_80
-{
-	width: 80%;
-}
-/*===========
-100% WIDTH
-===========*/
-.wide_100, .wide_full
-{
-	-webkit-box-sizing: border-box;
-	/*Safari/Chrome, other WebKit*/
-	-moz-box-sizing: border-box;
-	/*Firefox, other Gecko*/
-	box-sizing: border-box;
-	/*Opera/IE 8+*/
-	width: 100% !important;
-	margin-left: 0px !important;
-}
-/*===============
-CSS TABLE LAYOUT
-===============*/
-.table
-{
+/*GROUPING*/
+.group:before,
+.group:after {
+	content: "";
 	display: table;
-	height: 100%;
 }
-.cellspaced
-{
-	padding-left: 1.6%;
+.group:after {
+	clear: both;
 }
-[class*="cell_"], .cell
-{
-	vertical-align: top;
-	display: table-cell;
-	min-height: 100%;
-	height: 1px;
+.group {
+	zoom: 1;
+	/*For IE 6/7*/
 }
-@-moz-document url-prefix()
-{
-	[class*="cell_"], .cell
-	{
-		height: 100%;
-	}
+.block {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	border-collapse: collapse;
+	display: inline-block;
+	width: 100% !important;
+	border: 1px solid transparent;
 }
-.cellspacer
-{
-	height: 100%;
+/*LAYOUT - inner padding*/
+[class*="in_"] {
+	-webkit-box-sizing: border-box;
+	/*Safari/Chrome, other WebKit*/
+	-moz-box-sizing: border-box;
+	/*Firefox, other Gecko*/
+	box-sizing: border-box;
+	/*Opera/IE 8+*/
+	border-collapse: collapse;
+	border: 1px solid transparent;
 }
-.cell_10
-{
-	width: 10%;
+.in_tight {
+	padding: 1em;
 }
-.cell_20
-{
-	width: 20%;
+.in_tighter {
+	padding: 0.5em;
 }
-.cell_25
-{
-	width: 25%;
+.in_tightest {
+	padding: 0.25em;
 }
-.cell_25 .cellspacer{
-	width: 97%;
+.in_loose {
+	padding: 1.5em;
 }
-.cell_25:nth-child(2) .cellspacer{
-	margin-left: 1%;
+.in_looser {
+	padding: 2em;
 }
-.cell_25:nth-child(3) .cellspacer{
-	margin-left: 2%;
+.in_loosest {
+	padding: 2.5em;
 }
-.cell_25:nth-child(4) .cellspacer{
-	margin-left: 3%;
+/*LAYOUT - outer margin*/
+.out_tight,
+[class*="out_tight_"] {
+	margin: 0.5em;
 }
-.cell_30
-{
-	width: 30%;
+.out_tighter,
+[class*="out_tighter_"] {
+	margin: 0.25em;
 }
-.cell_33
-{
-	width: 33.33%;
+.out_loose,
+[class*="out_loose_"] {
+	margin: 1.5em;
 }
-.cell_40
-{
-	width: 40%;
+.out_looser,
+[class*="out_looser_"] {
+	margin: 2em;
 }
-.cell_50
-{
-	width: 50%;
+/*LAYOUT - inline styles*/
+.hide {
+	display: none !important;
 }
-.cell_60
-{
-	width: 60%;
+.first {
+	margin-left: 0;
 }
-.cell_66
-{
-	width: 66%;
+.last {
+	margin-right: 0;
+	padding-right: 0;
 }
-.cell_70
-{
-	width: 70%;
+.top {
+	margin-top: 0;
+	padding-top: 0;
 }
-.cell_80
-{
-	width: 80%;
+.bottom {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
-.cell_90
-{
-	width: 90%;
+.float_left {
+	float: left !important;
 }
-/*==============
-MEDIA QUERIES
-==============
-768 =  48em
-767 =  47.938em
-640 =  40em
-568 =  35.5em
-480 =  30em
-320 =  20em*/
-/*===================
-RESPONSIVE @ 568 =  35.5em
-===================*/
-@media screen and (max-width: 35.5em)
-{
-	[class*="wide_"]
-	{
-		margin-bottom: 1em;
-	}
-	/*===========
-	20% WIDTH
-	===========*/
-	.wide_20
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_20.flush, .flush .wide_20
-	{
-		width: 100%;
-	}
-	/*===========
-	25% WIDTH
-	===========*/
-	.wide_25
-	{
-		width: 49.2%;
-	}
-	.wide_25.flush, .flush .wide_25
-	{
-		width: 50%;
-	}
-	/*===========
-	30% WIDTH
-	===========*/
-	.wide_30
-	{
-		width: 100%;
-	}
-	.wide_30.flush, .flush .wide_30
-	{
-		width: 100%;
-	}
-	/*===========
-	33% WIDTH
-	===========*/
-	.wide_33
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_33.flush, .flush .wide_33
-	{
-		width: 100%;
-	}
-	/*===========
-	40% WIDTH
-	===========*/
-	.wide_40
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_40.flush, .flush .wide_40
-	{
-		width: 100%;
-	}
-	/*===========
-	50% WIDTH
-	===========*/
-	.wide_50, .wide_half
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_50.flush, .wide_half.flush, .flush .wide_50, .flush .wide_half
-	{
-		width: 100%;
-	}
-	/*===========
-	60% WIDTH
-	===========*/
-	.wide_60
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_60.flush, .flush .wide_60
-	{
-		width: 100%;
-	}
-	/*===========
-	66% WIDTH
-	===========*/
-	.wide_66
-	{
-		width: 100%;
-		margin-left: 0;
-	}
-	.wide_66.flush, .flush .wide_66
-	{
-		width: 100%;
-	}
-	/*===========
-	70% WIDTH
-	===========*/
-	.wide_70
-	{
-		width: 100%;
-	}
-	.wide_70.flush, .flush .wide_70
-	{
-		width: 100%;
-	}
-	/*===========
-	75% WIDTH
-	===========*/
-	.wide_75
-	{
-		width: 100%;
-	}
-	.wide_75.flush, .flush .wide_75
-	{
-		width: 100%;
-	}
-	/*==============
-	GRID - 2 columns
-	==============*/
-	.columns_2.flush > .column:nth-child(n0)
-	{
-		width: 100%;
-	}
-	.columns_2 > .column
-	{
-		width: 100%;
-	}
-	/*==============
-	GRID - 3 columns
-	==============*/
-	.columns_3.flush > .column:nth-child(n0)
-	{
-		width: 100%;
-	}
-	.columns_3 > .column
-	{
-		width: 100%;
-	}
-	/*==============
-	GRID - 4 columns
-	==============*/
-	.columns_4.flush > .column:nth-child(n0)
-	{
-		width: 100%;
-	}
-	.columns_4 > .column
-	{
-		width: 100%;
-	}
-	/*==============
-	GRID - 5 columns
-	==============*/
-	.columns_5.flush > .column:nth-child(n0)
-	{
-		width: 100%;
-	}
-	.columns_5 > .column
-	{
-		width: 100%;
-	}
+.float_right {
+	float: right !important;
 }
-/*===============
-END OF GRID CSS
-===============*/
+img.float_left {
+	margin: 0px 15px 0px 0px;
+}
+img.float_right {
+	margin: 0px 0px 0px 15px;
+}
+.align_left {
+	text-align: left;
+}
+.align_right {
+	text-align: right;
+}
+.align_center {
+	text-align: center;
+}
