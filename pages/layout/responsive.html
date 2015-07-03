@@ -14,80 +14,50 @@ keywords: css3 grid
         <p>http://pxtoem.com/ is a useful tool to help with the conversion. e.g. Browser defaut font size is 16px so to set a breakpoint at 300px = 18.750em</p>
         <p>NOTE: Mobile first approach - that is start with smallest view and work your way up. This applies to media query ordering, changing the order will render different results. Each media query applied to an element will only be actioned once.</p>
         <p>Popular devices to target are iPhone, iPad, Samsung Galaxy Sx etc refer to http://viewportsizes.com for reference</p>
-        {% highlight css linenos %}
-          {% raw %}
-            @media screen and (max-width: 320px) {
-              /* smart phone portrait */
-              .class {
-                width: 100%;
-              }
-            }
-            @media screen and (max-width: 480px) {
-              /* smart phone landscape */
-              .class {
-                width: 100%;
-              }
-            }
-            @media screen and (max-width: 568px) {
-              /* smart phone landscape (iPhone)*/
-              .class {
-                width: 100%;
-              }
-            }
-            @media screen and (max-width: 640px) {
-              /* smart phone landscape (samsung S*)*/
-              .class {
-                width: 100%;
-              }
-            }
-            @media screen and (max-width: 767px) {
-              /* small tablet portrait */
-              .class {
-                width: 100%;
-              }
-            }
-            @media screen and (max-width: 768px) {
-              /* small tablet portrait */
-              .class {
-                width: 100%;
-              }
-            }
-          {% endraw %}
-        {% endhighlight %}
+{% highlight css linenos %}
+@media screen and (max-width: 320px) {
+  /* smart phone portrait */
+  .class {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* smart phone landscape */
+  .class {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 568px) {
+  /* smart phone landscape (iPhone)*/
+  .class {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* smart phone landscape (samsung S*)*/
+  .class {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* small tablet portrait */
+  .class {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* small tablet portrait */
+  .class {
+    width: 100%;
+  }
+}
+{% endhighlight %}
         <p>NOTES:</p>
         <p>Scaling down can be an issue, so consider the following:</p>
         <ul>
           <li>adding classes manually - scales, static, staggered</li>
           <li>adding classes dynamically - using javascript</li>
         </ul>
-        {% highlight css linenos %}
-          {% raw %}
-        <style>
-          .wide_80{}
-          .wide_75{}
-          .wide_70{}
-          .wide_66{}
-          .wide_60{}
-          .wide_50{}
-          .wide_40{}
-          .wide_33{}
-          .wide_30{}
-          .wide_25{}
-          .wide_20{}
-
-          .columns_5{}
-          .columns_4{}
-          .columns_3{}
-          .columns_2{}
-
-          .stagger_5_3_2_1{}
-          .stagger_4_4_2_1{}
-          .stagger_3_3_2_1{}
-          .stagger_2_2_2_1{}
-
-        </style>
-          {% endraw %}
-        {% endhighlight %}
         <p>MEDIA QUERY BREAK POINTS (MOBILE > UP)</p>
         <ul>          
           <li>320 > MOBILE PORTRAIT (ASSUMED BELOW 480)</li>
