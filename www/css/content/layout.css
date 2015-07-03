@@ -144,17 +144,23 @@ img.float_right {
 	background-color:#f1f1f1;
 	overflow:hidden;
 }
-.blog .img_left {
-
+.blog .img_center figure {
+	text-align:center
+}
+.blog figure { 
+	margin:0;
 }
 .blog .img_left figure {
 	float:left;
 	width: 25%;
-	margin:0;
 }
 .blog .img_left .intro_text {
 	float:left;
 	width: 75%;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	padding: 0 1em;
 }
 .blog .img_right figure {
 	float:right;
