@@ -139,3 +139,29 @@ img.float_right {
 .align_center {
 	text-align: center;
 }
+.blog article {
+	margin: 0 0 1em 0;
+	background-color:#f1f1f1;
+	overflow:hidden;
+}
+.blog .img_left {
+
+}
+.blog .img_left figure {
+	float:left;
+	width: 25%;
+	margin:0;
+}
+.blog .img_left .intro_text {
+	float:left;
+	width: 75%;
+}
+.blog .img_right figure {
+	float:right;
+	width: 25%;
+	margin:0;
+}
+.blog .img_right .intro_text {
+	float:left;
+	width: 75%;
+}
