@@ -14,6 +14,9 @@
 .segment {
 	padding: 1em;
 }
+.segment.flush {
+	padding: 0;
+}
 .landscape {
 	padding-top: 0;
 	padding-bottom: 0;
