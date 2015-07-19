@@ -9,8 +9,33 @@ description: w3 framework - style guide
   <div class="container_content article">
     <div class="container_article">
       <article>
-        <h1 class="title">Style Guide</h1>
-        <p>Add content here.</p>
+        <h1 class="title">Style Guide - Spacing</h1>
+        <p>Depending on the context (list, content, structural) spacing will vary around your HTML elements.</p>
+        <p>A test case would typically be a list / blog view that could have some intro text followed by a leading article, some primary articles and some links.</p>
+        <p>The issue arises when these are stacked and some contain images etc.</p>
+        <p>A possible solution:</p>
+          <ul>
+            <li>Use orientation (horizontal / vertical)</li>
+            <li>User ordering (first / last)</li>
+            <li>Define alignement (top, right, bottom, left)</li>
+          </ul>
+        <p>Work on the assumption that at some point all elements will be fluss fitting i.e. no margins (in the event a background color is needed) and work back from there allowing for resets and overrides on child items.</p>
+        <p>the proposed classes:</p>
+        <ul>
+          <li><code>.segement</code> adds padding all round</li>
+          <li><code>.landscape</code> adds margin top and bottom</li>
+          <li><code>.portrait</code> adds margin left and right</li>
+          <li><code>.framed</code> adds margin all round</li>
+          <li><code>.framed_top</code> adds margin top</li>
+          <li><code>.framed_right</code> adds margin right</li>
+          <li><code>.framed_bottom</code> adds margin bottom</li>
+          <li><code>.framed_left</code> adds margin left</li>
+          <li><code>.align_top</code> removes padding top</li>
+          <li><code>.align_right</code> removes padding right</li>
+          <li><code>.align_bottom</code> removes padding bottom</li>
+          <li><code>.align_left</code> removes padding left</li>
+        </ul>
+
         <div class="pagination">
 
         </div>
@@ -21,3 +46,5 @@ description: w3 framework - style guide
     </aside>
   </div>
 </div>
+
+
